@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 # backends
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 The goal of backends is to provide a web API that lists all known DBI backends.

@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 The goal of backends is to provide a web API that lists all known DBI
@@ -69,7 +71,7 @@ newest_name <- all_df$name[[1]]
 newest_url <- paste0("https://krlmlr.github.io/backends/by-package/", newest_name, ".json")
 newest <- httr::GET(newest_url)
 httr::stop_for_status(newest)
-httr::content(newest, flatten = TRUE, simplifyVector = TRUE)
+httr::content(newest)
 #> $version
 #> [1] "0.10.18"
 #> 
