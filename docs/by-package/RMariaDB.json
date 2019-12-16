@@ -5,6 +5,6 @@
   "date": "2019-12-02",
   "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
   "license": "GPL-2",
-  "url": "https://github.com/r-dbi/RMariaDB,\nhttps://downloads.mariadb.org/connector-c/",
+  "url": ["https://github.com/r-dbi/RMariaDB", "https://downloads.mariadb.org/connector-c/"],
   "bugs": "https://github.com/r-dbi/RMariaDB/issues"
 }

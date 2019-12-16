@@ -37,6 +37,7 @@ pkg_tbl <-
   select(-crandb) %>%
   mutate(date = as.Date(date)) %>%
   mutate_at(vars(title, description), sanitize_text) %>%
+  mutate_at(vars(url), sanitize_multi) %>%
   arrange(desc(date))
 
 pkg_tbl
@@ -52,6 +53,7 @@ dir.create("docs/by-package", showWarnings = FALSE)
 pkg_tbl %>%
   nest(data = -name) %>%
   mutate(data = map(data, unclass)) %>%
+  mutate(data = map(data, map, unlist)) %>%
   mutate(text = map(data, jsonlite::toJSON, pretty = TRUE, auto_unbox = TRUE)) %>%
   mutate(con = file.path("docs/by-package", paste0(name, ".json"))) %>%
   select(-data, -name) %>%

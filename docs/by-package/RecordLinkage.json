@@ -5,6 +5,6 @@
   "date": "2019-08-23",
   "maintainer": "ORPHANED",
   "license": "GPL (>= 2)",
-  "url": "https://r-forge.r-project.org/projects/recordlinkage/,\nhttps://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf",
+  "url": ["https://r-forge.r-project.org/projects/recordlinkage/", "https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"],
   "bugs": null
 }

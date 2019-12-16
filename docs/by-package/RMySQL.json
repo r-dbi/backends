@@ -5,6 +5,6 @@
   "date": "2019-12-14",
   "maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
   "license": "GPL-2",
-  "url": "https://downloads.mariadb.org/connector-c/ (upstream)",
+  "url": "https://downloads.mariadb.org/connector-c/",
   "bugs": "https://github.com/r-dbi/rmysql/issues"
 }

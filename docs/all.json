@@ -7,7 +7,7 @@
     "date": "2019-12-14",
     "maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
     "license": "GPL-2",
-    "url": "https://downloads.mariadb.org/connector-c/ (upstream)",
+    "url": ["https://downloads.mariadb.org/connector-c/"],
     "bugs": "https://github.com/r-dbi/rmysql/issues"
   },
   {
@@ -18,7 +18,7 @@
     "date": "2019-12-07",
     "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
     "license": "GPL-2",
-    "url": "https://github.com/r-dbi/RPostgres",
+    "url": ["https://github.com/r-dbi/RPostgres"],
     "bugs": "https://github.com/r-dbi/RPostgres/issues"
   },
   {
@@ -29,7 +29,7 @@
     "date": "2019-12-06",
     "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
     "license": "MIT + file LICENSE",
-    "url": "https://github.com/DyfanJones/noctua",
+    "url": ["https://github.com/DyfanJones/noctua"],
     "bugs": "https://github.com/DyfanJones/noctua/issues"
   },
   {
@@ -40,7 +40,7 @@
     "date": "2019-12-06",
     "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
     "license": "MIT + file LICENSE",
-    "url": "https://github.com/DyfanJones/RAthena",
+    "url": ["https://github.com/DyfanJones/RAthena"],
     "bugs": "https://github.com/DyfanJones/RAthena/issues"
   },
   {
@@ -51,7 +51,7 @@
     "date": "2019-12-05",
     "maintainer": "Jim Hester <jim.hester@rstudio.com>",
     "license": "MIT + file LICENSE",
-    "url": "https://github.com/r-dbi/odbc",
+    "url": ["https://github.com/r-dbi/odbc"],
     "bugs": "https://github.com/r-dbi/odbc/issues"
   },
   {
@@ -62,7 +62,7 @@
     "date": "2019-12-04",
     "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
     "license": "LGPL (>= 2)",
-    "url": "https://github.com/r-dbi/RSQLite",
+    "url": ["https://github.com/r-dbi/RSQLite"],
     "bugs": "https://github.com/r-dbi/RSQLite/issues"
   },
   {
@@ -73,7 +73,7 @@
     "date": "2019-12-02",
     "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
     "license": "GPL-2",
-    "url": "https://github.com/r-dbi/RMariaDB,\nhttps://downloads.mariadb.org/connector-c/",
+    "url": ["https://github.com/r-dbi/RMariaDB", "https://downloads.mariadb.org/connector-c/"],
     "bugs": "https://github.com/r-dbi/RMariaDB/issues"
   },
   {
@@ -84,7 +84,7 @@
     "date": "2019-10-26",
     "maintainer": "Alex Kyllo <jekyllo@microsoft.com>",
     "license": "MIT + file LICENSE",
-    "url": "https://github.com/Azure/AzureKusto\nhttps://github.com/Azure/AzureR",
+    "url": ["https://github.com/Azure/AzureKusto\nhttps://github.com/Azure/AzureR"],
     "bugs": "https://github.com/Azure/AzureKusto/issues"
   },
   {
@@ -95,7 +95,7 @@
     "date": "2019-10-18",
     "maintainer": "Onur Ismail Filiz <onur@fb.com>",
     "license": "BSD_3_clause + file LICENSE",
-    "url": "https://github.com/prestodb/RPresto",
+    "url": ["https://github.com/prestodb/RPresto"],
     "bugs": "https://github.com/prestodb/RPresto/issues"
   },
   {
@@ -106,7 +106,7 @@
     "date": "2019-09-07",
     "maintainer": "Patrick Miller <pmiller@civisanalytics.com>",
     "license": "BSD_3_clause + file LICENSE",
-    "url": "https://github.com/civisanalytics/civis-r",
+    "url": ["https://github.com/civisanalytics/civis-r"],
     "bugs": "https://github.com/civisanalytics/civis-r/issues"
   },
   {
@@ -117,7 +117,7 @@
     "date": "2019-08-23",
     "maintainer": "ORPHANED",
     "license": "GPL (>= 2)",
-    "url": "https://r-forge.r-project.org/projects/recordlinkage/,\nhttps://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"
+    "url": ["https://r-forge.r-project.org/projects/recordlinkage/", "https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"]
   },
   {
     "name": "implyr",
@@ -127,7 +127,7 @@
     "date": "2019-07-21",
     "maintainer": "Ian Cook <ian@cloudera.com>",
     "license": "Apache License 2.0 | file LICENSE",
-    "url": "https://github.com/ianmcook/implyr",
+    "url": ["https://github.com/ianmcook/implyr"],
     "bugs": "https://github.com/ianmcook/implyr/issues"
   },
   {
@@ -138,7 +138,7 @@
     "date": "2019-07-18",
     "maintainer": "Martijn Schuemie <schuemie@ohdsi.org>",
     "license": "Apache License",
-    "url": "https://ohdsi.github.io/DatabaseConnector,\nhttps://github.com/OHDSI/DatabaseConnector",
+    "url": ["https://ohdsi.github.io/DatabaseConnector", "https://github.com/OHDSI/DatabaseConnector"],
     "bugs": "https://github.com/OHDSI/DatabaseConnector/issues"
   },
   {
@@ -149,7 +149,7 @@
     "date": "2019-07-02",
     "maintainer": "Hadley Wickham <hadley@rstudio.com>",
     "license": "GPL-3",
-    "url": "https://github.com/rstats-db/bigrquery",
+    "url": ["https://github.com/rstats-db/bigrquery"],
     "bugs": "https://github.com/rstats-db/bigrquery/issues"
   },
   {
@@ -160,7 +160,7 @@
     "date": "2018-07-27",
     "maintainer": "Hannes Mühleisen <hannes@cwi.nl>",
     "license": "MPL (== 2.0)",
-    "url": "https://github.com/hannesmuehleisen/MonetDBLite-R",
+    "url": ["https://github.com/hannesmuehleisen/MonetDBLite-R"],
     "bugs": "https://github.com/hannesmuehleisen/MonetDBLite-R/issues"
   },
   {
@@ -171,7 +171,7 @@
     "date": "2018-04-16",
     "maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
     "license": "MIT + file LICENSE",
-    "url": "http://www.rforge.net/RJDBC/"
+    "url": ["http://www.rforge.net/RJDBC/"]
   },
   {
     "name": "RClickhouse",
@@ -181,7 +181,7 @@
     "date": "2018-01-20",
     "maintainer": "Christian Hotz-Behofsits <christian.hotz-behofsits@wu.ac.at>",
     "license": "GPL-2",
-    "url": "https://github.com/IMSMWU/RClickhouse",
+    "url": ["https://github.com/IMSMWU/RClickhouse"],
     "bugs": "https://github.com/IMSMWU/RClickhouse/issues"
   },
   {
@@ -192,7 +192,7 @@
     "date": "2017-07-17",
     "maintainer": "Bob Rudis <bob@rud.is>",
     "license": "MIT + file LICENSE",
-    "url": "https://github.com/hrbrmstr/sergeant",
+    "url": ["https://github.com/hrbrmstr/sergeant"],
     "bugs": "https://github.com/hrbrmstr/sergeant/issues"
   },
   {
@@ -203,7 +203,7 @@
     "date": "2017-06-17",
     "maintainer": "Imanuel Costigan <i.costigan@me.com>",
     "license": "GPL-2",
-    "url": "https://github.com/imanuelcostigan/RSQLServer",
+    "url": ["https://github.com/imanuelcostigan/RSQLServer"],
     "bugs": "https://github.com/imanuelcostigan/RSQLServer/issues"
   },
   {
@@ -214,7 +214,7 @@
     "date": "2016-10-26",
     "maintainer": "Rajendra S. Pingte <rajendra.pingte@oracle.com>",
     "license": "LGPL",
-    "url": "http://www.oracle.com"
+    "url": ["http://www.oracle.com"]
   },
   {
     "name": "TSmisc",
@@ -224,7 +224,7 @@
     "date": "2016-08-26",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "TSsdmx",
@@ -234,7 +234,7 @@
     "date": "2016-08-26",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "MonetDB.R",
@@ -244,7 +244,7 @@
     "date": "2016-03-21",
     "maintainer": "Hannes Muehleisen <hannes@cwi.nl>",
     "license": "MPL (== 2.0)",
-    "url": "http://www.monetdb.org"
+    "url": ["http://www.monetdb.org"]
   },
   {
     "name": "TSfame",
@@ -254,7 +254,7 @@
     "date": "2015-04-30",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "TSjson",
@@ -264,7 +264,7 @@
     "date": "2014-04-09",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "TSgetSymbol",
@@ -274,7 +274,7 @@
     "date": "2013-09-29",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "TShistQuote",
@@ -284,7 +284,7 @@
     "date": "2013-09-29",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "TSxls",
@@ -294,7 +294,7 @@
     "date": "2013-09-29",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "TSzip",
@@ -304,7 +304,7 @@
     "date": "2013-09-29",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
     "name": "TSpadi",
@@ -314,6 +314,6 @@
     "date": "2012-10-02",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
-    "url": "http://tsdbi.r-forge.r-project.org/"
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
   }
 ]
