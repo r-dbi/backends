@@ -1,10 +1,10 @@
 {
-  "version": ["0.3.0"],
-  "title": ["SQL Server R Database Interface (DBI) and 'dplyr' SQL Backend"],
-  "description": ["Utilises The 'jTDS' project's 'JDBC' 3.0 'SQL Server' driver to extend 'DBI' classes and methods. The package also implements a 'SQL' backend to the 'dplyr' package."],
-  "date": ["2017-06-17"],
-  "maintainer": ["Imanuel Costigan <i.costigan@me.com>"],
-  "license": ["GPL-2"],
-  "url": ["https://github.com/imanuelcostigan/RSQLServer"],
-  "bugs": ["https://github.com/imanuelcostigan/RSQLServer/issues"]
+  "version": "0.3.0",
+  "title": "SQL Server R Database Interface (DBI) and 'dplyr' SQL Backend",
+  "description": "Utilises The 'jTDS' project's 'JDBC' 3.0 'SQL Server' driver to extend 'DBI' classes and methods. The package also implements a 'SQL' backend to the 'dplyr' package.",
+  "date": "2017-06-17",
+  "maintainer": "Imanuel Costigan <i.costigan@me.com>",
+  "license": "GPL-2",
+  "url": "https://github.com/imanuelcostigan/RSQLServer",
+  "bugs": "https://github.com/imanuelcostigan/RSQLServer/issues"
 }

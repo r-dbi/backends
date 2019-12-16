@@ -52,7 +52,7 @@ dir.create("docs/by-package", showWarnings = FALSE)
 pkg_tbl %>%
   nest(data = -name) %>%
   mutate(data = map(data, unclass)) %>%
-  mutate(text = map(data, jsonlite::toJSON, pretty = TRUE, flatten = TRUE)) %>%
+  mutate(text = map(data, jsonlite::toJSON, pretty = TRUE, auto_unbox = TRUE)) %>%
   mutate(con = file.path("docs/by-package", paste0(name, ".json"))) %>%
   select(-data, -name) %>%
   pwalk(writeLines)

@@ -1,10 +1,10 @@
 {
-  "version": ["2016.8-1"],
-  "title": ["'TSdbi' Extension to Connect with 'SDMX'"],
-  "description": ["Methods to retrieve data in the Statistical Data and Metadata Exchange ('SDMX') format from several database. (For example, 'EuroStat', the European Central Bank, the Organisation for Economic Co-operation and Development, the 'Unesco' Institute for Statistics, and the International Labor Organization.) This is a wrapper for package 'RJSDMX'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package."],
-  "date": ["2016-08-26"],
-  "maintainer": ["Paul Gilbert <pgilbert.ttv9z@ncf.ca>"],
-  "license": ["GPL-2"],
-  "url": ["http://tsdbi.r-forge.r-project.org/"],
-  "bugs": [null]
+  "version": "2016.8-1",
+  "title": "'TSdbi' Extension to Connect with 'SDMX'",
+  "description": "Methods to retrieve data in the Statistical Data and Metadata Exchange ('SDMX') format from several database. (For example, 'EuroStat', the European Central Bank, the Organisation for Economic Co-operation and Development, the 'Unesco' Institute for Statistics, and the International Labor Organization.) This is a wrapper for package 'RJSDMX'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
+  "date": "2016-08-26",
+  "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+  "license": "GPL-2",
+  "url": "http://tsdbi.r-forge.r-project.org/",
+  "bugs": null
 }
