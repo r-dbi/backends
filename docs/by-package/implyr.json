@@ -1,0 +1,10 @@
+{
+  "version": ["0.3.0"],
+  "title": ["R Interface for Apache Impala"],
+  "description": ["'SQL' back-end to 'dplyr' for Apache Impala, the massively parallel processing query engine for Apache 'Hadoop'. Impala enables low-latency 'SQL' queries on data stored in the 'Hadoop' Distributed File System '(HDFS)', Apache 'HBase', Apache 'Kudu', Amazon Simple Storage Service '(S3)', Microsoft Azure Data Lake Store '(ADLS)', and Dell 'EMC' 'Isilon'. See <https://impala.apache.org> for more information about Impala."],
+  "date": ["2019-07-21"],
+  "maintainer": ["Ian Cook <ian@cloudera.com>"],
+  "license": ["Apache License 2.0 | file LICENSE"],
+  "url": ["https://github.com/ianmcook/implyr"],
+  "bugs": ["https://github.com/ianmcook/implyr/issues"]
+}

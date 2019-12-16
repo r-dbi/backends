@@ -1,0 +1,10 @@
+{
+  "version": ["2013.9-1"],
+  "title": ["TSdbi extension to connect to zip files"],
+  "description": ["Provides TSdbi package methods to retrieve time series data from zipped, as if the files form a database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package."],
+  "date": ["2013-09-29"],
+  "maintainer": ["Paul Gilbert <pgilbert.ttv9z@ncf.ca>"],
+  "license": ["GPL-2"],
+  "url": ["http://tsdbi.r-forge.r-project.org/"],
+  "bugs": [null]
+}

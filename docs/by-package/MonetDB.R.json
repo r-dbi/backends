@@ -1,0 +1,10 @@
+{
+  "version": ["1.0.1"],
+  "title": ["Connect MonetDB to R"],
+  "description": ["Allows to pull data from MonetDB into R. Includes a DBI implementation and a dplyr backend."],
+  "date": ["2016-03-21"],
+  "maintainer": ["Hannes Muehleisen <hannes@cwi.nl>"],
+  "license": ["MPL (== 2.0)"],
+  "url": ["http://www.monetdb.org"],
+  "bugs": [null]
+}

@@ -1,0 +1,8 @@
+Title: R Database Interface
+Maintainer: Kirill Müller <krlmlr+r@mailbox.org>
+Author: R Special Interest Group on Databases
+    (R-SIG-DB) [aut], Hadley Wickham [aut], Kirill
+    Müller [aut, cre]
+    (<https://orcid.org/0000-0002-1416-3412>), R
+    Consortium [fnd]
+Encoding: UTF-8

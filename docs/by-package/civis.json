@@ -1,0 +1,10 @@
+{
+  "version": ["2.1.0"],
+  "title": ["R Client for the 'Civis data science API'"],
+  "description": ["A convenient interface for making requests directly to the 'Civis data science API' <https://www.civisanalytics.com/platform/>."],
+  "date": ["2019-09-07"],
+  "maintainer": ["Patrick Miller <pmiller@civisanalytics.com>"],
+  "license": ["BSD_3_clause + file LICENSE"],
+  "url": ["https://github.com/civisanalytics/civis-r"],
+  "bugs": ["https://github.com/civisanalytics/civis-r/issues"]
+}

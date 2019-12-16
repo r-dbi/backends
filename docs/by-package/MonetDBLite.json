@@ -1,0 +1,10 @@
+{
+  "version": ["0.6.0"],
+  "title": ["In-Process Version of 'MonetDB'"],
+  "description": ["An in-process version of 'MonetDB', a SQL database designed for analytical tasks. Similar to 'SQLite', the database runs entirely inside the 'R' shell."],
+  "date": ["2018-07-27"],
+  "maintainer": ["Hannes Mühleisen <hannes@cwi.nl>"],
+  "license": ["MPL (== 2.0)"],
+  "url": ["https://github.com/hannesmuehleisen/MonetDBLite-R"],
+  "bugs": ["https://github.com/hannesmuehleisen/MonetDBLite-R/issues"]
+}
