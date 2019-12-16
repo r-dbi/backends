@@ -13,6 +13,10 @@ License: GPL-3
 URL: https://github.com/krlmlr/backends,
     http://krlmlr.github.io/backends
 BugReports: https://github.com/krlmlr/backends/issues
+Imports: 
+    gh (>= 1.0.1)
+Remotes: 
+    r-lib/gh
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
