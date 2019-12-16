@@ -17,7 +17,7 @@ backends. It is implemented as a set of static JSON files
 ### Query all packages
 
 ``` r
-all <- httr::GET("https://krlmlr.github.io/backends/all.json")
+all <- httr::GET("https://r-dbi.github.io/backends/all.json")
 httr::stop_for_status(all)
 all_df <- httr::content(all, flatten = TRUE, simplifyVector = TRUE)
 all_df$url <- purrr::map_chr(all_df$url, glue::glue_collapse, ", ")
@@ -65,7 +65,7 @@ all_df
 
 ``` r
 newest_name <- all_df$name[[1]]
-newest_url <- paste0("https://krlmlr.github.io/backends/by-package/", newest_name, ".json")
+newest_url <- paste0("https://r-dbi.github.io/backends/by-package/", newest_name, ".json")
 newest <- httr::GET(newest_url)
 httr::stop_for_status(newest)
 httr::content(newest)
