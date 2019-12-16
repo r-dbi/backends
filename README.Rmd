@@ -32,6 +32,7 @@ It is implemented as a set of static JSON files
 all <- httr::GET("https://krlmlr.github.io/backends/all.json")
 httr::stop_for_status(all)
 all_df <- httr::content(all, flatten = TRUE, simplifyVector = TRUE)
+all_df$url <- purrr::map_chr(all_df$url, glue::glue_collapse, ", ")
 all_df
 ```
 
@@ -44,3 +45,9 @@ newest <- httr::GET(newest_url)
 httr::stop_for_status(newest)
 httr::content(newest)
 ```
+
+---
+
+Please note that the 'backends' project is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+By contributing to this project, you agree to abide by its terms.
