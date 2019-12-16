@@ -1,0 +1,45 @@
+---
+output: 
+  github_document:
+    df_print: kable
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# backends
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of backends is to provide a web API that lists all known DBI backends.
+It is implemented as a set of static JSON files
+
+## Usage
+
+### Query all packages
+
+```{r all}
+all <- httr::GET("https://krlmlr.github.io/backends/all.json")
+httr::stop_for_status(all)
+all_df <- httr::content(all, flatten = TRUE, simplifyVector = TRUE)
+all_df
+```
+
+### Query a single package
+
+```{r single}
+newest_name <- all_df$name[[1]]
+newest_url <- paste0("https://krlmlr.github.io/backends/by-package/", newest_name, ".json")
+newest <- httr::GET(newest_url)
+httr::stop_for_status(newest)
+httr::content(newest)
+```
