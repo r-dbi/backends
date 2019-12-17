@@ -1,0 +1,319 @@
+[
+  {
+    "name": "RMySQL",
+    "version": "0.10.18",
+    "title": "Database Interface and 'MySQL' Driver for R",
+    "description": "Legacy 'DBI' interface to 'MySQL' / 'MariaDB' based on old code ported from S-PLUS. A modern 'MySQL' client based on 'Rcpp' is available from the 'RMariaDB' package.",
+    "date": "2019-12-14",
+    "maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
+    "license": "GPL-2",
+    "url": ["https://downloads.mariadb.org/connector-c/"],
+    "bugs": "https://github.com/r-dbi/rmysql/issues"
+  },
+  {
+    "name": "RPostgres",
+    "version": "1.1.3",
+    "title": "'Rcpp' Interface to 'PostgreSQL'",
+    "description": " Fully 'DBI'-compliant 'Rcpp'-backed interface to 'PostgreSQL' <https://www.postgresql.org/>, an open-source relational database.",
+    "date": "2019-12-07",
+    "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+    "license": "GPL-2",
+    "url": ["https://github.com/r-dbi/RPostgres"],
+    "bugs": "https://github.com/r-dbi/RPostgres/issues"
+  },
+  {
+    "name": "noctua",
+    "version": "1.3.0",
+    "title": "Connect to 'AWS Athena' using R 'AWS SDK' 'paws' ('DBI' Interface)",
+    "description": "Designed to be compatible with the 'R' package 'DBI' (Database Interface) when connecting to Amazon Web Service ('AWS') Athena <https://aws.amazon.com/athena/>. To do this the 'R' 'AWS' Software Development Kit ('SDK') 'paws' <https://github.com/paws-r/paws> is used as a driver.",
+    "date": "2019-12-06",
+    "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
+    "license": "MIT + file LICENSE",
+    "url": ["https://github.com/DyfanJones/noctua"],
+    "bugs": "https://github.com/DyfanJones/noctua/issues"
+  },
+  {
+    "name": "RAthena",
+    "version": "1.5.0",
+    "title": "Connect to 'AWS Athena' using 'Boto3' ('DBI' Interface)",
+    "description": "Designed to be compatible with the R package 'DBI' (Database Interface) when connecting to Amazon Web Service ('AWS') Athena <https://aws.amazon.com/athena/>. To do this 'Python' 'Boto3' Software Development Kit ('SDK') <https://boto3.amazonaws.com/v1/documentation/api/latest/index.html> is used as a driver.",
+    "date": "2019-12-06",
+    "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
+    "license": "MIT + file LICENSE",
+    "url": ["https://github.com/DyfanJones/RAthena"],
+    "bugs": "https://github.com/DyfanJones/RAthena/issues"
+  },
+  {
+    "name": "odbc",
+    "version": "1.2.1",
+    "title": "Connect to ODBC Compatible Databases (using the DBI Interface)",
+    "description": "A DBI-compatible interface to ODBC databases.",
+    "date": "2019-12-05",
+    "maintainer": "Jim Hester <jim.hester@rstudio.com>",
+    "license": "MIT + file LICENSE",
+    "url": ["https://github.com/r-dbi/odbc"],
+    "bugs": "https://github.com/r-dbi/odbc/issues"
+  },
+  {
+    "name": "RSQLite",
+    "version": "2.1.4",
+    "title": "'SQLite' Interface for R",
+    "description": "Embeds the 'SQLite' database engine in R and provides an interface compliant with the 'DBI' package. The source for the 'SQLite' engine is included.",
+    "date": "2019-12-04",
+    "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+    "license": "LGPL (>= 2)",
+    "url": ["https://github.com/r-dbi/RSQLite"],
+    "bugs": "https://github.com/r-dbi/RSQLite/issues"
+  },
+  {
+    "name": "RMariaDB",
+    "version": "1.0.7",
+    "title": "Database Interface and 'MariaDB' Driver",
+    "description": "Implements a 'DBI'-compliant interface to 'MariaDB' (<https://mariadb.org/>) and 'MySQL' (<https://www.mysql.com/>) databases.",
+    "date": "2019-12-02",
+    "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+    "license": "GPL-2",
+    "url": ["https://github.com/r-dbi/RMariaDB", "https://downloads.mariadb.org/connector-c/"],
+    "bugs": "https://github.com/r-dbi/RMariaDB/issues"
+  },
+  {
+    "name": "AzureKusto",
+    "version": "1.0.4",
+    "title": "Interface to 'Kusto'/'Azure Data Explorer'",
+    "description": "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/services/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages.",
+    "date": "2019-10-26",
+    "maintainer": "Alex Kyllo <jekyllo@microsoft.com>",
+    "license": "MIT + file LICENSE",
+    "url": ["https://github.com/Azure/AzureKusto", "https://github.com/Azure/AzureR"],
+    "bugs": "https://github.com/Azure/AzureKusto/issues"
+  },
+  {
+    "name": "RPresto",
+    "version": "1.3.4",
+    "title": "DBI Connector to Presto",
+    "description": "Implements a 'DBI' compliant interface to Presto. Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes: <https://prestodb.io/>.",
+    "date": "2019-10-18",
+    "maintainer": "Onur Ismail Filiz <onur@fb.com>",
+    "license": "BSD_3_clause + file LICENSE",
+    "url": ["https://github.com/prestodb/RPresto"],
+    "bugs": "https://github.com/prestodb/RPresto/issues"
+  },
+  {
+    "name": "civis",
+    "version": "2.1.0",
+    "title": "R Client for the 'Civis data science API'",
+    "description": "A convenient interface for making requests directly to the 'Civis data science API' <https://www.civisanalytics.com/platform/>.",
+    "date": "2019-09-07",
+    "maintainer": "Patrick Miller <pmiller@civisanalytics.com>",
+    "license": "BSD_3_clause + file LICENSE",
+    "url": ["https://github.com/civisanalytics/civis-r"],
+    "bugs": "https://github.com/civisanalytics/civis-r/issues"
+  },
+  {
+    "name": "RecordLinkage",
+    "version": "0.4-11.2",
+    "title": "Record Linkage in R",
+    "description": "Provides functions for linking and de-duplicating data sets. Methods based on a stochastic approach are implemented as well as classification algorithms from the machine learning domain.",
+    "date": "2019-08-23",
+    "maintainer": "ORPHANED",
+    "license": "GPL (>= 2)",
+    "url": ["https://r-forge.r-project.org/projects/recordlinkage/", "https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"]
+  },
+  {
+    "name": "implyr",
+    "version": "0.3.0",
+    "title": "R Interface for Apache Impala",
+    "description": "'SQL' back-end to 'dplyr' for Apache Impala, the massively parallel processing query engine for Apache 'Hadoop'. Impala enables low-latency 'SQL' queries on data stored in the 'Hadoop' Distributed File System '(HDFS)', Apache 'HBase', Apache 'Kudu', Amazon Simple Storage Service '(S3)', Microsoft Azure Data Lake Store '(ADLS)', and Dell 'EMC' 'Isilon'. See <https://impala.apache.org> for more information about Impala.",
+    "date": "2019-07-21",
+    "maintainer": "Ian Cook <ian@cloudera.com>",
+    "license": "Apache License 2.0 | file LICENSE",
+    "url": ["https://github.com/ianmcook/implyr"],
+    "bugs": "https://github.com/ianmcook/implyr/issues"
+  },
+  {
+    "name": "DatabaseConnector",
+    "version": "2.4.1",
+    "title": "Connecting to Various Database Platforms",
+    "description": "An R 'DataBase Interface' ('DBI') compatible interface to various database platforms ('PostgreSQL', 'Oracle', 'Microsoft SQL Server', 'Amazon Redshift', 'Microsoft Parallel Database Warehouse', 'IBM Netezza', 'Apache Impala', 'Google BigQuery', and 'SQLite'). Also includes support for fetching data as 'ffdf' objects. Uses 'Java Database Connectivity' ('JDBC') to connect to databases (except SQLite).",
+    "date": "2019-07-18",
+    "maintainer": "Martijn Schuemie <schuemie@ohdsi.org>",
+    "license": "Apache License",
+    "url": ["https://ohdsi.github.io/DatabaseConnector", "https://github.com/OHDSI/DatabaseConnector"],
+    "bugs": "https://github.com/OHDSI/DatabaseConnector/issues"
+  },
+  {
+    "name": "bigrquery",
+    "version": "1.2.0",
+    "title": "An Interface to Google's 'BigQuery' 'API'",
+    "description": "Easily talk to Google's 'BigQuery' database from R.",
+    "date": "2019-07-02",
+    "maintainer": "Hadley Wickham <hadley@rstudio.com>",
+    "license": "GPL-3",
+    "url": ["https://github.com/rstats-db/bigrquery"],
+    "bugs": "https://github.com/rstats-db/bigrquery/issues"
+  },
+  {
+    "name": "MonetDBLite",
+    "version": "0.6.0",
+    "title": "In-Process Version of 'MonetDB'",
+    "description": "An in-process version of 'MonetDB', a SQL database designed for analytical tasks. Similar to 'SQLite', the database runs entirely inside the 'R' shell.",
+    "date": "2018-07-27",
+    "maintainer": "Hannes Mühleisen <hannes@cwi.nl>",
+    "license": "MPL (== 2.0)",
+    "url": ["https://github.com/hannesmuehleisen/MonetDBLite-R"],
+    "bugs": "https://github.com/hannesmuehleisen/MonetDBLite-R/issues"
+  },
+  {
+    "name": "RJDBC",
+    "version": "0.2-7.1",
+    "title": "Provides Access to Databases Through the JDBC Interface",
+    "description": "The RJDBC package is an implementation of R's DBI interface using JDBC as a back-end. This allows R to connect to any DBMS that has a JDBC driver.",
+    "date": "2018-04-16",
+    "maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
+    "license": "MIT + file LICENSE",
+    "url": ["http://www.rforge.net/RJDBC/"]
+  },
+  {
+    "name": "RClickhouse",
+    "version": "0.4.0",
+    "title": "A 'DBI' Interface to the 'Yandex Clickhouse' Database Providing Basic 'dplyr' Support",
+    "description": "'Yandex Clickhouse' (<https://clickhouse.yandex/>) is a high-performance relational column-store database to enable big data exploration and 'analytics' scaling to petabytes of data. Methods are provided that enable working with 'Yandex Clickhouse' databases via 'DBI' methods and using 'dplyr'/'dbplyr' idioms.",
+    "date": "2018-01-20",
+    "maintainer": "Christian Hotz-Behofsits <christian.hotz-behofsits@wu.ac.at>",
+    "license": "GPL-2",
+    "url": ["https://github.com/IMSMWU/RClickhouse"],
+    "bugs": "https://github.com/IMSMWU/RClickhouse/issues"
+  },
+  {
+    "name": "sergeant",
+    "version": "0.5.2",
+    "title": "Tools to Transform and Query Data with 'Apache' 'Drill'",
+    "description": "'Apache Drill' is a low-latency distributed query engine designed to enable data exploration and 'analytics' on both relational and non-relational 'datastores', scaling to petabytes of data. Methods are provided that enable working with 'Apache' 'Drill' instances via the 'REST' 'API', 'JDBC' interface (optional), 'DBI' 'methods' and using 'dplyr'/'dbplyr' idioms.",
+    "date": "2017-07-17",
+    "maintainer": "Bob Rudis <bob@rud.is>",
+    "license": "MIT + file LICENSE",
+    "url": ["https://github.com/hrbrmstr/sergeant"],
+    "bugs": "https://github.com/hrbrmstr/sergeant/issues"
+  },
+  {
+    "name": "RSQLServer",
+    "version": "0.3.0",
+    "title": "SQL Server R Database Interface (DBI) and 'dplyr' SQL Backend",
+    "description": "Utilises The 'jTDS' project's 'JDBC' 3.0 'SQL Server' driver to extend 'DBI' classes and methods. The package also implements a 'SQL' backend to the 'dplyr' package.",
+    "date": "2017-06-17",
+    "maintainer": "Imanuel Costigan <i.costigan@me.com>",
+    "license": "GPL-2",
+    "url": ["https://github.com/imanuelcostigan/RSQLServer"],
+    "bugs": "https://github.com/imanuelcostigan/RSQLServer/issues"
+  },
+  {
+    "name": "ROracle",
+    "version": "1.3-1",
+    "title": "OCI Based Oracle Database Interface for R",
+    "description": "Oracle Database interface (DBI) driver for R. This is a DBI-compliant Oracle driver based on the OCI.",
+    "date": "2016-10-26",
+    "maintainer": "Rajendra S. Pingte <rajendra.pingte@oracle.com>",
+    "license": "LGPL",
+    "url": ["http://www.oracle.com"]
+  },
+  {
+    "name": "TSmisc",
+    "version": "2016.8-1",
+    "title": "'TSdbi' Extensions to Wrap Miscellaneous Data Sources",
+    "description": "Methods to retrieve data from several different sources. This include historical quote data from 'Yahoo' and 'Oanda', economic data from 'FRED', and 'xls' and 'csv' data from different sources. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
+    "date": "2016-08-26",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "TSsdmx",
+    "version": "2016.8-1",
+    "title": "'TSdbi' Extension to Connect with 'SDMX'",
+    "description": "Methods to retrieve data in the Statistical Data and Metadata Exchange ('SDMX') format from several database. (For example, 'EuroStat', the European Central Bank, the Organisation for Economic Co-operation and Development, the 'Unesco' Institute for Statistics, and the International Labor Organization.) This is a wrapper for package 'RJSDMX'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
+    "date": "2016-08-26",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "MonetDB.R",
+    "version": "1.0.1",
+    "title": "Connect MonetDB to R",
+    "description": "Allows to pull data from MonetDB into R. Includes a DBI implementation and a dplyr backend.",
+    "date": "2016-03-21",
+    "maintainer": "Hannes Muehleisen <hannes@cwi.nl>",
+    "license": "MPL (== 2.0)",
+    "url": ["http://www.monetdb.org"]
+  },
+  {
+    "name": "TSfame",
+    "version": "2015.4-1",
+    "title": "'TSdbi' Extensions for Fame",
+    "description": "A 'fame' interface for 'TSdbi'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
+    "date": "2015-04-30",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "TSjson",
+    "version": "2014.4-1",
+    "title": "TSdbi extension for importing time series from web sources via JSON",
+    "description": "Provides methods for generics in the TSdbi package to retrieve data from web data sources, importing them using Javascript object notation. Direct connections or a proxy connection are possible. (Only Statistics Canada connections are currently supported.) Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
+    "date": "2014-04-09",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "TSgetSymbol",
+    "version": "2013.9-1",
+    "title": "TSdbi extension to connect with getSymbols",
+    "description": "Provides methods for generics in the TSdbi package to retrieve data with getSymbols, in particular from the Federal Reserve FRED database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
+    "date": "2013-09-29",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "TShistQuote",
+    "version": "2013.9-1",
+    "title": "TSdbi extensions for get.hist.quote",
+    "description": "Provides methods for generics in the TSdbi package to retrieve data from historical quote URLs. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
+    "date": "2013-09-29",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "TSxls",
+    "version": "2013.8-2",
+    "title": "TSdbi extension to connect to spreadsheets",
+    "description": "Provides TSdbi package methods to retrieve time series data from spreadsheets, pretending the spreadsheet is a database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
+    "date": "2013-09-29",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "TSzip",
+    "version": "2013.9-1",
+    "title": "TSdbi extension to connect to zip files",
+    "description": "Provides TSdbi package methods to retrieve time series data from zipped, as if the files form a database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
+    "date": "2013-09-29",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  },
+  {
+    "name": "TSpadi",
+    "version": "2012.8-1",
+    "title": "TSdbi extensions for PADI Time Series Server",
+    "description": "Provides methods for generics in the TSdbi package to connect through a protocol for application database interface (PADI) to a time series database (e.g. Fame).  Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
+    "date": "2012-10-02",
+    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
+    "license": "GPL-2",
+    "url": ["http://tsdbi.r-forge.r-project.org/"]
+  }
+]
