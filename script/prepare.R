@@ -3,13 +3,20 @@ pkgload::load_all()
 
 x <- gh::gh(
   "/search/code",
-  q = "contains+DBIDriver+org:cran",
-  sort = "indexed",
-  .limit = 1000
+  q = "DBIDriver+org:cran",
+  per_page = 100
 )
 
+y <- gh::gh(
+  "/search/code",
+  q = "DBIDriver+org:cran",
+  per_page = 100,
+  page = 2
+)
+
+
 pkg <-
-  tibble(items = x$items) %>%
+  tibble(items = c(x$items, y$items)) %>%
   unnest_wider(items) %>%
   select(path, repository) %>%
   unnest_wider(repository) %>%
@@ -38,7 +45,7 @@ pkg_tbl <-
   mutate(date = as.Date(date)) %>%
   mutate_at(vars(title, description), sanitize_text) %>%
   mutate_at(vars(url), sanitize_multi) %>%
-  arrange(desc(date))
+  arrange(name)
 
 pkg_tbl
 
@@ -48,6 +55,7 @@ pkg_tbl %>%
   jsonlite::toJSON(pretty = TRUE) %>%
   writeLines("docs/all.json")
 
+unlink("docs/by-package", recursive = TRUE)
 dir.create("docs/by-package", showWarnings = FALSE)
 
 pkg_tbl %>%
