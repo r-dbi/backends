@@ -1,8 +1,8 @@
 {
-  "version": "0.2-7.1",
+  "version": "0.2-8",
   "title": "Provides Access to Databases Through the JDBC Interface",
   "description": "The RJDBC package is an implementation of R's DBI interface using JDBC as a back-end. This allows R to connect to any DBMS that has a JDBC driver.",
-  "date": "2018-04-16",
+  "date": "2020-03-10",
   "maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
   "license": "MIT + file LICENSE",
   "url": "http://www.rforge.net/RJDBC/",

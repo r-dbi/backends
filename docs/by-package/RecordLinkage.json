@@ -1,10 +1,10 @@
 {
-  "version": "0.4-11.2",
-  "title": "Record Linkage in R",
-  "description": "Provides functions for linking and de-duplicating data sets. Methods based on a stochastic approach are implemented as well as classification algorithms from the machine learning domain.",
-  "date": "2019-08-23",
-  "maintainer": "ORPHANED",
+  "version": "0.4-12.1",
+  "title": "Record Linkage Functions for Linking and Deduplicating Data Sets",
+  "description": "Provides functions for linking and deduplicating data sets. Methods based on a stochastic approach are implemented as well as classification algorithms from the machine learning domain. For details, see our paper \"The RecordLinkage Package: Detecting Errors in Data\" Sariyar M / Borg A (2010) <doi:10.32614/RJ-2010-017>.",
+  "date": "2020-08-25",
+  "maintainer": "Murat Sariyar <murat.sariyar@bfh.ch>",
   "license": "GPL (>= 2)",
-  "url": ["https://r-forge.r-project.org/projects/recordlinkage/", "https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"],
+  "url": ["", "https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"],
   "bugs": null
 }

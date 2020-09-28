@@ -1,10 +1,10 @@
 {
-  "version": "1.1.3",
+  "version": "1.2.0",
   "title": "'Rcpp' Interface to 'PostgreSQL'",
-  "description": " Fully 'DBI'-compliant 'Rcpp'-backed interface to 'PostgreSQL' <https://www.postgresql.org/>, an open-source relational database.",
-  "date": "2019-12-07",
+  "description": "Fully 'DBI'-compliant 'Rcpp'-backed interface to 'PostgreSQL' <https://www.postgresql.org/>, an open-source relational database.",
+  "date": "2019-12-18",
   "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
-  "license": "GPL-2",
-  "url": "https://github.com/r-dbi/RPostgres",
+  "license": "GPL-3",
+  "url": ["https://rpostgres.r-dbi.org", "https://github.com/r-dbi/RPostgres"],
   "bugs": "https://github.com/r-dbi/RPostgres/issues"
 }

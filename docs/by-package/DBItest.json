@@ -1,0 +1,10 @@
+{
+  "version": "1.7.0",
+  "title": "Testing 'DBI' 'Backends'",
+  "description": "A helper that tests 'DBI' back ends for conformity to the interface.",
+  "date": "2019-12-16",
+  "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+  "license": "LGPL (>= 2.1)",
+  "url": ["https://dbitest.r-dbi.org", "https://github.com/r-dbi/DBItest"],
+  "bugs": "https://github.com/r-dbi/DBItest/issues"
+}

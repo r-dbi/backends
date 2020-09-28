@@ -1,0 +1,10 @@
+{
+  "version": "0.5.0",
+  "title": "Client for the Comprehensive Knowledge Archive Network ('CKAN') API",
+  "description": "Client for 'CKAN' API (<https://ckan.org/>). Includes interface to 'CKAN' 'APIs' for search, list, show for packages, organizations, and resources. In addition, provides an interface to the 'datastore' API.",
+  "date": "2020-07-30",
+  "maintainer": "Scott Chamberlain <myrmecocystus@gmail.com>",
+  "license": "MIT + file LICENSE",
+  "url": ["https://docs.ropensci.org/ckanr", "https://github.com/ropensci/ckanr"],
+  "bugs": "https://github.com/ropensci/ckanr/issues"
+}

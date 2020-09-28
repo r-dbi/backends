@@ -1,0 +1,10 @@
+{
+  "version": "0.1-2",
+  "title": "DBI front-end to RODBC",
+  "description": "A simple DBI front-end to the RODBC package. This package uses version 4 style classes and methods to create a front-end to the existing RODBC (version 0.8-3) package.",
+  "date": null,
+  "maintainer": "David A. James <dj@bell-labs.com>",
+  "license": "GPL (version 2 or later)",
+  "url": "http://developer.r-project.org/db",
+  "bugs": null
+}
