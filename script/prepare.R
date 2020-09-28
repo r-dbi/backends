@@ -3,20 +3,12 @@ pkgload::load_all()
 
 x <- gh::gh(
   "/search/code",
-  q = "DBIDriver+org:cran",
+  q = "setClass+DBIDriver+org:cran",
   per_page = 100
 )
 
-y <- gh::gh(
-  "/search/code",
-  q = "DBIDriver+org:cran",
-  per_page = 100,
-  page = 2
-)
-
-
 pkg <-
-  tibble(items = c(x$items, y$items)) %>%
+  tibble(items) %>%
   unnest_wider(items) %>%
   select(path, repository) %>%
   unnest_wider(repository) %>%
@@ -24,7 +16,7 @@ pkg <-
   arrange(available, name) %>%
   filter(name != "DBI") %>%
   nest(data = -c(name, description)) %>%
-  mutate(crandb = map(name, crandb::package))
+  mutate(crandb = map(name, pkgsearch::cran_package))
 
 pkg_tbl <-
   pkg %>%
