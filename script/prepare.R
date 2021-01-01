@@ -39,6 +39,12 @@ if (nrow(added) > 0) {
   pwalk(added, pr_new)
 }
 
+if (nrow(removed) > 0) {
+  gert::git_fetch()
+
+  pwalk(removed %>% select(path), pr_old)
+}
+
 # Render unconditionally (could be the result of a PR merge)
 rmarkdown::render("README.Rmd")
 

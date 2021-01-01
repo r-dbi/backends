@@ -20,19 +20,43 @@ pr_local_checkout <- function(name, .env = parent.frame()) {
 }
 
 pr_new <- function(path, new) {
-  name <- sub("[.][^.]*$", "", basename(path))
+  name <- name_from_path(path)
 
   old_branch <- pr_local_checkout(name)
 
   message("Writing ", path)
   writeLines(new, path)
-  create_all_json()
 
   title <- paste0("New package: ", name)
   body <- paste0(
     "Merge this if you think this is a DBI backend. Convert to a draft and leave open if not.\n\n",
     "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
   )
+
+  pr_send(path, old_branch, title, body)
+}
+
+pr_old <- function(path) {
+  name <- name_from_path(path)
+
+  old_branch <- pr_local_checkout(name)
+
+  message("Removing ", path)
+  writeLines(new, path)
+
+  title <- paste0("Removed package: ", name)
+  body <- paste0(
+    "Merge this if you no longer think this is a DBI backend. Convert to a draft and leave open if it is a DBI backend.\n\n",
+    "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
+  )
+
+  pr_send(path, old_branch, title, body)
+}
+
+pr_send <- function(path, old_branch, title, body) {
+  name <- name_from_path(path)
+
+  create_all_json()
 
   if (path %in% gert::git_status()$file) {
     message("Committing")
