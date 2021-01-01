@@ -3,7 +3,7 @@ pr_new <- function(path, new) {
 
   old_branch <- gert::git_branch()
 
-  exists <- gert::git_branch_exists(name, local = FALSE)
+  exists <- gert::git_branch_exists(paste0("origin/", name), local = FALSE)
   exists
 
   if (!exists) {
@@ -20,7 +20,7 @@ pr_new <- function(path, new) {
   writeLines(new, path)
   create_all_json()
 
-  if (nrow(gert::git_status()) > 0) {
+  if (path %in% gert::git_status()$file) {
     message("Committing")
     title <- paste0("New package: ", name)
     body <- "Merge this if you think this is a DBI backend."
