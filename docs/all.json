@@ -84,6 +84,17 @@
     "bugs": "https://github.com/r-dbi/DBItest/issues"
   },
   {
+    "name": "dittodb",
+    "version": "0.1.3",
+    "title": "A Test Environment for Database Requests",
+    "description": "Testing and documenting code that communicates with remote databases can be painful. Although the interaction with R is usually relatively simple (e.g. data(frames) passed to and from a database), because they rely on a separate service and the data there, testing them can be difficult to set up, unsustainable in a continuous integration environment, or impossible without replicating an entire production cluster. This package addresses that by allowing you to make recordings from your database interactions and then play them back while testing (or in other contexts) all without needing to spin up or have access to the database your code would typically connect to.",
+    "date": "2020-10-10",
+    "maintainer": "Jonathan Keane <jkeane@gmail.com>",
+    "license": "Apache License (>= 2.0)",
+    "url": ["https://dittodb.jonkeane.com/", "https://github.com/ropensci/dittodb"],
+    "bugs": "https://github.com/ropensci/dittodb/issues"
+  },
+  {
     "name": "duckdb",
     "version": "0.2.3",
     "title": "DBI Package for the DuckDB Database Management System",
@@ -104,6 +115,17 @@
     "license": "Apache License 2.0 | file LICENSE",
     "url": ["https://github.com/ianmcook/implyr"],
     "bugs": "https://github.com/ianmcook/implyr/issues"
+  },
+  {
+    "name": "lazysf",
+    "version": "0.1.0",
+    "title": "Delayed Read for 'GDAL' Vector Data Sources",
+    "description": "Lazy read for drawings. A 'dplyr' back end for data sources supported by 'GDAL' vector drivers, that allows working with local or remote sources as if they are in-memory data frames. Basic features works with any drawing format ('GDAL vector data source') supported by the 'sf' package.",
+    "date": "2020-11-14",
+    "maintainer": "Michael Sumner <mdsumner@gmail.com>",
+    "license": "GPL-3",
+    "url": ["https://github.com/mdsumner/lazysf"],
+    "bugs": "https://github.com/mdsumner/lazysf/issues"
   },
   {
     "name": "MonetDB.R",
