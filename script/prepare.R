@@ -3,12 +3,12 @@ pkgload::load_all()
 
 x <- gh::gh(
   "/search/code",
-  q = "setClass+DBIDriver+org:cran",
+  q = "setClass DBIConnection org:cran",
   per_page = 100
 )
 
 pkg <-
-  tibble(items) %>%
+  tibble(items = x$items) %>%
   unnest_wider(items) %>%
   select(path, repository) %>%
   unnest_wider(repository) %>%
