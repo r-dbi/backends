@@ -75,6 +75,13 @@ jobs:
           sessioninfo::session_info(pkgs, include_base = TRUE)
         shell: Rscript {0}
 
+      - name: Configure Git identity
+        run: |
+          env | sort
+          git config --global user.name "$GITHUB_WORKFLOW"
+          git config --global user.email "${GITHUB_EVENT_NAME}@ghactions.local"
+        shell: bash
+
       - name: Run preparation
         run: |
           R -q -f script/prepare.R
