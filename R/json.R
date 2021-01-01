@@ -1,3 +1,13 @@
+pkg_tbl_to_json <- function(pkg_tbl) {
+  pkg_tbl %>%
+    nest(data = -name) %>%
+    mutate(data = map(data, unclass)) %>%
+    mutate(data = map(data, map, unlist)) %>%
+    mutate(text = map(data, jsonlite::toJSON, pretty = TRUE, auto_unbox = TRUE)) %>%
+    mutate(con = file.path("docs/by-package", paste0(name, ".json"))) %>%
+    select(con, text)
+}
+
 read_by_pkg <- function() {
   files <- dir("docs/by-package", full.names = TRUE)
   names <- sub("[.][^.]*$", "", basename(files))
