@@ -3,7 +3,8 @@ pr_new <- function(path, new) withAutoprint({
 
   old_branch <- gert::git_branch()
 
-  exists <- gert::git_branch_exists(name)
+  exists <- gert::git_branch_exists(name, local = FALSE)
+  exists
 
   if (exists) {
     gert::git_branch_checkout(name)
