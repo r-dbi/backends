@@ -22,15 +22,15 @@ pr_new <- function(path, new) {
   writeLines(new, path)
   create_all_json()
 
+  title <- paste0("New package: ", name)
+  body <- paste0(
+    "Merge this if you think this is a DBI backend.\n\n",
+    "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
+  )
+
   if (path %in% gert::git_status()$file) {
     message("Committing")
-    title <- paste0("New package: ", name)
-
     # FIXME: Align with search expression
-    body <- paste0(
-      "Merge this if you think this is a DBI backend.\n\n",
-      "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
-    )
 
     gert::git_add("docs")
     gert::git_commit(title)
@@ -53,6 +53,7 @@ pr_new <- function(path, new) {
     gh::gh(
       paste0("/repos/r-dbi/backends/pulls/", open_pr[[1]]$number),
       state = "open",
+      title = title, body = body,
       .method = "PATCH"
     )
   }
