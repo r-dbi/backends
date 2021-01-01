@@ -1,0 +1,29 @@
+on:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron:  '0 8 * * *'
+
+name: docker
+
+jobs:
+  docker:
+    runs-on: ubuntu-20.04
+
+    name: Build and push Docker image
+
+  push_to_registry:
+    name: Push Docker image to GitHub Packages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Push to GitHub Packages
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: ${{ github.repository }}/r
