@@ -39,7 +39,15 @@ all_df <- jsonlite::fromJSON("docs/all.json", flatten = TRUE)
 ```
 
 ```{r all-url}
-all_df$url <- purrr::map_chr(all_df$url, glue::glue_collapse, ", ")
+fix_url <- function(x) {
+  if (length(x) == 0 || anyNA(x)) {
+    x <- ""
+  }
+  glue::glue_collapse(x, ", ")
+}
+
+all_df$url <- purrr::map_chr(all_df$url, fix_url)
+all_df$bugs <- purrr::map_chr(all_df$bugs, fix_url)
 all_df
 ```
 
