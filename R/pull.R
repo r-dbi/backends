@@ -20,7 +20,7 @@ pr_local_checkout <- function(name, .env = parent.frame()) {
 }
 
 pr_new <- function(path, new) {
-  name <- sub("[.][^.]*$", "", basename(path))
+  name <- name_from_path(path)
 
   old_branch <- pr_local_checkout(name)
 
@@ -33,11 +33,11 @@ pr_new <- function(path, new) {
     "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
   )
 
-  pr_send(name, old_branch, title, body)
+  pr_send(path, old_branch, title, body)
 }
 
 pr_old <- function(path) {
-  name <- sub("[.][^.]*$", "", basename(path))
+  name <- name_from_path(path)
 
   old_branch <- pr_local_checkout(name)
 
@@ -50,10 +50,12 @@ pr_old <- function(path) {
     "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
   )
 
-  pr_send(name, old_branch, title, body)
+  pr_send(path, old_branch, title, body)
 }
 
-pr_send <- function(name, old_branch, title, body) {
+pr_send <- function(path, old_branch, title, body) {
+  name <- name_from_path(path)
+
   create_all_json()
 
   if (path %in% gert::git_status()$file) {
