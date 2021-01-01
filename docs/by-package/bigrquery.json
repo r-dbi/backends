@@ -1,10 +1,10 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "title": "An Interface to Google's 'BigQuery' 'API'",
   "description": "Easily talk to Google's 'BigQuery' database from R.",
-  "date": "2020-05-15",
+  "date": "2020-10-05",
   "maintainer": "Hadley Wickham <hadley@rstudio.com>",
   "license": "GPL-3",
-  "url": "https://github.com/rstats-db/bigrquery",
-  "bugs": "https://github.com/rstats-db/bigrquery/issues"
+  "url": "https://github.com/r-dbi/bigrquery",
+  "bugs": "https://github.com/r-dbi/bigrquery/issues"
 }

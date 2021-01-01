@@ -1,8 +1,8 @@
 {
-  "version": "0.10.20",
+  "version": "0.10.21",
   "title": "Database Interface and 'MySQL' Driver for R",
   "description": "Legacy 'DBI' interface to 'MySQL' / 'MariaDB' based on old code ported from S-PLUS. A modern 'MySQL' client based on 'Rcpp' is available from the 'RMariaDB' package.",
-  "date": "2020-03-14",
+  "date": "2020-12-15",
   "maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
   "license": "GPL-2",
   "url": "https://downloads.mariadb.org/connector-c/",
