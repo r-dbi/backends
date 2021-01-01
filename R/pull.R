@@ -41,13 +41,19 @@ pr_new <- function(path, new) {
 
   # FIXME: Hard code
   message("Checking if PR is already open")
-  open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "open", head = paste0("r-dbi:", name))
+  open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "all", head = paste0("r-dbi:", name))
   if (length(open_pr) == 0) {
     message("Opening PR")
     gh::gh(
       "/repos/r-dbi/backends/pulls", head = name, base = old_branch,
       title = title, body = body,
       .method = "POST"
+    )
+  } else if (open_pr[[1]]$state != "open") {
+    gh::gh(
+      paste0("/repos/r-dbi/backends/pulls/", open_pr[[1]]$number),
+      state = "open",
+      .method = "PATCH"
     )
   }
 }
