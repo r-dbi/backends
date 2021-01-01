@@ -1,22 +1,28 @@
-pr_new <- function(path, new) {
-  name <- sub("[.][^.]*$", "", basename(path))
-
+pr_local_checkout <- function(name, .env = parent.frame()) {
   old_branch <- gert::git_branch()
 
   exists <- gert::git_branch_exists(paste0("origin/", name), local = FALSE)
-  exists
 
   if (!exists) {
     # checkout = TRUE didn't work
     message("Creating new branch: ", name)
     gert::git_branch_create(name)
   }
+
   message("Checking out branch: ", name)
   gert::git_branch_checkout(name)
 
-  on.exit(gert::git_branch_checkout(old_branch))
+  withr::defer(gert::git_branch_checkout(old_branch), .env)
 
   gert::git_merge(old_branch)
+
+  invisible(old_branch)
+}
+
+pr_new <- function(path, new) {
+  name <- sub("[.][^.]*$", "", basename(path))
+
+  old_branch <- pr_local_checkout(name)
 
   message("Writing ", path)
   writeLines(new, path)
@@ -24,7 +30,7 @@ pr_new <- function(path, new) {
 
   title <- paste0("New package: ", name)
   body <- paste0(
-    "Merge this if you think this is a DBI backend.\n\n",
+    "Merge this if you think this is a DBI backend. Convert to a draft and leave open if not.\n\n",
     "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
   )
 
