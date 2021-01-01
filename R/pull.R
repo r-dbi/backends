@@ -1,4 +1,4 @@
-pr_new <- function(path, new) withAutoprint({
+pr_new <- function(path, new) {
   name <- sub("[.][^.]*$", "", basename(path))
 
   old_branch <- gert::git_branch()
@@ -37,4 +37,4 @@ pr_new <- function(path, new) withAutoprint({
       .method = "POST"
     )
   }
-})
+}
