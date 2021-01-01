@@ -36,8 +36,6 @@ if (nrow(updated) > 0) {
 if (nrow(added) > 0) {
   gert::git_fetch()
 
-  added <- added[2, ]
-
   pwalk(added, pr_new)
 }
 
