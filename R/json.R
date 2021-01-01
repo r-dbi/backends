@@ -1,3 +1,7 @@
+name_from_path <- function(x) {
+  sub("[.][^.]*$", "", basename(x))
+}
+
 pkg_tbl_to_json <- function(pkg_tbl) {
   pkg_tbl %>%
     nest(data = -name) %>%
@@ -10,7 +14,7 @@ pkg_tbl_to_json <- function(pkg_tbl) {
 
 read_by_pkg <- function() {
   files <- dir("docs/by-package", full.names = TRUE)
-  names <- sub("[.][^.]*$", "", basename(files))
+  names <- name_from_path(files)
   text <- map(set_names(files, names), readLines)
 
   old <- map(text, ~ structure(paste(.x, collapse = "\n"), class = "json"))
