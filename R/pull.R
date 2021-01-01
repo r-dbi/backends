@@ -26,6 +26,11 @@ pr_new <- function(path, new) {
 
   message("Writing ", path)
   writeLines(new, path)
+
+  pr_send(name, old_branch)
+}
+
+pr_send <- function(name, old_branch) {
   create_all_json()
 
   title <- paste0("New package: ", name)
