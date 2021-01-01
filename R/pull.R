@@ -29,7 +29,7 @@ pr_new <- function(path, new) {
     gert::git_commit(title)
 
     message("Pushing")
-    gert::git_push(set_upstream = TRUE)
+    gert::git_push()
   }
 
   # FIXME: Hard code
