@@ -34,10 +34,10 @@ pr_new <- function(path, new) {
 
     gert::git_add("docs")
     gert::git_commit(title)
-
-    message("Pushing")
-    gert::git_push()
   }
+
+  message("Pushing")
+  gert::git_push()
 
   # FIXME: Hard code
   open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "open", head = paste0("r-dbi:", name))
