@@ -42,7 +42,9 @@ if (nrow(added) > 0) {
 # Render unconditionally (could be the result of a PR merge)
 rmarkdown::render("README.Rmd")
 
-gert::git_add("README.md")
-gert::git_commit("Update definition for existing packages")
-gert::git_pull()
-gert::git_push()
+if ("README.md" %in% gert::git_status()$file) {
+  gert::git_add("README.md")
+  gert::git_commit("Update definition for existing packages")
+  gert::git_pull()
+  gert::git_push()
+}
