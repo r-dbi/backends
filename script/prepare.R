@@ -27,7 +27,10 @@ if (nrow(updated) > 0) {
     pwalk(writeLines)
 
   create_all_json()
-  gert::git_add("docs")
+
+  rmarkdown::render("README.Rmd")
+
+  gert::git_add(c("docs", "README.md"))
   gert::git_commit("Update definition for existing packages")
   gert::git_pull()
   gert::git_push()

@@ -17,6 +17,7 @@ Imports:
     gh (>= 1.1.0),
     pkgload,
     pkgsearch,
+    rmarkdown,
     tidyverse
 Encoding: UTF-8
 LazyData: true
