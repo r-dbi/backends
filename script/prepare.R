@@ -21,6 +21,8 @@ updated <-
   inner_join(new, old, by = "path") %>%
   filter(!map2_lgl(new, old, identical))
 
+updated
+
 if (nrow(updated) > 0) {
   updated %>%
     select(con = path, text = new) %>%
