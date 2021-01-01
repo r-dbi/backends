@@ -42,7 +42,7 @@ pr_old <- function(path) {
   old_branch <- pr_local_checkout(name)
 
   message("Removing ", path)
-  writeLines(new, path)
+  unlink(path)
 
   title <- paste0("Removed package: ", name)
   body <- paste0(
