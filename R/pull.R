@@ -12,7 +12,7 @@ pr_new <- function(path, new) {
   }
   on.exit(gert::git_branch_checkout(old_branch))
 
-  writeLines(path, new)
+  writeLines(new, path)
   create_all_json()
 
   if (nrow(gert::git_status()) > 0) {
