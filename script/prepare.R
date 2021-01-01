@@ -6,10 +6,6 @@ pkg_tbl <- fetch_pkg_tbl()
 
 dir.create("docs", showWarnings = FALSE)
 
-pkg_tbl %>%
-  jsonlite::toJSON(pretty = TRUE) %>%
-  writeLines("docs/all.json")
-
 unlink("docs/by-package", recursive = TRUE)
 dir.create("docs/by-package", showWarnings = FALSE)
 
@@ -21,3 +17,5 @@ pkg_tbl %>%
   mutate(con = file.path("docs/by-package", paste0(name, ".json"))) %>%
   select(-data, -name) %>%
   pwalk(writeLines)
+
+create_all_json()
