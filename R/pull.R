@@ -16,6 +16,8 @@ pr_new <- function(path, new) {
 
   on.exit(gert::git_branch_checkout(old_branch))
 
+  gert::git_merge(old_branch)
+
   message("Writing ", path)
   writeLines(new, path)
   create_all_json()
