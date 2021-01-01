@@ -7,4 +7,4 @@ RUN R -e 'getOption("repos")'
 WORKDIR /pkg
 COPY DESCRIPTION .
 
-RUN R -q -e 'remotes::install_local(".", dependencies = TRUE)'
+RUN R -q -e 'install.packages("remotes"); remotes::install_local(".", dependencies = TRUE)'
