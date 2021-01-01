@@ -27,10 +27,22 @@ if (nrow(updated) > 0) {
 
   create_all_json()
 
-  rmarkdown::render("README.Rmd")
-
-  gert::git_add(c("docs", "README.md"))
+  gert::git_add("docs")
   gert::git_commit("Update definition for existing packages")
   gert::git_pull()
   gert::git_push()
 }
+
+if (nrow(added) > 0) {
+  added <- added[1, ]
+
+  pwalk(added, pr_new)
+}
+
+# Render unconditionally (could be the result of a PR merge)
+rmarkdown::render("README.Rmd")
+
+gert::git_add("README.md")
+gert::git_commit("Update definition for existing packages")
+gert::git_pull()
+gert::git_push()
