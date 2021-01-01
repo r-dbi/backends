@@ -1,0 +1,10 @@
+{
+  "version": "16.03",
+  "title": "Data Management for Hydrology and Beyond Using the Observations Data Model",
+  "description": "Data management in hydrology and other fields is facilitated with functions to enter and modify data in a database according to the Observations Data Model (ODM) standard by CUASHI (Consortium of Universities for the Advancement of Hydrologic Science). While this data model has been developed in hydrology, it is also useful for other fields. RObsDat helps in the setup of the database within one of the free database systems MariaDB, PostgreSQL or SQLite. It imports the controlled water vocabulary from the CUASHI web service and provides a smart interface between the analyst and the database: Already existing data entries are detected and duplicates avoided. The data import function converts different data table designs to make import simple. Cleaning and modifications of data are handled with a simple version control system. Variable and location names are treated in a user friendly way, accepting and processing multiple versions. When querying data from the database, it is stored in a spacetime objects within R for subsequent processing.",
+  "date": "2016-03-31",
+  "maintainer": "Dominik Reusser <reusser@pik-potsdam.de>",
+  "license": "GPL",
+  "url": null,
+  "bugs": null
+}
