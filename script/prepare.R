@@ -39,12 +39,18 @@ if (nrow(added) > 0) {
   pwalk(added, pr_new)
 }
 
+if (nrow(removed) > 0) {
+  gert::git_fetch()
+
+  pwalk(removed %>% select(path), pr_old)
+}
+
 # Render unconditionally (could be the result of a PR merge)
 rmarkdown::render("README.Rmd")
 
 if ("README.md" %in% gert::git_status()$file) {
   gert::git_add("README.md")
-  gert::git_commit("Update definition for existing packages")
+  gert::git_commit("Update overview of backends")
   gert::git_pull()
   gert::git_push()
 }

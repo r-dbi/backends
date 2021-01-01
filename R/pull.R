@@ -1,32 +1,64 @@
-pr_new <- function(path, new) {
-  name <- sub("[.][^.]*$", "", basename(path))
-
+pr_local_checkout <- function(name, .env = parent.frame()) {
   old_branch <- gert::git_branch()
 
   exists <- gert::git_branch_exists(paste0("origin/", name), local = FALSE)
-  exists
 
   if (!exists) {
     # checkout = TRUE didn't work
     message("Creating new branch: ", name)
     gert::git_branch_create(name)
   }
+
   message("Checking out branch: ", name)
   gert::git_branch_checkout(name)
 
-  on.exit(gert::git_branch_checkout(old_branch))
+  withr::defer(gert::git_branch_checkout(old_branch), .env)
 
-  gert::git_merge(old_branch)
+  if (gert::git_ahead_behind(old_branch)$behind > 0) {
+    gert::git_merge(old_branch, commit = FALSE)
+  }
+
+  invisible(old_branch)
+}
+
+pr_new <- function(path, new) {
+  name <- name_from_path(path)
+
+  old_branch <- pr_local_checkout(name)
 
   message("Writing ", path)
   writeLines(new, path)
-  create_all_json()
 
   title <- paste0("New package: ", name)
   body <- paste0(
-    "Merge this if you think this is a DBI backend.\n\n",
-    "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
+    "Merge this if you think this is a DBI backend. Convert to a draft and leave open if not.\n\n",
+    "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setClass"
   )
+
+  pr_send(path, old_branch, title, body)
+}
+
+pr_old <- function(path) {
+  name <- name_from_path(path)
+
+  old_branch <- pr_local_checkout(name)
+
+  message("Removing ", path)
+  unlink(path)
+
+  title <- paste0("Removed package: ", name)
+  body <- paste0(
+    "Merge this if you no longer think this is a DBI backend. Convert to a draft and leave open if it is a DBI backend.\n\n",
+    "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setClass"
+  )
+
+  pr_send(path, old_branch, title, body)
+}
+
+pr_send <- function(path, old_branch, title, body) {
+  name <- name_from_path(path)
+
+  create_all_json()
 
   if (path %in% gert::git_status()$file) {
     message("Committing")
