@@ -3,7 +3,13 @@ pr_new <- function(path, new) {
 
   old_branch <- gert::git_branch()
 
-  gert::git_branch_checkout(name)
+  exists <- gert::git_branch_exists(name)
+
+  if (exists) {
+    gert::git_branch_checkout(name)
+  } else {
+    gert::git_branch_create(name)
+  }
   on.exit(gert::git_branch_checkout(old_branch))
 
   writeLines(path, new)
