@@ -11,6 +11,17 @@
     "bugs": "https://github.com/Azure/AzureKusto/issues"
   },
   {
+    "name": "bcdata",
+    "version": "0.2.1",
+    "title": "Search and Retrieve Data from the BC Data Catalogue",
+    "description": "Search, query, and download tabular and 'geospatial' data from the British Columbia Data Catalogue (<https://catalogue.data.gov.bc.ca/>).  Search catalogue data records based on keywords, data licence, sector, data format, and B.C. government organization. View metadata directly in R, download many data formats, and query 'geospatial' data available via the B.C. government Web Feature Service ('WFS') using 'dplyr' syntax.",
+    "date": "2020-10-25",
+    "maintainer": "Andy Teucher <andy.teucher@gov.bc.ca>",
+    "license": "Apache License (== 2.0)",
+    "url": ["https://bcgov.github.io/bcdata/", "https://catalogue.data.gov.bc.ca/", "https://github.com/bcgov/bcdata/"],
+    "bugs": "https://github.com/bcgov/bcdata/issues"
+  },
+  {
     "name": "bigrquery",
     "version": "1.3.2",
     "title": "An Interface to Google's 'BigQuery' 'API'",
