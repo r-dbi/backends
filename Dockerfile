@@ -1,4 +1,4 @@
-FROM rocker/r-ubuntu:latest
+FROM rocker/r-ubuntu:20.04
 
 RUN R -e 'getRversion()'
 
