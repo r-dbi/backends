@@ -22,7 +22,8 @@ create_all_json <- function() {
   all_named <- unname(map2(all$old, all$name, ~ { rlang::list2(name = .y, !!!jsonlite::fromJSON(.x)) }))
 
   all_url <- map(all_named, ~ {
-    if (!is.null(.x$url)) .x$url <- I(.x$url)
+    if (length(.x$url) == 0) .x$url <- NULL
+    else if (!is.null(.x$url)) .x$url <- I(.x$url)
     if (length(.x$date) == 0) .x$date <- NULL
     if (length(.x$bugs) == 0) .x$bugs <- NULL
     .x
