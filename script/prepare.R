@@ -21,8 +21,14 @@ updated <-
   inner_join(new, old, by = "path") %>%
   filter(!map2_lgl(new, old, identical))
 
-updated %>%
-  select(con = path, text = new) %>%
-  pwalk(writeLines)
+if (nrow(updated) > 0) {
+  updated %>%
+    select(con = path, text = new) %>%
+    pwalk(writeLines)
 
-create_all_json()
+  create_all_json()
+  gert::git_add("docs")
+  gert::git_commit("Update definition for existing packages")
+  gert::git_pull()
+  gert::git_push()
+}

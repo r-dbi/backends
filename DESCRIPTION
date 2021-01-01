@@ -13,6 +13,7 @@ License: GPL-3
 URL: https://github.com/r-dbi/backends
 BugReports: https://github.com/r-dbi/backends/issues
 Imports: 
+    gert,
     gh (>= 1.1.0),
     pkgload,
     pkgsearch,
