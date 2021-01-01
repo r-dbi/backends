@@ -11,8 +11,9 @@ pr_new <- function(path, new) {
     message("Creating new branch: ", name)
     gert::git_branch_create(name)
   }
-  message("Checking out existing branch:", name)
+  message("Checking out branch: ", name)
   gert::git_branch_checkout(name)
+
   on.exit(gert::git_branch_checkout(old_branch))
 
   message("Writing ", path)
