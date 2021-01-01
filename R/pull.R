@@ -25,7 +25,12 @@ pr_new <- function(path, new) {
   if (path %in% gert::git_status()$file) {
     message("Committing")
     title <- paste0("New package: ", name)
-    body <- "Merge this if you think this is a DBI backend."
+
+    # FIXME: Align with search expression
+    body <- paste0(
+      "Merge this if you think this is a DBI backend.\n\n",
+      "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
+    )
 
     gert::git_add("docs")
     gert::git_commit(title)
