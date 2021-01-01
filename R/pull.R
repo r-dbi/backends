@@ -16,6 +16,8 @@ pr_new <- function(path, new) {
 
   on.exit(gert::git_branch_checkout(old_branch))
 
+  gert::git_merge(old_branch)
+
   message("Writing ", path)
   writeLines(new, path)
   create_all_json()
@@ -23,18 +25,25 @@ pr_new <- function(path, new) {
   if (path %in% gert::git_status()$file) {
     message("Committing")
     title <- paste0("New package: ", name)
-    body <- "Merge this if you think this is a DBI backend."
+
+    # FIXME: Align with search expression
+    body <- paste0(
+      "Merge this if you think this is a DBI backend.\n\n",
+      "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
+    )
 
     gert::git_add("docs")
     gert::git_commit(title)
-
-    message("Pushing")
-    gert::git_push()
   }
 
+  message("Pushing")
+  gert::git_push()
+
   # FIXME: Hard code
+  message("Checking if PR is already open")
   open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "open", head = paste0("r-dbi:", name))
   if (length(open_pr) == 0) {
+    message("Opening PR")
     gh::gh(
       "/repos/r-dbi/backends/pulls", head = name, base = old_branch,
       title = title, body = body,
