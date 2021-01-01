@@ -30,6 +30,8 @@ jobs:
         shell: bash
 
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - uses: r-lib/actions/setup-r@v1
 
