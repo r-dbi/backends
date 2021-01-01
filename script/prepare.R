@@ -34,7 +34,7 @@ if (nrow(updated) > 0) {
 }
 
 if (nrow(added) > 0) {
-  added <- added[1, ]
+  added <- added[2, ]
 
   pwalk(added, pr_new)
 }
