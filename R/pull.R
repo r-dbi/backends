@@ -30,8 +30,11 @@ pr_new <- function(path, new) {
 
     message("Pushing")
     gert::git_push(set_upstream = TRUE)
+  }
 
-    # FIXME: Hard code
+  # FIXME: Hard code
+  open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "open", head = paste0("r-dbi:", name))
+  if (length(open_pr) == 0) {
     gh::gh(
       "/repos/r-dbi/backends/pulls", head = name, base = old_branch,
       title = title, body = body,
