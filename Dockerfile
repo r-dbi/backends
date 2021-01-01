@@ -1,4 +1,4 @@
-FROM r-ubuntu:latest
+FROM rocker/r-ubuntu:latest
 
 RUN R -e 'getRversion()'
 
