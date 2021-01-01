@@ -7,7 +7,6 @@ pr_new <- function(path, new) withAutoprint({
   exists
 
   if (!exists) {
-  } else {
     # checkout = TRUE didn't work
     message("Creating new branch: ", name)
     gert::git_branch_create(name)
