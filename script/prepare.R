@@ -11,8 +11,18 @@ dir.create("docs/by-package", showWarnings = FALSE)
 
 new <- pkg_tbl_to_json(pkg_tbl)
 
-new %>%
-  rename(con = path, text = new) %>%
+old <- read_by_pkg()
+
+added <- anti_join(new, old, by = "path")
+
+removed <- anti_join(old, new, by = "path")
+
+updated <-
+  inner_join(new, old, by = "path") %>%
+  filter(!map2_lgl(new, old, identical))
+
+updated %>%
+  select(con = path, text = new) %>%
   pwalk(writeLines)
 
 create_all_json()
