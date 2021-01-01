@@ -24,7 +24,7 @@ pr_new <- function(path, new) {
 
   title <- paste0("New package: ", name)
   body <- paste0(
-    "Merge this if you think this is a DBI backend.\n\n",
+    "Merge this if you think this is a DBI backend. Convert to a draft and leave open if not.\n\n",
     "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setMethod"
   )
 
