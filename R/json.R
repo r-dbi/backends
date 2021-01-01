@@ -13,13 +13,15 @@ read_by_pkg <- function() {
   names <- sub("[.][^.]*$", "", basename(files))
   text <- map(set_names(files, names), readLines)
 
-  tibble(path = files, name = names, old = text)
+  old <- map(text, ~ structure(paste(.x, collapse = "\n"), class = "json"))
+
+  tibble(path = files, name = names, old)
 }
 
 create_all_json <- function() {
   all <- read_by_pkg()
 
-  all_named <- unname(map2(all$old, all$name, ~ { rlang::list2(name = .y, !!!jsonlite::fromJSON(.x)) }))
+  all_named <- unname(map2(all$old, all$name, ~ { rlang::list2(name = .y, !!!jsonlite::fromJSON(.x[[1]])) }))
 
   all_url <- map(all_named, ~ {
     if (length(.x$url) == 0) .x$url <- NULL
