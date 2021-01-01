@@ -9,9 +9,10 @@ dir.create("docs", showWarnings = FALSE)
 unlink("docs/by-package", recursive = TRUE)
 dir.create("docs/by-package", showWarnings = FALSE)
 
-json <- pkg_tbl_to_json(pkg_tbl)
+new <- pkg_tbl_to_json(pkg_tbl)
 
-json %>%
+new %>%
+  rename(con = path, text = new) %>%
   pwalk(writeLines)
 
 create_all_json()
