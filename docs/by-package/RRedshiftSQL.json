@@ -1,0 +1,10 @@
+{
+  "version": "0.1.2",
+  "title": "R Interface to the 'Redshift' Database",
+  "description": "Superclasses 'PostgreSQL' connection to help enable full 'dplyr' functionality on 'Redshift'.",
+  "date": "2016-09-15",
+  "maintainer": "Michael Treadwell <michael.treadwell@interworks.com>",
+  "license": "GPL-2",
+  "url": null,
+  "bugs": null
+}
