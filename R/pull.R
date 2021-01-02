@@ -81,7 +81,8 @@ pr_send <- function(path, old_branch, title, body) {
       title = title, body = body,
       .method = "POST"
     )
-  } else if (open_pr[[1]]$state != "open") {
+  } else {
+    # Unconditionally overwrite title, body and state
     gh::gh(
       paste0("/repos/r-dbi/backends/pulls/", open_pr[[1]]$number),
       state = "open",
