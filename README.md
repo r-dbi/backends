@@ -229,18 +229,6 @@ using ‘dplyr’/‘dbplyr’ idioms.
 Maintainer: Christian Hotz-Behofsits
 <christian.hotz-behofsits@wu.ac.at>. License: GPL-2
 
-## [RecordLinkage](https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf) 0.4-12.1 (2020-08-25)
-
-Record Linkage Functions for Linking and Deduplicating Data Sets
-
-Provides functions for linking and deduplicating data sets. Methods
-based on a stochastic approach are implemented as well as classification
-algorithms from the machine learning domain. For details, see our paper
-“The RecordLinkage Package: Detecting Errors in Data” Sariyar M / Borg
-A (2010) <doi:10.32614/RJ-2010-017>.
-
-Maintainer: Murat Sariyar <murat.sariyar@bfh.ch>. License: GPL (\>= 2)
-
 ## [RH2](https://github.com/dmkaplan2000/RH2.git) 0.2.4 (2018-03-14)
 
 DBI/RJDBC Interface to H2 Database
@@ -394,38 +382,6 @@ machine learning algorithms.
 
 Maintainer: Yitao Li <yitao@rstudio.com>. License: Apache License 2.0 |
 file LICENSE
-
-## [TSfame](http://tsdbi.r-forge.r-project.org/) 2015.4-1 (2015-04-30)
-
-‘TSdbi’ Extensions for Fame
-
-A ‘fame’ interface for ‘TSdbi’. Comprehensive examples of all the ’TS\*’
-packages is provided in the vignette Guide.pdf with the ‘TSdata’
-package.
-
-Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
-
-## [TShistQuote](http://tsdbi.r-forge.r-project.org/) 2013.9-1 (2013-09-29)
-
-TSdbi extensions for get.hist.quote
-
-Provides methods for generics in the TSdbi package to retrieve data from
-historical quote URLs. Comprehensive examples of all the TS\* packages
-is provided in the vignette Guide.pdf with the TSdata package.
-
-Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
-
-## [TSmisc](http://tsdbi.r-forge.r-project.org/) 2016.8-1 (2016-08-26)
-
-‘TSdbi’ Extensions to Wrap Miscellaneous Data Sources
-
-Methods to retrieve data from several different sources. This include
-historical quote data from ‘Yahoo’ and ‘Oanda’, economic data from
-‘FRED’, and ‘xls’ and ‘csv’ data from different sources.
-Comprehensive examples of all the ’TS\*’ packages is provided in the
-vignette Guide.pdf with the ‘TSdata’ package.
-
-Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
 
 # Implementation
 
