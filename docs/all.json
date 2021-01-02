@@ -389,16 +389,6 @@
     "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
-    "name": "TSjson",
-    "version": "2014.4-1",
-    "title": "TSdbi extension for importing time series from web sources via JSON",
-    "description": "Provides methods for generics in the TSdbi package to retrieve data from web data sources, importing them using Javascript object notation. Direct connections or a proxy connection are possible. (Only Statistics Canada connections are currently supported.) Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2014-04-09",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
     "name": "TSmisc",
     "version": "2016.8-1",
     "title": "'TSdbi' Extensions to Wrap Miscellaneous Data Sources",
