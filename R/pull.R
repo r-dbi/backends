@@ -15,7 +15,7 @@ pr_local_checkout <- function(name, .env = parent.frame()) {
   withr::defer(gert::git_branch_checkout(old_branch), .env)
 
   if (gert::git_ahead_behind(old_branch)$behind > 0) {
-    gert::git_merge(old_branch)
+    stopifnot(system2("git", c("merge", old_branch, "-X", "theirs", "--no-edit")) == 0)
   }
 
   invisible(old_branch)
