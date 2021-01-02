@@ -75,7 +75,8 @@ pr_send <- function(path, old_branch, title, body) {
   message("Checking if PR is already open")
   open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "all", head = paste0("r-dbi:", name))
   merged <- map_chr(open_pr, "merged")
-  if (all(merged == "true")) {
+  unmerged_pr <- open_pr[merged == "false"]
+  if (length(unmerged_pr) == 0) {
     message("Opening PR")
     gh::gh(
       "/repos/r-dbi/backends/pulls", head = name, base = old_branch,
@@ -85,7 +86,7 @@ pr_send <- function(path, old_branch, title, body) {
   } else {
     # Unconditionally overwrite title, body and state
     gh::gh(
-      paste0("/repos/r-dbi/backends/pulls/", open_pr[[1]]$number),
+      paste0("/repos/r-dbi/backends/pulls/", unmerged_pr[[1]]$number),
       state = "open",
       title = title, body = body,
       .method = "PATCH"
