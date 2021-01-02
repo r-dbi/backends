@@ -1,0 +1,10 @@
+{
+  "version": "1.0-0",
+  "title": "MEGAPhylogeny Techniques in R",
+  "description": "Given a set of taxa and marker, the goal is build a complete and correct sequence alignment for phylogenetic analysis.",
+  "date": "2014-11-13",
+  "maintainer": "Christoph Heibl <christoph.heibl@gmx.net>",
+  "license": "GPL (>= 2)",
+  "url": null,
+  "bugs": null
+}
