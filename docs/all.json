@@ -200,7 +200,7 @@
     "date": "2020-08-25",
     "maintainer": "Murat Sariyar <murat.sariyar@bfh.ch>",
     "license": "GPL (>= 2)",
-    "url": ["", "https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"]
+    "url": ["https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"]
   },
   {
     "name": "RJDBC",
