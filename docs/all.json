@@ -203,6 +203,17 @@
     "url": ["https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"]
   },
   {
+    "name": "recordr",
+    "version": "1.0.3",
+    "title": "R Provenance Tracking",
+    "description": "Provide methods to record data provenance about R script executions. Provenance data includes files that were read and written by the script, along with information about the execution, such as start time end time, the R modules loaded during the execution, and other information describing the execution environment.",
+    "date": "2016-08-31",
+    "maintainer": "Peter Slaughter <slaughter@nceas.ucsb.edu>",
+    "license": "Apache License 2.0",
+    "url": ["https://github.com/NCEAS/recordr"],
+    "bugs": "https://github.com/NCEAS/recordr/issues"
+  },
+  {
     "name": "RJDBC",
     "version": "0.2-8",
     "title": "Provides Access to Databases Through the JDBC Interface",
