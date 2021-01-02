@@ -1,7 +1,22 @@
+get_query_keywords <- function() {
+  c("setClass", "DBIConnection")
+}
+
+get_api_query <- function() {
+  paste0(c(get_query_keywords(), "org:cran"), collapse = "")
+}
+
+get_query_url <- function(name) {
+  paste0(
+    "https://github.com/cran/",  name, "/search?q=",
+    paste(get_query_keywords(), collapse = "+")
+  )
+}
+
 fetch_pkg_tbl <- function() {
   x <- gh::gh(
     "/search/code",
-    q = "setClass DBIConnection org:cran",
+    q = get_api_query(),
     per_page = 100
   )
 

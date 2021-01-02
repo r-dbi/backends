@@ -32,7 +32,7 @@ pr_new <- function(path, new) {
   title <- paste0("New package: ", name)
   body <- paste0(
     "Merge this if you think this is a DBI backend. Convert to a draft and leave open if not.\n\n",
-    "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setClass"
+    "Decision based on: ", get_query_url(name)
   )
 
   pr_send(path, old_branch, title, body)
@@ -49,7 +49,7 @@ pr_old <- function(path) {
   title <- paste0("Removed package: ", name)
   body <- paste0(
     "Merge this if you no longer think this is a DBI backend. Convert to a draft and leave open if it is a DBI backend.\n\n",
-    "Decision based on: https://github.com/cran/",  name, "/search?q=DBIConnection+setClass"
+    "Decision based on: ", get_query_url(name)
   )
 
   pr_send(path, old_branch, title, body)
