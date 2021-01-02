@@ -369,31 +369,11 @@
     "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
-    "name": "TSgetSymbol",
-    "version": "2013.9-1",
-    "title": "TSdbi extension to connect with getSymbols",
-    "description": "Provides methods for generics in the TSdbi package to retrieve data with getSymbols, in particular from the Federal Reserve FRED database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2013-09-29",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
     "name": "TShistQuote",
     "version": "2013.9-1",
     "title": "TSdbi extensions for get.hist.quote",
     "description": "Provides methods for generics in the TSdbi package to retrieve data from historical quote URLs. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
     "date": "2013-09-29",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSjson",
-    "version": "2014.4-1",
-    "title": "TSdbi extension for importing time series from web sources via JSON",
-    "description": "Provides methods for generics in the TSdbi package to retrieve data from web data sources, importing them using Javascript object notation. Direct connections or a proxy connection are possible. (Only Statistics Canada connections are currently supported.) Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2014-04-09",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
     "url": ["http://tsdbi.r-forge.r-project.org/"]
@@ -409,16 +389,6 @@
     "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
-    "name": "TSodbc",
-    "version": "2015.4-1",
-    "title": "'TSdbi' Extensions for ODBC",
-    "description": "An ODBC interface for 'TSdbi'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2015-04-30",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
     "name": "TSpadi",
     "version": "2012.8-1",
     "title": "TSdbi extensions for PADI Time Series Server",
@@ -429,20 +399,10 @@
     "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
-    "name": "TSsdmx",
-    "version": "2016.8-1",
-    "title": "'TSdbi' Extension to Connect with 'SDMX'",
-    "description": "Methods to retrieve data in the Statistical Data and Metadata Exchange ('SDMX') format from several database. (For example, 'EuroStat', the European Central Bank, the Organisation for Economic Co-operation and Development, the 'Unesco' Institute for Statistics, and the International Labor Organization.) This is a wrapper for package 'RJSDMX'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2016-08-26",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSzip",
-    "version": "2013.9-1",
-    "title": "TSdbi extension to connect to zip files",
-    "description": "Provides TSdbi package methods to retrieve time series data from zipped, as if the files form a database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
+    "name": "TSxls",
+    "version": "2013.8-2",
+    "title": "TSdbi extension to connect to spreadsheets",
+    "description": "Provides TSdbi package methods to retrieve time series data from spreadsheets, pretending the spreadsheet is a database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
     "date": "2013-09-29",
     "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
     "license": "GPL-2",
