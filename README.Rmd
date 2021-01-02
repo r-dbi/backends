@@ -1,7 +1,5 @@
 ---
-output:
-  github_document:
-    df_print: kable
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -48,7 +46,9 @@ fix_url <- function(x) {
 
 all_df$url <- purrr::map_chr(all_df$url, fix_url)
 all_df$bugs <- purrr::map_chr(all_df$bugs, fix_url)
-all_df
+all_df[] <- purrr::map(all_df, knitr:::escape_html)
+all_df$description <- paste0("<details>", all_df$description, "</details>")
+knitr::kable(all_df, "html", escape = FALSE)
 ```
 
 ### Query a single package
