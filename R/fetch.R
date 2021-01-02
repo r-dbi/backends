@@ -1,5 +1,5 @@
 get_query_keywords <- function() {
-  c("setClass", "DBIConnection")
+  c("setMethod", "dbSendQuery")
 }
 
 get_api_query <- function() {
