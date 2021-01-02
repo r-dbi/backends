@@ -19,11 +19,11 @@ An interface to ‘Azure Data Explorer’, also known as ‘Kusto’, a fast,
 highly scalable data exploration service from Microsoft:
 <https://azure.microsoft.com/en-us/services/data-explorer/>. Includes
 ‘DBI’ and ‘dplyr’ interfaces, with the latter modelled after the
-‘dbplyr’ package, whereby queries are translated from R into the
-native ‘KQL’ query language and executed lazily. On the admin side, the
-package extends the object framework provided by ‘AzureRMR’ to support
-creation and deletion of databases, and management of database
-principals. Part of the ‘AzureR’ family of packages.
+‘dbplyr’ package, whereby queries are translated from R into the native
+‘KQL’ query language and executed lazily. On the admin side, the package
+extends the object framework provided by ‘AzureRMR’ to support creation
+and deletion of databases, and management of database principals. Part
+of the ‘AzureR’ family of packages.
 
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
@@ -41,9 +41,8 @@ Maintainer: Hadley Wickham <hadley@rstudio.com>. License: GPL-3
 Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API
 
 Client for ‘CKAN’ API (<https://ckan.org/>). Includes interface to
-‘CKAN’ ‘APIs’ for search, list, show for packages, organizations,
-and resources. In addition, provides an interface to the ‘datastore’
-API.
+‘CKAN’ ‘APIs’ for search, list, show for packages, organizations, and
+resources. In addition, provides an interface to the ‘datastore’ API.
 
 Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>. License: MIT +
 file LICENSE
@@ -111,7 +110,7 @@ contexts) all without needing to spin up or have access to the database
 your code would typically connect to.
 
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
-(\>= 2.0)
+(&gt;= 2.0)
 
 ## [duckdb](https://duckdb.org/) 0.2.3 (2020-12-12) [:link:](https://github.com/cwida/duckdb) [:bug:](https://github.com/cwida/duckdb/issues)
 
@@ -135,7 +134,7 @@ processing query engine for Apache ‘Hadoop’. Impala enables low-latency
 ‘Isilon’. See <https://impala.apache.org> for more information about
 Impala.
 
-Maintainer: Ian Cook <ian@cloudera.com>. License: Apache License 2.0 |
+Maintainer: Ian Cook <ian@cloudera.com>. License: Apache License 2.0 \|
 file LICENSE
 
 ## [lazysf](https://github.com/mdsumner/lazysf) 0.1.0 (2020-11-14) [:bug:](https://github.com/mdsumner/lazysf/issues)
@@ -236,10 +235,10 @@ Record Linkage Functions for Linking and Deduplicating Data Sets
 Provides functions for linking and deduplicating data sets. Methods
 based on a stochastic approach are implemented as well as classification
 algorithms from the machine learning domain. For details, see our paper
-“The RecordLinkage Package: Detecting Errors in Data” Sariyar M / Borg
-A (2010) <doi:10.32614/RJ-2010-017>.
+“The RecordLinkage Package: Detecting Errors in Data” Sariyar M / Borg A
+(2010) <doi:10.32614/RJ-2010-017>.
 
-Maintainer: Murat Sariyar <murat.sariyar@bfh.ch>. License: GPL (\>= 2)
+Maintainer: Murat Sariyar <murat.sariyar@bfh.ch>. License: GPL (&gt;= 2)
 
 ## [RH2](https://github.com/dmkaplan2000/RH2.git) 0.2.4 (2018-03-14)
 
@@ -324,7 +323,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 ‘libpq’ library source will be used.
 
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
-License: GPL-2 | file LICENSE
+License: GPL-2 \| file LICENSE
 
 ## [RPresto](https://github.com/prestodb/RPresto) 1.3.5 (2020-11-13) [:bug:](https://github.com/prestodb/RPresto/issues)
 
@@ -356,7 +355,7 @@ Embeds the ‘SQLite’ database engine in R and provides an interface
 compliant with the ‘DBI’ package. The source for the ‘SQLite’ engine is
 included.
 
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: LGPL (\>=
+Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: LGPL (&gt;=
 2.1)
 
 ## [RSQLServer](https://github.com/imanuelcostigan/RSQLServer) 0.3.0 (2017-06-17) [:bug:](https://github.com/imanuelcostigan/RSQLServer/issues)
@@ -392,7 +391,7 @@ connecting to local and remote Apache Spark clusters, provides a ‘dplyr’
 compatible back-end, and provides an interface to Spark’s built-in
 machine learning algorithms.
 
-Maintainer: Yitao Li <yitao@rstudio.com>. License: Apache License 2.0 |
+Maintainer: Yitao Li <yitao@rstudio.com>. License: Apache License 2.0 \|
 file LICENSE
 
 ## [TSfame](http://tsdbi.r-forge.r-project.org/) 2015.4-1 (2015-04-30)
@@ -421,9 +420,9 @@ Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
 
 Methods to retrieve data from several different sources. This include
 historical quote data from ‘Yahoo’ and ‘Oanda’, economic data from
-‘FRED’, and ‘xls’ and ‘csv’ data from different sources.
-Comprehensive examples of all the ’TS\*’ packages is provided in the
-vignette Guide.pdf with the ‘TSdata’ package.
+‘FRED’, and ‘xls’ and ‘csv’ data from different sources. Comprehensive
+examples of all the ’TS\*’ packages is provided in the vignette
+Guide.pdf with the ‘TSdata’ package.
 
 Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
 
@@ -508,7 +507,7 @@ The database is updated via `script/prepare.R` which is run daily by
 GitHub Actions. Existing packages are updated directly. For new or
 removed packages, pull requests are opened.
 
------
+------------------------------------------------------------------------
 
 Please note that the ‘backends’ project is released with a [Contributor
 Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
