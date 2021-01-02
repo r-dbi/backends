@@ -6,6 +6,7 @@ sanitize_text <- function(x) {
 }
 
 sanitize_multi <- function(x) {
+  x <- sub("^[ \n]*", "", x)
   x <- strsplit(x, "(?:[,\n][ \n]*)", perl = TRUE)
   x <- map(x, ~ gsub(" .*$", "", .))
   x
