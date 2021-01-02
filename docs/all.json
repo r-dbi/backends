@@ -182,17 +182,6 @@
     "bugs": "https://github.com/rstudio/pool/issues"
   },
   {
-    "name": "rapbase",
-    "version": "1.10.0",
-    "title": "Base Functions and Resources for Rapporteket",
-    "description": "Provide common functions and resources for registry specific R-packages at Rapporteket <https://rapporteket.github.io/rapporteket/articles/short_introduction.html>. This package is relevant for developers of packages/registries at Rapporteket.",
-    "date": "2019-08-07",
-    "maintainer": "Are Edvardsen <biorakel@gmail.com>",
-    "license": "GPL-3",
-    "url": ["http://github.com/Rapporteket/rapbase"],
-    "bugs": "http://github.com/Rapporteket/rapbase/issues"
-  },
-  {
     "name": "RAthena",
     "version": "1.11.1",
     "title": "Connect to 'AWS Athena' using 'Boto3' ('DBI' Interface)",
