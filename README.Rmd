@@ -21,6 +21,9 @@ knitr::opts_chunk$set(
 
 List of [DBI](https://dbi.r-dbi.org) backends.
 
+Do you maintain a backend and think that yours should be on this list?
+Please open an issue in this repository.
+
 ```{r all-from-file, include = FALSE}
 all_df <- jsonlite::fromJSON("docs/all.json", flatten = TRUE)
 ```
