@@ -19,6 +19,8 @@ updated <-
   filter(!map2_lgl(new, old, identical))
 
 updated
+added
+removed
 
 if (nrow(updated) > 0) {
   updated %>%
