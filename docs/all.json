@@ -369,16 +369,6 @@
     "url": ["http://tsdbi.r-forge.r-project.org/"]
   },
   {
-    "name": "TSgetSymbol",
-    "version": "2013.9-1",
-    "title": "TSdbi extension to connect with getSymbols",
-    "description": "Provides methods for generics in the TSdbi package to retrieve data with getSymbols, in particular from the Federal Reserve FRED database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2013-09-29",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
     "name": "TShistQuote",
     "version": "2013.9-1",
     "title": "TSdbi extensions for get.hist.quote",
