@@ -427,28 +427,6 @@ vignette Guide.pdf with the ‘TSdata’ package.
 
 Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
 
-## [TSpadi](http://tsdbi.r-forge.r-project.org/) 2012.8-1 (2012-10-02)
-
-TSdbi extensions for PADI Time Series Server
-
-Provides methods for generics in the TSdbi package to connect through a
-protocol for application database interface (PADI) to a time series
-database (e.g. Fame). Comprehensive examples of all the TS\* packages is
-provided in the vignette Guide.pdf with the TSdata package.
-
-Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
-
-## [TSxls](http://tsdbi.r-forge.r-project.org/) 2013.8-2 (2013-09-29)
-
-TSdbi extension to connect to spreadsheets
-
-Provides TSdbi package methods to retrieve time series data from
-spreadsheets, pretending the spreadsheet is a database. Comprehensive
-examples of all the TS\* packages is provided in the vignette Guide.pdf
-with the TSdata package.
-
-Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>. License: GPL-2
-
 # Implementation
 
 The list of all known DBI backends is provided as a set of static JSON
