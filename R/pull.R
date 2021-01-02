@@ -15,7 +15,7 @@ pr_local_checkout <- function(name, .env = parent.frame()) {
   withr::defer(gert::git_branch_checkout(old_branch), .env)
 
   if (gert::git_ahead_behind(old_branch)$behind > 0) {
-    gert::git_merge(old_branch)
+    stopifnot(system2("git", c("merge", old_branch, "-X", "theirs", "--no-edit")) == 0)
   }
 
   invisible(old_branch)
@@ -58,8 +58,6 @@ pr_old <- function(path) {
 pr_send <- function(path, old_branch, title, body) {
   name <- name_from_path(path)
 
-  create_all_json()
-
   if (path %in% gert::git_status()$file) {
     message("Committing")
     # FIXME: Align with search expression
@@ -74,8 +72,8 @@ pr_send <- function(path, old_branch, title, body) {
   # FIXME: Hard code
   message("Checking if PR is already open")
   open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "all", head = paste0("r-dbi:", name))
-  merged <- map_chr(open_pr, pluck, "merged", .default = "false")
-  unmerged_pr <- open_pr[merged == "false"]
+  merged_at <- map_chr(open_pr, pluck, "merged_at", .default = NA_character_)
+  unmerged_pr <- open_pr[is.na(merged_at)]
   if (length(unmerged_pr) == 0) {
     message("Opening PR")
     gh::gh(
@@ -84,9 +82,12 @@ pr_send <- function(path, old_branch, title, body) {
       .method = "POST"
     )
   } else {
+    pr <- unmerged_pr[[1]]$number
+    message("Patching PR #", pr)
+
     # Unconditionally overwrite title, body and state
     gh::gh(
-      paste0("/repos/r-dbi/backends/pulls/", unmerged_pr[[1]]$number),
+      paste0("/repos/r-dbi/backends/pulls/", pr),
       state = "open",
       title = title, body = body,
       .method = "PATCH"
