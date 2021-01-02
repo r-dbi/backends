@@ -319,16 +319,6 @@
     "bugs": "https://gitlab.com/hrbrmstr/sergeant/issues"
   },
   {
-    "name": "TSdbi",
-    "version": "2017.4-1",
-    "title": "Time Series Database Interface",
-    "description": "Provides a common interface to time series databases. The objective is to define a standard interface so users can retrieve time series data from various sources with a simple, common, set of commands, and so programs can be written to be portable with respect to the data source. The SQL implementations also provide a database table design, so users needing to set up a time series database have a reasonably complete way to do this easily. The interface provides for a variety of options with respect to the representation of time series in R. The interface, and the SQL implementations, also handle vintages of time series data (sometime called editions or real-time data). There is also a (not yet well tested) mechanism to handle multilingual data documentation. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2017-05-10",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
     "name": "TSfame",
     "version": "2015.4-1",
     "title": "'TSdbi' Extensions for Fame",
