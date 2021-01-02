@@ -61,6 +61,13 @@ httr::stop_for_status(first)
 httr::content(first)
 ```
 
+
+## Updating the database
+
+The database is updated via `script/prepare.R` which is run daily by GitHub Actions.
+Existing packages are updated directly.
+For new or removed packages, pull requests are opened.
+
 ---
 
 Please note that the 'backends' project is released with a
