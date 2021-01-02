@@ -150,10 +150,10 @@
   },
   {
     "name": "pool",
-    "version": "0.1.4.3",
+    "version": "0.1.5",
     "title": "Object Pooling",
     "description": "Enables the creation of object pools, which make it less computationally expensive to fetch a new object. Currently the only supported pooled objects are 'DBI' connections.",
-    "date": "2019-10-03",
+    "date": "2020-11-03",
     "maintainer": "Joe Cheng <joe@rstudio.com>",
     "license": "GPL-3",
     "url": ["https://github.com/rstudio/pool"],
@@ -182,14 +182,14 @@
     "bugs": "https://github.com/IMSMWU/RClickhouse/issues"
   },
   {
-    "name": "RecordLinkage",
-    "version": "0.4-12.1",
-    "title": "Record Linkage Functions for Linking and Deduplicating Data Sets",
-    "description": "Provides functions for linking and deduplicating data sets. Methods based on a stochastic approach are implemented as well as classification algorithms from the machine learning domain. For details, see our paper \"The RecordLinkage Package: Detecting Errors in Data\" Sariyar M / Borg A (2010) <doi:10.32614/RJ-2010-017>.",
-    "date": "2020-08-25",
-    "maintainer": "Murat Sariyar <murat.sariyar@bfh.ch>",
-    "license": "GPL (>= 2)",
-    "url": ["https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf"]
+    "name": "RH2",
+    "version": "0.2.4",
+    "title": "DBI/RJDBC Interface to H2 Database",
+    "description": "DBI/RJDBC interface to h2 database. h2 version 1.3.175 is included.",
+    "date": "2018-03-14",
+    "maintainer": "\"David M. Kaplan\" <dmkaplan2000@gmail.com>",
+    "license": "Mozilla Public License 1.1",
+    "url": ["https://github.com/dmkaplan2000/RH2.git"]
   },
   {
     "name": "RJDBC",
@@ -275,6 +275,15 @@
     "bugs": "https://github.com/prestodb/RPresto/issues"
   },
   {
+    "name": "RRedshiftSQL",
+    "version": "0.1.2",
+    "title": "R Interface to the 'Redshift' Database",
+    "description": "Superclasses 'PostgreSQL' connection to help enable full 'dplyr' functionality on 'Redshift'.",
+    "date": "2016-09-15",
+    "maintainer": "Michael Treadwell <michael.treadwell@interworks.com>",
+    "license": "GPL-2"
+  },
+  {
     "name": "RSQLite",
     "version": "2.2.1",
     "title": "'SQLite' Interface for R",
@@ -308,113 +317,14 @@
     "bugs": "https://gitlab.com/hrbrmstr/sergeant/issues"
   },
   {
-    "name": "TSdbi",
-    "version": "2017.4-1",
-    "title": "Time Series Database Interface",
-    "description": "Provides a common interface to time series databases. The objective is to define a standard interface so users can retrieve time series data from various sources with a simple, common, set of commands, and so programs can be written to be portable with respect to the data source. The SQL implementations also provide a database table design, so users needing to set up a time series database have a reasonably complete way to do this easily. The interface provides for a variety of options with respect to the representation of time series in R. The interface, and the SQL implementations, also handle vintages of time series data (sometime called editions or real-time data). There is also a (not yet well tested) mechanism to handle multilingual data documentation. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2017-05-10",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSfame",
-    "version": "2015.4-1",
-    "title": "'TSdbi' Extensions for Fame",
-    "description": "A 'fame' interface for 'TSdbi'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2015-04-30",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSgetSymbol",
-    "version": "2013.9-1",
-    "title": "TSdbi extension to connect with getSymbols",
-    "description": "Provides methods for generics in the TSdbi package to retrieve data with getSymbols, in particular from the Federal Reserve FRED database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2013-09-29",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TShistQuote",
-    "version": "2013.9-1",
-    "title": "TSdbi extensions for get.hist.quote",
-    "description": "Provides methods for generics in the TSdbi package to retrieve data from historical quote URLs. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2013-09-29",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSjson",
-    "version": "2014.4-1",
-    "title": "TSdbi extension for importing time series from web sources via JSON",
-    "description": "Provides methods for generics in the TSdbi package to retrieve data from web data sources, importing them using Javascript object notation. Direct connections or a proxy connection are possible. (Only Statistics Canada connections are currently supported.) Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2014-04-09",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSmisc",
-    "version": "2016.8-1",
-    "title": "'TSdbi' Extensions to Wrap Miscellaneous Data Sources",
-    "description": "Methods to retrieve data from several different sources. This include historical quote data from 'Yahoo' and 'Oanda', economic data from 'FRED', and 'xls' and 'csv' data from different sources. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2016-08-26",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSodbc",
-    "version": "2015.4-1",
-    "title": "'TSdbi' Extensions for ODBC",
-    "description": "An ODBC interface for 'TSdbi'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2015-04-30",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSpadi",
-    "version": "2012.8-1",
-    "title": "TSdbi extensions for PADI Time Series Server",
-    "description": "Provides methods for generics in the TSdbi package to connect through a protocol for application database interface (PADI) to a time series database (e.g. Fame).  Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2012-10-02",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSsdmx",
-    "version": "2016.8-1",
-    "title": "'TSdbi' Extension to Connect with 'SDMX'",
-    "description": "Methods to retrieve data in the Statistical Data and Metadata Exchange ('SDMX') format from several database. (For example, 'EuroStat', the European Central Bank, the Organisation for Economic Co-operation and Development, the 'Unesco' Institute for Statistics, and the International Labor Organization.) This is a wrapper for package 'RJSDMX'. Comprehensive examples of all the 'TS*' packages is provided in the vignette Guide.pdf with the 'TSdata' package.",
-    "date": "2016-08-26",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSxls",
-    "version": "2013.8-2",
-    "title": "TSdbi extension to connect to spreadsheets",
-    "description": "Provides TSdbi package methods to retrieve time series data from spreadsheets, pretending the spreadsheet is a database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2013-09-29",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
-  },
-  {
-    "name": "TSzip",
-    "version": "2013.9-1",
-    "title": "TSdbi extension to connect to zip files",
-    "description": "Provides TSdbi package methods to retrieve time series data from zipped, as if the files form a database. Comprehensive examples of all the TS* packages is provided in the vignette Guide.pdf with the TSdata package.",
-    "date": "2013-09-29",
-    "maintainer": "Paul Gilbert <pgilbert.ttv9z@ncf.ca>",
-    "license": "GPL-2",
-    "url": ["http://tsdbi.r-forge.r-project.org/"]
+    "name": "sparklyr",
+    "version": "1.5.2",
+    "title": "R Interface to Apache Spark",
+    "description": "R interface to Apache Spark, a fast and general engine for big data processing, see <http://spark.apache.org>. This package supports connecting to local and remote Apache Spark clusters, provides a 'dplyr' compatible back-end, and provides an interface to Spark's built-in machine learning algorithms.",
+    "date": "2020-12-11",
+    "maintainer": "Yitao Li <yitao@rstudio.com>",
+    "license": "Apache License 2.0 | file LICENSE",
+    "url": ["https://spark.rstudio.com/"],
+    "bugs": "https://github.com/sparklyr/sparklyr/issues"
   }
 ]

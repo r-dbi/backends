@@ -1,5 +1,5 @@
 get_query_keywords <- function() {
-  c("setClass", "DBIConnection")
+  c("setMethod", "dbSendQuery")
 }
 
 get_api_query <- function() {
@@ -19,6 +19,8 @@ fetch_pkg_tbl <- function() {
     q = get_api_query(),
     per_page = 100
   )
+
+  stopifnot(length(x$items) < 100)
 
   pkg <-
     tibble(items = x$items) %>%
