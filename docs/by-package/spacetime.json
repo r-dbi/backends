@@ -1,0 +1,10 @@
+{
+  "version": "1.2-3",
+  "title": "Classes and Methods for Spatio-Temporal Data",
+  "description": "Classes and methods for spatio-temporal data, including space-time regular lattices, sparse lattices, irregular data, and trajectories; utility functions for plotting data as map sequences (lattice or animation) or multiple time series; methods for spatial and temporal selection and subsetting, as well as for spatial/temporal/spatio-temporal matching or aggregation, retrieving coordinates, print, summary, etc.",
+  "date": "2020-01-21",
+  "maintainer": "Edzer Pebesma <edzer.pebesma@uni-muenster.de>",
+  "license": "GPL (>= 2)",
+  "url": "http://github.com/edzer/spacetime",
+  "bugs": "https://github.com/edzer/spacetime/issues"
+}
