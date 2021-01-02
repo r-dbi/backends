@@ -341,17 +341,6 @@
     "bugs": "https://gitlab.com/hrbrmstr/sergeant/issues"
   },
   {
-    "name": "SpaDES.core",
-    "version": "1.0.3",
-    "title": "Core Utilities for Developing and Running Spatially Explicit Discrete Event Models",
-    "description": "Provides the core framework for a discrete event system (DES) to implement a complete data-to-decisions, reproducible workflow. The core DES components facilitate modularity, and easily enable the user to include additional functionality by running user-built modules. Includes conditional scheduling, restart after interruption, packaging of reusable modules, tools for developing arbitrary automated workflows, automated interweaving of modules of different temporal resolution, and tools for visualizing and understanding the DES project.",
-    "date": "2020-09-12",
-    "maintainer": "Alex M Chubaty <alex.chubaty@gmail.com>",
-    "license": "GPL-3",
-    "url": ["https://spades-core.predictiveecology.org/", "https://github.com/PredictiveEcology/SpaDES.core"],
-    "bugs": "https://github.com/PredictiveEcology/SpaDES.core/issues"
-  },
-  {
     "name": "TSdbi",
     "version": "2017.4-1",
     "title": "Time Series Database Interface",
