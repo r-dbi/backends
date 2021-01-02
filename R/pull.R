@@ -12,6 +12,11 @@ pr_local_checkout <- function(name, .env = parent.frame()) {
   message("Checking out branch: ", name)
   gert::git_branch_checkout(name)
 
+  if (exists) {
+    message("Pulling branch: ", name)
+    gert::git_pull()
+  }
+
   withr::defer(gert::git_branch_checkout(old_branch), .env)
 
   if (gert::git_ahead_behind(old_branch)$behind > 0) {
