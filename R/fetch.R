@@ -3,7 +3,7 @@ get_query_keywords <- function() {
 }
 
 get_api_query <- function() {
-  paste0(c(get_query_keywords(), "org:cran"), collapse = "")
+  paste0(c(get_query_keywords(), "org:cran"), collapse = " ")
 }
 
 get_query_url <- function(name) {
