@@ -74,7 +74,7 @@ pr_send <- function(path, old_branch, title, body) {
   # FIXME: Hard code
   message("Checking if PR is already open")
   open_pr <- gh::gh("/repos/r-dbi/backends/pulls", state = "all", head = paste0("r-dbi:", name))
-  if (length(open_pr) == 0) {
+  if (length(open_pr) == 0 || open_pr[[1]]$merged) {
     message("Opening PR")
     gh::gh(
       "/repos/r-dbi/backends/pulls", head = name, base = old_branch,
