@@ -58,8 +58,6 @@ pr_old <- function(path) {
 pr_send <- function(path, old_branch, title, body) {
   name <- name_from_path(path)
 
-  create_all_json()
-
   if (path %in% gert::git_status()$file) {
     message("Committing")
     # FIXME: Align with search expression
