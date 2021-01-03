@@ -73,7 +73,7 @@ Database Connectivity’ (‘JDBC’) to connect to databases (except SQLite).
 Maintainer: Martijn Schuemie <schuemie@ohdsi.org>. License: Apache
 License
 
-## [DBI.RODBC](http://developer.r-project.org/db) 0.1-2 (NA)
+## [DBI.RODBC](http://developer.r-project.org/db) 0.1-2
 
 DBI front-end to RODBC
 
@@ -84,7 +84,7 @@ style classes and methods to create a front-end to the existing RODBC
 Maintainer: David A. James <dj@bell-labs.com>. License: GPL (version 2
 or later)
 
-## [DBI.RPgSQL](http://developer.r-project.org/db) 0.1-2 (NA)
+## [DBI.RPgSQL](http://developer.r-project.org/db) 0.1-2
 
 DBI front-end to RPgSQL
 
