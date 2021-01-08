@@ -223,10 +223,10 @@
   },
   {
     "name": "RMariaDB",
-    "version": "1.0.11",
+    "version": "1.1.0",
     "title": "Database Interface and 'MariaDB' Driver",
     "description": "Implements a 'DBI'-compliant interface to 'MariaDB' (<https://mariadb.org/>) and 'MySQL' (<https://www.mysql.com/>) databases.",
-    "date": "2020-12-16",
+    "date": "2021-01-07",
     "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
     "license": "GPL-3",
     "url": ["https://rmariadb.r-dbi.org", "https://github.com/r-dbi/RMariaDB", "https://downloads.mariadb.org/connector-c/"],
