@@ -21,13 +21,22 @@ knitr::opts_chunk$set(
 
 List of [DBI](https://dbi.r-dbi.org) backends.
 
+Do you maintain a backend and think that yours should be on this list?
+Please open an issue in this repository.
+
 ```{r all-from-file, include = FALSE}
 all_df <- jsonlite::fromJSON("docs/all.json", flatten = TRUE)
 ```
 
 ```{r all-url, echo = FALSE}
 format_pkg <- function(name, version, title, description, date, maintainer, license, url, bugs) {
-  
+
+  if (is.na(date)) {
+    date <- ""
+  } else {
+    date <- paste0(" (", date, ")")
+  }
+
   if (length(url) > 0 && !anyNA(url)) {
     name <- paste0("[", name, "](", url[[1]], ")")
     url <- url[-1]
@@ -46,7 +55,7 @@ format_pkg <- function(name, version, title, description, date, maintainer, lice
   }
   
   paste0(
-    "## ", name, " ", version, " (", date, ")", url, bugs, "\n\n",
+    "## ", name, " ", version, date, url, bugs, "\n\n",
     
     title, "\n\n",
     
