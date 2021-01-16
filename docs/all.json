@@ -170,10 +170,10 @@
   },
   {
     "name": "pool",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "title": "Object Pooling",
     "description": "Enables the creation of object pools, which make it less computationally expensive to fetch a new object. Currently the only supported pooled objects are 'DBI' connections.",
-    "date": "2020-11-03",
+    "date": "2021-01-14",
     "maintainer": "Joe Cheng <joe@rstudio.com>",
     "license": "GPL-3",
     "url": ["https://github.com/rstudio/pool"],
