@@ -194,7 +194,7 @@ A DBI-compatible interface to ODBC databases.
 Maintainer: Jim Hester <jim.hester@rstudio.com>. License: MIT + file
 LICENSE
 
-## [pool](https://github.com/rstudio/pool) 0.1.5 (2020-11-03) [:bug:](https://github.com/rstudio/pool/issues)
+## [pool](https://github.com/rstudio/pool) 0.1.6 (2021-01-14) [:bug:](https://github.com/rstudio/pool/issues)
 
 Object Pooling
 
