@@ -11,6 +11,9 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www
 
 List of [DBI](https://dbi.r-dbi.org) backends.
 
+Do you maintain a backend and think that yours should be on this list?
+Please open an issue in this repository.
+
 ## [AzureKusto](https://github.com/Azure/AzureKusto) 1.0.6 (2020-04-27) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
@@ -73,7 +76,7 @@ Database Connectivity’ (‘JDBC’) to connect to databases (except SQLite).
 Maintainer: Martijn Schuemie <schuemie@ohdsi.org>. License: Apache
 License
 
-## [DBI.RODBC](http://developer.r-project.org/db) 0.1-2 (NA)
+## [DBI.RODBC](http://developer.r-project.org/db) 0.1-2
 
 DBI front-end to RODBC
 
@@ -84,7 +87,7 @@ style classes and methods to create a front-end to the existing RODBC
 Maintainer: David A. James <dj@bell-labs.com>. License: GPL (version 2
 or later)
 
-## [DBI.RPgSQL](http://developer.r-project.org/db) 0.1-2 (NA)
+## [DBI.RPgSQL](http://developer.r-project.org/db) 0.1-2
 
 DBI front-end to RPgSQL
 
@@ -191,7 +194,7 @@ A DBI-compatible interface to ODBC databases.
 Maintainer: Jim Hester <jim.hester@rstudio.com>. License: MIT + file
 LICENSE
 
-## [pool](https://github.com/rstudio/pool) 0.1.5 (2020-11-03) [:bug:](https://github.com/rstudio/pool/issues)
+## [pool](https://github.com/rstudio/pool) 0.1.6 (2021-01-14) [:bug:](https://github.com/rstudio/pool/issues)
 
 Object Pooling
 
@@ -249,7 +252,7 @@ driver.
 Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>. License: MIT +
 file LICENSE
 
-## [RMariaDB](https://rmariadb.r-dbi.org) 1.0.11 (2020-12-16) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
+## [RMariaDB](https://rmariadb.r-dbi.org) 1.1.0 (2021-01-07) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
 
 Database Interface and ‘MariaDB’ Driver
 
@@ -289,7 +292,7 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.2.1 (2020-09-28) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.3.0 (2021-01-07) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 ‘Rcpp’ Interface to ‘PostgreSQL’
 
@@ -336,7 +339,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.1 (2020-09-30) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.2 (2021-01-08) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 ‘SQLite’ Interface for R
 

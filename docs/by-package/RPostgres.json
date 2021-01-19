@@ -1,8 +1,8 @@
 {
-  "version": "1.2.1",
+  "version": "1.3.0",
   "title": "'Rcpp' Interface to 'PostgreSQL'",
   "description": "Fully 'DBI'-compliant 'Rcpp'-backed interface to 'PostgreSQL' <https://www.postgresql.org/>, an open-source relational database.",
-  "date": "2020-09-28",
+  "date": "2021-01-07",
   "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
   "license": "GPL-3",
   "url": ["https://rpostgres.r-dbi.org", "https://github.com/r-dbi/RPostgres"],
