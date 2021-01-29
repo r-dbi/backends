@@ -172,7 +172,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 1.9.1 (2020-11-17) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 1.10.0 (2021-01-20) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -194,7 +194,7 @@ A DBI-compatible interface to ODBC databases.
 Maintainer: Jim Hester <jim.hester@rstudio.com>. License: MIT + file
 LICENSE
 
-## [pool](https://github.com/rstudio/pool) 0.1.5 (2020-11-03) [:bug:](https://github.com/rstudio/pool/issues)
+## [pool](https://github.com/rstudio/pool) 0.1.6 (2021-01-14) [:bug:](https://github.com/rstudio/pool/issues)
 
 Object Pooling
 
@@ -204,7 +204,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 1.11.1 (2020-11-17) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 1.12.0 (2021-01-20) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -252,7 +252,7 @@ driver.
 Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>. License: MIT +
 file LICENSE
 
-## [RMariaDB](https://rmariadb.r-dbi.org) 1.0.11 (2020-12-16) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
+## [RMariaDB](https://rmariadb.r-dbi.org) 1.1.0 (2021-01-07) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
 
 Database Interface and ‘MariaDB’ Driver
 
@@ -292,7 +292,7 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.2.1 (2020-09-28) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.3.1 (2021-01-19) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 ‘Rcpp’ Interface to ‘PostgreSQL’
 
@@ -339,7 +339,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.1 (2020-09-30) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.3 (2021-01-24) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 ‘SQLite’ Interface for R
 
