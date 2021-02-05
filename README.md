@@ -39,7 +39,7 @@ Easily talk to Google’s ‘BigQuery’ database from R.
 
 Maintainer: Hadley Wickham <hadley@rstudio.com>. License: GPL-3
 
-## [ckanr](https://docs.ropensci.org/ckanr) 0.5.0 (2020-07-30) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
+## [ckanr](https://docs.ropensci.org/ckanr/) 0.6.0 (2021-02-03) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
 
 Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API
 
