@@ -39,7 +39,7 @@ Easily talk to Google’s ‘BigQuery’ database from R.
 
 Maintainer: Hadley Wickham <hadley@rstudio.com>. License: GPL-3
 
-## [ckanr](https://docs.ropensci.org/ckanr) 0.5.0 (2020-07-30) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
+## [ckanr](https://docs.ropensci.org/ckanr/) 0.6.0 (2021-02-03) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
 
 Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API
 
@@ -116,7 +116,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.2.3 (2020-12-12) [:link:](https://github.com/cwida/duckdb) [:bug:](https://github.com/cwida/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.2.4 (2021-02-02) [:link:](https://github.com/cwida/duckdb) [:bug:](https://github.com/cwida/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
