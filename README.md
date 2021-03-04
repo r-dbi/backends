@@ -62,7 +62,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector) 3.0.0 (2020-06-06) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 4.0.0 (2021-03-02) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
