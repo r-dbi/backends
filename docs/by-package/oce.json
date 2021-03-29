@@ -1,8 +1,8 @@
 {
-  "version": "1.3-0",
+  "version": "1.4-0",
   "title": "Analysis of Oceanographic Data",
   "description": "Supports the analysis of Oceanographic data, including 'ADCP' measurements, measurements made with 'argo' floats, 'CTD' measurements, sectional data, sea-level time series, coastline and topographic data, etc. Provides specialized functions for calculating seawater properties such as potential temperature in either the 'UNESCO' or 'TEOS-10' equation of state. Produces graphical displays that conform to the conventions of the Oceanographic literature. This package is discussed extensively in Dan Kelley's book Oceanographic Analysis with R, published in 2018 by 'Springer-Verlag' with ISBN 978-1-4939-8842-6.",
-  "date": "2021-01-29",
+  "date": "2021-03-28",
   "maintainer": "Dan Kelley <Dan.Kelley@Dal.Ca>",
   "license": "GPL (>= 2)",
   "url": "https://dankelley.github.io/oce/",
