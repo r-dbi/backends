@@ -126,7 +126,7 @@ all of DuckDB and a R Database Interface (DBI) connector.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL
 
-## [implyr](https://github.com/ianmcook/implyr) 0.3.0 (2019-07-21) [:bug:](https://github.com/ianmcook/implyr/issues)
+## [implyr](https://github.com/ianmcook/implyr) 0.4.0 (2021-03-29) [:bug:](https://github.com/ianmcook/implyr/issues)
 
 R Interface for Apache Impala
 
@@ -138,7 +138,7 @@ processing query engine for Apache ‘Hadoop’. Impala enables low-latency
 ‘Isilon’. See <https://impala.apache.org> for more information about
 Impala.
 
-Maintainer: Ian Cook <ian@cloudera.com>. License: Apache License 2.0 |
+Maintainer: Ian Cook <ianmcook@gmail.com>. License: Apache License 2.0 |
 file LICENSE
 
 ## [lazysf](https://github.com/mdsumner/lazysf) 0.1.0 (2020-11-14) [:bug:](https://github.com/mdsumner/lazysf/issues)
