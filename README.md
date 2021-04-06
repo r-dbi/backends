@@ -185,7 +185,7 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://github.com/r-dbi/odbc) 1.3.1 (2021-03-16) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://github.com/r-dbi/odbc) 1.3.2 (2021-04-03) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
