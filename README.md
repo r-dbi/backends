@@ -62,7 +62,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector) 3.0.0 (2020-06-06) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 4.0.0 (2021-03-02) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -116,7 +116,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.2.4 (2021-02-02) [:link:](https://github.com/cwida/duckdb) [:bug:](https://github.com/cwida/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.2.5 (2021-03-16) [:link:](https://github.com/cwida/duckdb) [:bug:](https://github.com/cwida/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -126,7 +126,7 @@ all of DuckDB and a R Database Interface (DBI) connector.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL
 
-## [implyr](https://github.com/ianmcook/implyr) 0.3.0 (2019-07-21) [:bug:](https://github.com/ianmcook/implyr/issues)
+## [implyr](https://github.com/ianmcook/implyr) 0.4.0 (2021-03-29) [:bug:](https://github.com/ianmcook/implyr/issues)
 
 R Interface for Apache Impala
 
@@ -138,7 +138,7 @@ processing query engine for Apache ‘Hadoop’. Impala enables low-latency
 ‘Isilon’. See <https://impala.apache.org> for more information about
 Impala.
 
-Maintainer: Ian Cook <ian@cloudera.com>. License: Apache License 2.0 |
+Maintainer: Ian Cook <ianmcook@gmail.com>. License: Apache License 2.0 |
 file LICENSE
 
 ## [lazysf](https://github.com/mdsumner/lazysf) 0.1.0 (2020-11-14) [:bug:](https://github.com/mdsumner/lazysf/issues)
@@ -172,7 +172,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 1.10.0 (2021-01-20) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -185,7 +185,7 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://github.com/r-dbi/odbc) 1.3.0 (2020-10-27) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://github.com/r-dbi/odbc) 1.3.2 (2021-04-03) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
@@ -204,7 +204,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 1.12.0 (2021-01-20) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -339,7 +339,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.3 (2021-01-24) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.5 (2021-03-27) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 ‘SQLite’ Interface for R
 
@@ -373,7 +373,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.5.2 (2020-12-11) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.6.2 (2021-03-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
