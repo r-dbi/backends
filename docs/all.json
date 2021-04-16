@@ -45,10 +45,10 @@
   },
   {
     "name": "DatabaseConnector",
-    "version": "4.0.0",
+    "version": "4.0.2",
     "title": "Connecting to Various Database Platforms",
     "description": "An R 'DataBase Interface' ('DBI') compatible interface to various database platforms ('PostgreSQL', 'Oracle', 'Microsoft SQL Server', 'Amazon Redshift', 'Microsoft Parallel Database Warehouse', 'IBM Netezza', 'Apache Impala', 'Google BigQuery', and 'SQLite'). Also includes support for fetching data as 'Andromeda' objects. Uses 'Java Database Connectivity' ('JDBC') to connect to databases (except SQLite).",
-    "date": "2021-03-02",
+    "date": "2021-04-15",
     "maintainer": "Martijn Schuemie <schuemie@ohdsi.org>",
     "license": "Apache License",
     "url": ["https://ohdsi.github.io/DatabaseConnector/", "https://github.com/OHDSI/DatabaseConnector"],
