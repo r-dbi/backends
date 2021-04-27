@@ -339,7 +339,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.6 (2021-04-11) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.7 (2021-04-22) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 ‘SQLite’ Interface for R
 
