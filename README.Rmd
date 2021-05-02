@@ -1,7 +1,5 @@
 ---
-output:
-  github_document:
-    df_print: kable
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -18,11 +16,62 @@ knitr::opts_chunk$set(
 # backends
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
-The goal of backends is to provide a web API that lists all known DBI backends.
-It is implemented as a set of static JSON files
+List of [DBI](https://dbi.r-dbi.org) backends.
+
+Do you maintain a backend and think that yours should be on this list?
+Please open an issue in this repository.
+
+```{r all-from-file, include = FALSE}
+all_df <- jsonlite::fromJSON("docs/all.json", flatten = TRUE)
+```
+
+```{r all-url, echo = FALSE}
+format_pkg <- function(name, version, title, description, date, maintainer, license, url, bugs) {
+
+  if (is.na(date)) {
+    date <- ""
+  } else {
+    date <- paste0(" (", date, ")")
+  }
+
+  if (length(url) > 0 && !anyNA(url)) {
+    name <- paste0("[", name, "](", url[[1]], ")")
+    url <- url[-1]
+  }
+  
+  if (length(url) > 0 && !anyNA(url)) {
+    url <- paste0(" [:link:](", url, ")", collapse = "")
+  } else {
+    url <- ""
+  }
+  
+  if (!is.na(bugs)) {
+    bugs <- paste0(" [:bug:](", bugs, ")")
+  } else {
+    bugs <- ""
+  }
+  
+  paste0(
+    "## ", name, " ", version, date, url, bugs, "\n\n",
+    
+    title, "\n\n",
+    
+    description, "\n\n",
+    
+    "Maintainer: ", maintainer, ". License: ", license, "\n\n"
+  )
+}
+
+knitr::asis_output(purrr::pmap_chr(all_df, format_pkg))
+```
+
+# Implementation
+
+The list of all known DBI backends is provided as a set of static JSON files.
+
 
 ## Usage
 
@@ -32,23 +81,6 @@ It is implemented as a set of static JSON files
 all <- httr::GET("https://r-dbi.github.io/backends/all.json")
 httr::stop_for_status(all)
 all_df <- httr::content(all, flatten = TRUE, simplifyVector = TRUE)
-```
-
-```{r all-from-file, include = FALSE}
-all_df <- jsonlite::fromJSON("docs/all.json", flatten = TRUE)
-```
-
-```{r all-url}
-fix_url <- function(x) {
-  if (length(x) == 0 || anyNA(x)) {
-    x <- ""
-  }
-  glue::glue_collapse(x, ", ")
-}
-
-all_df$url <- purrr::map_chr(all_df$url, fix_url)
-all_df$bugs <- purrr::map_chr(all_df$bugs, fix_url)
-all_df
 ```
 
 ### Query a single package

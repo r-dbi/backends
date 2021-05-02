@@ -1,0 +1,10 @@
+{
+  "version": "0.2.4",
+  "title": "DBI/RJDBC Interface to H2 Database",
+  "description": "DBI/RJDBC interface to h2 database. h2 version 1.3.175 is included.",
+  "date": "2018-03-14",
+  "maintainer": "\"David M. Kaplan\" <dmkaplan2000@gmail.com>",
+  "license": "Mozilla Public License 1.1",
+  "url": "https://github.com/dmkaplan2000/RH2.git",
+  "bugs": null
+}

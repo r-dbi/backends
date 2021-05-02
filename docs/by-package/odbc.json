@@ -1,8 +1,8 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.2",
   "title": "Connect to ODBC Compatible Databases (using the DBI Interface)",
   "description": "A DBI-compatible interface to ODBC databases.",
-  "date": "2020-10-27",
+  "date": "2021-04-03",
   "maintainer": "Jim Hester <jim.hester@rstudio.com>",
   "license": "MIT + file LICENSE",
   "url": ["https://github.com/r-dbi/odbc", "https://db.rstudio.com"],

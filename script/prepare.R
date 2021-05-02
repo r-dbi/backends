@@ -19,16 +19,16 @@ updated <-
   filter(!map2_lgl(new, old, identical))
 
 updated
+added
+removed
 
 if (nrow(updated) > 0) {
   updated %>%
     select(con = path, text = new) %>%
     pwalk(writeLines)
 
-  create_all_json()
-
-  gert::git_add("docs")
-  gert::git_commit("Update definition for existing packages")
+  gert::git_add("docs/by-package")
+  gert::git_commit("Update definition for existing package")
   gert::git_pull()
   gert::git_push()
 }
@@ -43,6 +43,17 @@ if (nrow(removed) > 0) {
   gert::git_fetch()
 
   pwalk(removed %>% select(path), pr_old)
+}
+
+
+# Create unconditionally (could be the result of a PR merge)
+create_all_json()
+
+if ("docs/all.json" %in% gert::git_status()$file) {
+  gert::git_add("docs/all.json")
+  gert::git_commit("Update definition for all packages")
+  gert::git_pull()
+  gert::git_push()
 }
 
 # Render unconditionally (could be the result of a PR merge)
