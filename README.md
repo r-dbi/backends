@@ -317,7 +317,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
 License: GPL-2 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.3.5 (2020-11-13) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.3.6 (2021-05-31) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
@@ -326,8 +326,8 @@ source distributed SQL query engine for running interactive analytic
 queries against data sources of all sizes ranging from gigabytes to
 petabytes: <https://prestodb.io/>.
 
-Maintainer: Onur Ismail Filiz <onur@fb.com>. License: BSD\_3\_clause +
-file LICENSE
+Maintainer: Thomas J. Leeper <thomasleeper@fb.com>. License:
+BSD\_3\_clause + file LICENSE
 
 ## RRedshiftSQL 0.1.2 (2016-09-15)
 
@@ -373,7 +373,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.6.2 (2021-03-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.6.3 (2021-06-01) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
