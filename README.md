@@ -262,7 +262,7 @@ databases.
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
 
-## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.21 (2020-12-15) [:bug:](https://github.com/r-dbi/rmysql/issues)
+## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.22 (2021-06-22) [:bug:](https://github.com/r-dbi/rmysql/issues)
 
 Database Interface and ‘MySQL’ Driver for R
 
