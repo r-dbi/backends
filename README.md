@@ -172,7 +172,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 2.1.0 (2021-07-27) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -204,7 +204,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.1.0 (2021-07-27) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -301,7 +301,7 @@ Fully ‘DBI’-compliant ‘Rcpp’-backed interface to ‘PostgreSQL’
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
 
-## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.6-2 (2017-06-24) [:link:](https://cran.r-project.org/package=DBI) [:link:](http://www.postgresql.org)
+## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7 (2021-07-27) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 
 R Interface to the ‘PostgreSQL’ Database System
 
@@ -315,7 +315,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 ‘libpq’ library source will be used.
 
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
-License: GPL-2 | file LICENSE
+License: GPL-3 | file LICENSE
 
 ## [RPresto](https://github.com/prestodb/RPresto) 1.3.6 (2021-05-31) [:bug:](https://github.com/prestodb/RPresto/issues)
 

@@ -139,10 +139,10 @@
   },
   {
     "name": "noctua",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "title": "Connect to 'AWS Athena' using R 'AWS SDK' 'paws' ('DBI' Interface)",
     "description": "Designed to be compatible with the 'R' package 'DBI' (Database Interface) when connecting to Amazon Web Service ('AWS') Athena <https://aws.amazon.com/athena/>. To do this the 'R' 'AWS' Software Development Kit ('SDK') 'paws' <https://github.com/paws-r/paws> is used as a driver.",
-    "date": "2021-02-24",
+    "date": "2021-07-27",
     "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
     "license": "MIT + file LICENSE",
     "url": ["https://github.com/DyfanJones/noctua"],
@@ -181,10 +181,10 @@
   },
   {
     "name": "RAthena",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "title": "Connect to 'AWS Athena' using 'Boto3' ('DBI' Interface)",
     "description": "Designed to be compatible with the R package 'DBI' (Database Interface) when connecting to Amazon Web Service ('AWS') Athena <https://aws.amazon.com/athena/>. To do this 'Python' 'Boto3' Software Development Kit ('SDK') <https://boto3.amazonaws.com/v1/documentation/api/latest/index.html> is used as a driver.",
-    "date": "2021-02-24",
+    "date": "2021-07-27",
     "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
     "license": "MIT + file LICENSE",
     "url": ["https://github.com/DyfanJones/RAthena"],
@@ -275,13 +275,13 @@
   },
   {
     "name": "RPostgreSQL",
-    "version": "0.6-2",
+    "version": "0.7",
     "title": "R Interface to the 'PostgreSQL' Database System",
     "description": "Database interface and 'PostgreSQL' driver for 'R'. This package provides a Database Interface 'DBI' compliant driver for 'R' to access 'PostgreSQL' database systems. In order to build and install this package from source, 'PostgreSQL' itself must be present your system to provide 'PostgreSQL' functionality via its libraries and header files. These files are provided as 'postgresql-devel' package under some Linux distributions. On 'macOS' and 'Microsoft Windows' system the attached 'libpq' library source will be used.",
-    "date": "2017-06-24",
+    "date": "2021-07-27",
     "maintainer": "Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>",
-    "license": "GPL-2 | file LICENSE",
-    "url": ["https://github.com/tomoakin/RPostgreSQL", "https://cran.r-project.org/package=DBI", "http://www.postgresql.org"]
+    "license": "GPL-3 | file LICENSE",
+    "url": ["https://github.com/tomoakin/RPostgreSQL", "https://cran.r-project.org/package=DBI", "https://www.postgresql.org"]
   },
   {
     "name": "RPresto",
