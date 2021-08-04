@@ -116,7 +116,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.2.5 (2021-03-16) [:link:](https://github.com/cwida/duckdb) [:bug:](https://github.com/cwida/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.2.7 (2021-06-14) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -172,7 +172,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 2.1.0 (2021-07-27) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -204,7 +204,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.1.0 (2021-07-27) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -262,7 +262,7 @@ databases.
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
 
-## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.21 (2020-12-15) [:bug:](https://github.com/r-dbi/rmysql/issues)
+## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.22 (2021-06-22) [:bug:](https://github.com/r-dbi/rmysql/issues)
 
 Database Interface and ‘MySQL’ Driver for R
 
@@ -292,7 +292,7 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.3.2 (2021-04-12) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.3.3 (2021-07-05) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 ‘Rcpp’ Interface to ‘PostgreSQL’
 
@@ -301,7 +301,7 @@ Fully ‘DBI’-compliant ‘Rcpp’-backed interface to ‘PostgreSQL’
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
 
-## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.6-2 (2017-06-24) [:link:](https://cran.r-project.org/package=DBI) [:link:](http://www.postgresql.org)
+## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7 (2021-07-27) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 
 R Interface to the ‘PostgreSQL’ Database System
 
@@ -315,9 +315,9 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 ‘libpq’ library source will be used.
 
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
-License: GPL-2 | file LICENSE
+License: GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.3.5 (2020-11-13) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.3.6 (2021-05-31) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
@@ -326,8 +326,8 @@ source distributed SQL query engine for running interactive analytic
 queries against data sources of all sizes ranging from gigabytes to
 petabytes: <https://prestodb.io/>.
 
-Maintainer: Onur Ismail Filiz <onur@fb.com>. License: BSD\_3\_clause +
-file LICENSE
+Maintainer: Thomas J. Leeper <thomasleeper@fb.com>. License:
+BSD\_3\_clause + file LICENSE
 
 ## RRedshiftSQL 0.1.2 (2016-09-15)
 
@@ -373,7 +373,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.6.2 (2021-03-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.7.1 (2021-06-17) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
