@@ -12,13 +12,13 @@
   },
   {
     "name": "bigrquery",
-    "version": "1.3.2",
+    "version": "1.4.0",
     "title": "An Interface to Google's 'BigQuery' 'API'",
     "description": "Easily talk to Google's 'BigQuery' database from R.",
-    "date": "2020-10-05",
+    "date": "2021-08-05",
     "maintainer": "Hadley Wickham <hadley@rstudio.com>",
     "license": "GPL-3",
-    "url": ["https://github.com/r-dbi/bigrquery"],
+    "url": ["https://bigrquery.r-dbi.org", "https://github.com/r-dbi/bigrquery"],
     "bugs": "https://github.com/r-dbi/bigrquery/issues"
   },
   {
@@ -85,10 +85,10 @@
   },
   {
     "name": "duckdb",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "title": "DBI Package for the DuckDB Database Management System",
     "description": "The DuckDB project is an embedded analytical data management system with support for the Structured Query Language (SQL). This package includes all of DuckDB and a R Database Interface (DBI) connector.",
-    "date": "2021-06-14",
+    "date": "2021-08-02",
     "maintainer": "Hannes Mühleisen <hannes@cwi.nl>",
     "license": "MPL",
     "url": ["https://duckdb.org/", "https://github.com/duckdb/duckdb"],
