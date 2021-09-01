@@ -31,7 +31,7 @@ principals. Part of the ‘AzureR’ family of packages.
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
 
-## [bigrquery](https://github.com/r-dbi/bigrquery) 1.3.2 (2020-10-05) [:bug:](https://github.com/r-dbi/bigrquery/issues)
+## [bigrquery](https://bigrquery.r-dbi.org) 1.4.0 (2021-08-05) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
 
 An Interface to Google’s ‘BigQuery’ ‘API’
 
@@ -116,7 +116,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.2.7 (2021-06-14) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.2.8 (2021-08-02) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -339,7 +339,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.7 (2021-04-22) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.8 (2021-08-21) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 ‘SQLite’ Interface for R
 
