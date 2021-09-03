@@ -1,8 +1,8 @@
 {
-  "version": "1.9.1",
+  "version": "2.1.0",
   "title": "Connect to 'AWS Athena' using R 'AWS SDK' 'paws' ('DBI' Interface)",
   "description": "Designed to be compatible with the 'R' package 'DBI' (Database Interface) when connecting to Amazon Web Service ('AWS') Athena <https://aws.amazon.com/athena/>. To do this the 'R' 'AWS' Software Development Kit ('SDK') 'paws' <https://github.com/paws-r/paws> is used as a driver.",
-  "date": "2020-11-17",
+  "date": "2021-07-27",
   "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
   "license": "MIT + file LICENSE",
   "url": "https://github.com/DyfanJones/noctua",
