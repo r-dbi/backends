@@ -31,7 +31,7 @@ principals. Part of the ‘AzureR’ family of packages.
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
 
-## [bigrquery](https://github.com/r-dbi/bigrquery) 1.3.2 (2020-10-05) [:bug:](https://github.com/r-dbi/bigrquery/issues)
+## [bigrquery](https://bigrquery.r-dbi.org) 1.4.0 (2021-08-05) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
 
 An Interface to Google’s ‘BigQuery’ ‘API’
 
@@ -116,7 +116,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.2.7 (2021-06-14) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.2.8 (2021-08-02) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -172,7 +172,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 2.1.0 (2021-07-27) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -204,7 +204,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.0.1 (2021-02-24) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.1.0 (2021-07-27) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -301,7 +301,7 @@ Fully ‘DBI’-compliant ‘Rcpp’-backed interface to ‘PostgreSQL’
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
 
-## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.6-2 (2017-06-24) [:link:](https://cran.r-project.org/package=DBI) [:link:](http://www.postgresql.org)
+## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7 (2021-07-27) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 
 R Interface to the ‘PostgreSQL’ Database System
 
@@ -315,7 +315,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 ‘libpq’ library source will be used.
 
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
-License: GPL-2 | file LICENSE
+License: GPL-3 | file LICENSE
 
 ## [RPresto](https://github.com/prestodb/RPresto) 1.3.6 (2021-05-31) [:bug:](https://github.com/prestodb/RPresto/issues)
 
@@ -339,7 +339,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.7 (2021-04-22) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.8 (2021-08-21) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 ‘SQLite’ Interface for R
 
