@@ -252,7 +252,7 @@ driver.
 Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>. License: MIT +
 file LICENSE
 
-## [RMariaDB](https://rmariadb.r-dbi.org) 1.1.1 (2021-04-13) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
+## [RMariaDB](https://rmariadb.r-dbi.org) 1.1.2 (2021-09-06) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
 
 Database Interface and ‘MariaDB’ Driver
 
@@ -260,7 +260,8 @@ Implements a ‘DBI’-compliant interface to ‘MariaDB’
 (<https://mariadb.org/>) and ‘MySQL’ (<https://www.mysql.com/>)
 databases.
 
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
+Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: MIT + file
+LICENSE
 
 ## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.22 (2021-06-22) [:bug:](https://github.com/r-dbi/rmysql/issues)
 
@@ -317,7 +318,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
 License: GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.3.6 (2021-05-31) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.3.7 (2021-09-04) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
