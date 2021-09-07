@@ -223,12 +223,12 @@
   },
   {
     "name": "RMariaDB",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "title": "Database Interface and 'MariaDB' Driver",
     "description": "Implements a 'DBI'-compliant interface to 'MariaDB' (<https://mariadb.org/>) and 'MySQL' (<https://www.mysql.com/>) databases.",
-    "date": "2021-04-13",
+    "date": "2021-09-06",
     "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
-    "license": "GPL-3",
+    "license": "MIT + file LICENSE",
     "url": ["https://rmariadb.r-dbi.org", "https://github.com/r-dbi/RMariaDB", "https://downloads.mariadb.org/connector-c/"],
     "bugs": "https://github.com/r-dbi/RMariaDB/issues"
   },
@@ -285,10 +285,10 @@
   },
   {
     "name": "RPresto",
-    "version": "1.3.6",
+    "version": "1.3.7",
     "title": "DBI Connector to Presto",
     "description": "Implements a 'DBI' compliant interface to Presto. Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes: <https://prestodb.io/>.",
-    "date": "2021-05-31",
+    "date": "2021-09-04",
     "maintainer": "Thomas J. Leeper <thomasleeper@fb.com>",
     "license": "BSD_3_clause + file LICENSE",
     "url": ["https://github.com/prestodb/RPresto"],
