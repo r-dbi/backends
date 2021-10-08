@@ -1,8 +1,8 @@
 {
-  "version": "0.2.8",
+  "version": "0.2.9",
   "title": "DBI Package for the DuckDB Database Management System",
   "description": "The DuckDB project is an embedded analytical data management system with support for the Structured Query Language (SQL). This package includes all of DuckDB and a R Database Interface (DBI) connector.",
-  "date": "2021-08-02",
+  "date": "2021-09-06",
   "maintainer": "Hannes Mühleisen <hannes@cwi.nl>",
   "license": "MPL",
   "url": ["https://duckdb.org/", "https://github.com/duckdb/duckdb"],
