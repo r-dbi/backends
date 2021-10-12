@@ -22,6 +22,8 @@ fetch_pkg_tbl <- function() {
 
   stopifnot(length(x$items) < 100)
 
+  print(x)
+
   pkg <-
     tibble(items = x$items) %>%
     unnest_wider(items) %>%
