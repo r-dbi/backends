@@ -2,6 +2,10 @@ library(tidyverse)
 pkgload::load_all()
 
 
+# Unstable in CI, seems to work locally?
+CHECK_REMOVED <- FALSE
+
+
 pkg_tbl <- fetch_pkg_tbl()
 
 dir.create("docs/by-package", showWarnings = FALSE, recursive = TRUE)
@@ -21,6 +25,11 @@ updated <-
 updated
 added
 removed
+
+if (!CHECK_REMOVED && nrow(removed) > 0) {
+  message("Not checking removed packages.")
+  removed <- removed[0, ]
+}
 
 if (nrow(updated) > 0) {
   updated %>%
