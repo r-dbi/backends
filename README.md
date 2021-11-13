@@ -283,7 +283,7 @@ This allows R to connect to any DBMS that has a ODBC driver.
 Maintainer: Nagi Teramo <teramonagi@gmail.com>. License: MIT + file
 LICENSE
 
-## [ROracle](http://www.oracle.com) 1.3-1 (2016-10-26)
+## [ROracle](http://www.oracle.com) 1.3-1.1 (2021-11-10)
 
 OCI Based Oracle Database Interface for R
 
