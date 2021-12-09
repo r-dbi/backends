@@ -186,13 +186,13 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://github.com/r-dbi/odbc) 1.3.2 (2021-04-03) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://github.com/r-dbi/odbc) 1.3.3 (2021-11-30) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
 A DBI-compatible interface to ODBC databases.
 
-Maintainer: Jim Hester <jim.hester@rstudio.com>. License: MIT + file
+Maintainer: Hadley Wickham <hadley@rstudio.com>. License: MIT + file
 LICENSE
 
 ## [pool](https://github.com/rstudio/pool) 0.1.6 (2021-01-14) [:bug:](https://github.com/rstudio/pool/issues)
@@ -362,7 +362,7 @@ to the ‘dplyr’ package.
 
 Maintainer: Imanuel Costigan <i.costigan@me.com>. License: GPL-2
 
-## [sergeant](https://gitlab.com/hrbrmstr/sergeant) 0.9.0 (2020-06-01) [:bug:](https://gitlab.com/hrbrmstr/sergeant/issues)
+## [sergeant](https://gitlab.com/hrbrmstr/sergeant) 0.9.1 (2021-11-29) [:bug:](https://gitlab.com/hrbrmstr/sergeant/-/issues)
 
 Tools to Transform and Query Data with Apache Drill
 
@@ -375,7 +375,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.7.2 (2021-09-16) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.7.3 (2021-11-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
