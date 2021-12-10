@@ -294,7 +294,7 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.4.1 (2021-09-27) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.4.2 (2021-12-05) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 Rcpp Interface to PostgreSQL
 
@@ -341,12 +341,12 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.8 (2021-08-21) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.9 (2021-12-06) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
-‘SQLite’ Interface for R
+SQLite Interface for R
 
-Embeds the ‘SQLite’ database engine in R and provides an interface
-compliant with the ‘DBI’ package. The source for the ‘SQLite’ engine is
+Embeds the SQLite database engine in R and provides an interface
+compliant with the DBI package. The source for the SQLite engine is
 included.
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: LGPL (\>=
