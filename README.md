@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.3.0 (2021-10-08) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.3.1-1 (2021-11-22) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -173,7 +173,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 2.3.0 (2021-10-26) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 2.4.0 (2021-11-26) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -186,13 +186,13 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://github.com/r-dbi/odbc) 1.3.2 (2021-04-03) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://github.com/r-dbi/odbc) 1.3.3 (2021-11-30) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
 A DBI-compatible interface to ODBC databases.
 
-Maintainer: Jim Hester <jim.hester@rstudio.com>. License: MIT + file
+Maintainer: Hadley Wickham <hadley@rstudio.com>. License: MIT + file
 LICENSE
 
 ## [pool](https://github.com/rstudio/pool) 0.1.6 (2021-01-14) [:bug:](https://github.com/rstudio/pool/issues)
@@ -205,7 +205,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.3.0 (2021-10-26) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.4.0 (2021-11-26) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -294,7 +294,7 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.4.1 (2021-09-27) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.4.2 (2021-12-05) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 Rcpp Interface to PostgreSQL
 
@@ -341,12 +341,12 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.8 (2021-08-21) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.9 (2021-12-06) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
-‘SQLite’ Interface for R
+SQLite Interface for R
 
-Embeds the ‘SQLite’ database engine in R and provides an interface
-compliant with the ‘DBI’ package. The source for the ‘SQLite’ engine is
+Embeds the SQLite database engine in R and provides an interface
+compliant with the DBI package. The source for the SQLite engine is
 included.
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: LGPL (\>=
@@ -362,7 +362,7 @@ to the ‘dplyr’ package.
 
 Maintainer: Imanuel Costigan <i.costigan@me.com>. License: GPL-2
 
-## [sergeant](https://gitlab.com/hrbrmstr/sergeant) 0.9.0 (2020-06-01) [:bug:](https://gitlab.com/hrbrmstr/sergeant/issues)
+## [sergeant](https://gitlab.com/hrbrmstr/sergeant) 0.9.1 (2021-11-29) [:bug:](https://gitlab.com/hrbrmstr/sergeant/-/issues)
 
 Tools to Transform and Query Data with Apache Drill
 
@@ -375,7 +375,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.7.2 (2021-09-16) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.7.3 (2021-11-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
