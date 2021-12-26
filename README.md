@@ -253,7 +253,7 @@ driver.
 Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>. License: MIT +
 file LICENSE
 
-## [RMariaDB](https://rmariadb.r-dbi.org) 1.2.0 (2021-12-12) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
+## [RMariaDB](https://rmariadb.r-dbi.org) 1.2.1 (2021-12-20) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
 
 Database Interface and MariaDB Driver
 
