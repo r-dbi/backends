@@ -374,18 +374,18 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.7.3 (2021-11-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.7.4 (2022-01-08) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
 R interface to Apache Spark, a fast and general engine for big data
-processing, see <http://spark.apache.org>. This package supports
+processing, see <https://spark.apache.org/>. This package supports
 connecting to local and remote Apache Spark clusters, provides a ‘dplyr’
 compatible back-end, and provides an interface to Spark’s built-in
 machine learning algorithms.
 
-Maintainer: Yitao Li <yitao@rstudio.com>. License: Apache License 2.0 |
-file LICENSE
+Maintainer: Edgar Ruiz <edgar@rstudio.com>. License: Apache License 2.0
+| file LICENSE
 
 # Implementation
 
