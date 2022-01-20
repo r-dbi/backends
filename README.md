@@ -173,7 +173,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 2.4.0 (2021-11-26) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 2.5.0 (2022-01-17) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -205,7 +205,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.4.0 (2021-11-26) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.5.0 (2022-01-17) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -219,12 +219,12 @@ used as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.5.2 (2020-03-06) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
+## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.0 (2022-01-13) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
 
 A ‘DBI’ Interface to the ‘Yandex Clickhouse’ Database Providing Basic
 ‘dplyr’ Support
 
-‘Yandex Clickhouse’ (<https://clickhouse.yandex/>) is a high-performance
+‘Yandex Clickhouse’ (<https://clickhouse.com/>) is a high-performance
 relational column-store database to enable big data exploration and
 ‘analytics’ scaling to petabytes of data. Methods are provided that
 enable working with ‘Yandex Clickhouse’ databases via ‘DBI’ methods and
@@ -293,7 +293,7 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.4.2 (2021-12-05) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.4.3 (2021-12-20) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 Rcpp Interface to PostgreSQL
 
