@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.3.1-1 (2021-11-22) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.3.2 (2022-02-07) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -205,7 +205,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.5.0 (2022-01-17) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.5.1 (2022-01-26) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
