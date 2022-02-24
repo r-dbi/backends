@@ -340,13 +340,16 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.9 (2021-12-06) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.10 (2022-02-17) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 SQLite Interface for R
 
 Embeds the SQLite database engine in R and provides an interface
-compliant with the DBI package. The source for the SQLite engine is
-included.
+compliant with the DBI package. The source for the SQLite engine and for
+various extensions in a recent version is included. System libraries
+will never be consulted because this package relies on static linking
+for the plugins it includes; this also ensures a consistent experience
+across all installations.
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: LGPL (\>=
 2.1)
