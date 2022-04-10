@@ -242,7 +242,7 @@ DBI/RJDBC interface to h2 database. h2 version 1.3.175 is included.
 Maintainer: “David M. Kaplan” <dmkaplan2000@gmail.com>. License: Mozilla
 Public License 1.1
 
-## [RJDBC](http://www.rforge.net/RJDBC/) 0.2-8 (2020-03-10)
+## [RJDBC](http://www.rforge.net/RJDBC/) 0.2-10 (2022-03-24)
 
 Provides Access to Databases Through the JDBC Interface
 
