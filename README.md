@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.3.2 (2022-02-07) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.3.2-2 (2022-03-16) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -242,7 +242,7 @@ DBI/RJDBC interface to h2 database. h2 version 1.3.175 is included.
 Maintainer: “David M. Kaplan” <dmkaplan2000@gmail.com>. License: Mozilla
 Public License 1.1
 
-## [RJDBC](http://www.rforge.net/RJDBC/) 0.2-8 (2020-03-10)
+## [RJDBC](http://www.rforge.net/RJDBC/) 0.2-10 (2022-03-24)
 
 Provides Access to Databases Through the JDBC Interface
 
