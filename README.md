@@ -219,10 +219,9 @@ used as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.0 (2022-01-13) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
+## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.3 (2022-03-08) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
 
-A ‘DBI’ Interface to the ‘Yandex Clickhouse’ Database Providing Basic
-‘dplyr’ Support
+‘Yandex Clickhouse’ Interface for R with Basic ‘dplyr’ Support
 
 ‘Yandex Clickhouse’ (<https://clickhouse.com/>) is a high-performance
 relational column-store database to enable big data exploration and
@@ -340,7 +339,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.10 (2022-02-17) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.14 (2022-05-07) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 SQLite Interface for R
 
