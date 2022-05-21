@@ -292,7 +292,7 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.4.3 (2021-12-20) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.4.4 (2022-05-02) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 Rcpp Interface to PostgreSQL
 
