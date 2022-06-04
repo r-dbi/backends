@@ -9,7 +9,7 @@ CHECK_REMOVED <- FALSE
 pkg_tbl <- fetch_pkg_tbl()
 
 # Check a second time, log GH results
-fetch_pkg_tbl()
+try(fetch_pkg_tbl())
 
 dir.create("docs/by-package", showWarnings = FALSE, recursive = TRUE)
 
