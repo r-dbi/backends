@@ -205,7 +205,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.5.1 (2022-01-26) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.6.0 (2022-05-20) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -376,7 +376,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.7.6 (2022-05-26) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.7.7 (2022-06-07) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
