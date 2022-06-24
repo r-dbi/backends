@@ -62,7 +62,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 5.0.2 (2022-02-11) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 5.0.3 (2022-06-08) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -99,7 +99,7 @@ A simple DBI front-end to the RPgSQL package. This package uses version
 Maintainer: David A. James <dj@bell-labs.com>. License: GPL (version 2
 or later)
 
-## [dittodb](https://dittodb.jonkeane.com/) 0.1.3 (2020-10-10) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
+## [dittodb](https://dittodb.jonkeane.com/) 0.1.4 (2022-06-17) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
 
 A Test Environment for Database Requests
 
@@ -205,7 +205,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.5.1 (2022-01-26) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.6.0 (2022-05-20) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -219,7 +219,7 @@ used as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.3 (2022-03-08) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
+## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.4 (2022-06-12) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
 
 ‘Yandex Clickhouse’ Interface for R with Basic ‘dplyr’ Support
 
@@ -376,7 +376,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.7.6 (2022-05-26) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.7.7 (2022-06-07) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 

@@ -1,8 +1,8 @@
 {
-  "version": "2.5.1",
+  "version": "2.6.0",
   "title": "Connect to 'AWS Athena' using 'Boto3' ('DBI' Interface)",
   "description": "Designed to be compatible with the R package 'DBI' (Database Interface) when connecting to Amazon Web Service ('AWS') Athena <https://aws.amazon.com/athena/>. To do this 'Python' 'Boto3' Software Development Kit ('SDK') <https://boto3.amazonaws.com/v1/documentation/api/latest/index.html> is used as a driver.",
-  "date": "2022-01-26",
+  "date": "2022-05-20",
   "maintainer": "Dyfan Jones <dyfan.r.jones@gmail.com>",
   "license": "MIT + file LICENSE",
   "url": "https://github.com/DyfanJones/RAthena",
