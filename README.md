@@ -219,7 +219,7 @@ used as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.3 (2022-03-08) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
+## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.4 (2022-06-12) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
 
 ‘Yandex Clickhouse’ Interface for R with Basic ‘dplyr’ Support
 
