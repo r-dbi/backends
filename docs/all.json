@@ -305,10 +305,10 @@
   },
   {
     "name": "RSQLite",
-    "version": "2.2.14",
+    "version": "2.2.15",
     "title": "SQLite Interface for R",
     "description": "Embeds the SQLite database engine in R and provides an interface compliant with the DBI package. The source for the SQLite engine and for various extensions in a recent version is included. System libraries will never be consulted because this package relies on static linking for the plugins it includes; this also ensures a consistent experience across all installations.",
-    "date": "2022-05-07",
+    "date": "2022-07-17",
     "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
     "license": "LGPL (>= 2.1)",
     "url": ["https://rsqlite.r-dbi.org", "https://github.com/r-dbi/RSQLite"],
