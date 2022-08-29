@@ -414,7 +414,7 @@ first <- httr::GET(first_url)
 httr::stop_for_status(first)
 httr::content(first)
 #> $version
-#> [1] "1.0.6"
+#> [1] "1.0.7"
 #> 
 #> $title
 #> [1] "Interface to 'Kusto'/'Azure Data Explorer'"
@@ -423,7 +423,7 @@ httr::content(first)
 #> [1] "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/services/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages."
 #> 
 #> $date
-#> [1] "2020-04-27"
+#> [1] "2022-08-26"
 #> 
 #> $maintainer
 #> [1] "Alex Kyllo <jekyllo@microsoft.com>"
