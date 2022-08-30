@@ -1,10 +1,10 @@
 [
   {
     "name": "AzureKusto",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "title": "Interface to 'Kusto'/'Azure Data Explorer'",
     "description": "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/services/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages.",
-    "date": "2020-04-27",
+    "date": "2022-08-26",
     "maintainer": "Alex Kyllo <jekyllo@microsoft.com>",
     "license": "MIT + file LICENSE",
     "url": ["https://github.com/Azure/AzureKusto", "https://github.com/Azure/AzureR"],
@@ -277,10 +277,10 @@
   },
   {
     "name": "RPostgreSQL",
-    "version": "0.7-3",
+    "version": "0.7-4",
     "title": "R Interface to the 'PostgreSQL' Database System",
     "description": "Database interface and 'PostgreSQL' driver for 'R'. This package provides a Database Interface 'DBI' compliant driver for 'R' to access 'PostgreSQL' database systems. In order to build and install this package from source, 'PostgreSQL' itself must be present your system to provide 'PostgreSQL' functionality via its libraries and header files. These files are provided as 'postgresql-devel' package under some Linux distributions. On 'macOS' and 'Microsoft Windows' system the attached 'libpq' library source will be used.",
-    "date": "2021-10-22",
+    "date": "2022-08-09",
     "maintainer": "Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>",
     "license": "GPL-3 | file LICENSE",
     "url": ["https://github.com/tomoakin/RPostgreSQL", "https://cran.r-project.org/package=DBI", "https://www.postgresql.org"]
@@ -307,10 +307,10 @@
   },
   {
     "name": "RSQLite",
-    "version": "2.2.14",
+    "version": "2.2.15",
     "title": "SQLite Interface for R",
     "description": "Embeds the SQLite database engine in R and provides an interface compliant with the DBI package. The source for the SQLite engine and for various extensions in a recent version is included. System libraries will never be consulted because this package relies on static linking for the plugins it includes; this also ensures a consistent experience across all installations.",
-    "date": "2022-05-07",
+    "date": "2022-07-17",
     "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
     "license": "LGPL (>= 2.1)",
     "url": ["https://rsqlite.r-dbi.org", "https://github.com/r-dbi/RSQLite"],
@@ -340,10 +340,10 @@
   },
   {
     "name": "sparklyr",
-    "version": "1.7.7",
+    "version": "1.7.8",
     "title": "R Interface to Apache Spark",
     "description": "R interface to Apache Spark, a fast and general engine for big data processing, see <https://spark.apache.org/>. This package supports connecting to local and remote Apache Spark clusters, provides a 'dplyr' compatible back-end, and provides an interface to Spark's built-in machine learning algorithms.",
-    "date": "2022-06-07",
+    "date": "2022-08-16",
     "maintainer": "Edgar Ruiz <edgar@rstudio.com>",
     "license": "Apache License 2.0 | file LICENSE",
     "url": ["https://spark.rstudio.com/"],
