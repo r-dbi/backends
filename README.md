@@ -340,7 +340,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.15 (2022-07-17) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.16 (2022-08-17) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 SQLite Interface for R
 
@@ -351,8 +351,7 @@ will never be consulted because this package relies on static linking
 for the plugins it includes; this also ensures a consistent experience
 across all installations.
 
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: LGPL (\>=
-2.1)
+Maintainer: Kirill Müller <kirill@cynkra.com>. License: LGPL (\>= 2.1)
 
 ## [RSQLServer](https://github.com/imanuelcostigan/RSQLServer) 0.3.0 (2017-06-17) [:bug:](https://github.com/imanuelcostigan/RSQLServer/issues)
 
