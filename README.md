@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.4.0 (2022-06-21) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.5.0 (2022-09-05) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -340,7 +340,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.16 (2022-08-17) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.17 (2022-09-10) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 SQLite Interface for R
 
