@@ -318,7 +318,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
 License: GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.3.7 (2021-09-04) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.4.0 (2022-09-27) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
@@ -327,8 +327,8 @@ source distributed SQL query engine for running interactive analytic
 queries against data sources of all sizes ranging from gigabytes to
 petabytes: <https://prestodb.io/>.
 
-Maintainer: Thomas J. Leeper <thomasleeper@fb.com>. License:
-BSD\_3\_clause + file LICENSE
+Maintainer: Jarod G.R. Meng <jarodm@fb.com>. License: BSD\_3\_clause +
+file LICENSE
 
 ## RRedshiftSQL 0.1.2 (2016-09-15)
 
