@@ -62,17 +62,17 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 5.0.4 (2022-06-28) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 5.1.0 (2022-09-23) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
 An R ‘DataBase Interface’ (‘DBI’) compatible interface to various
 database platforms (‘PostgreSQL’, ‘Oracle’, ‘Microsoft SQL Server’,
 ‘Amazon Redshift’, ‘Microsoft Parallel Database Warehouse’, ‘IBM
-Netezza’, ‘Apache Impala’, ‘Google BigQuery’, ‘Spark’, and ‘SQLite’).
-Also includes support for fetching data as ‘Andromeda’ objects. Uses
-‘Java Database Connectivity’ (‘JDBC’) to connect to databases (except
-SQLite).
+Netezza’, ‘Apache Impala’, ‘Google BigQuery’, ‘Snowflake’, ‘Spark’, and
+‘SQLite’). Also includes support for fetching data as ‘Andromeda’
+objects. Uses ‘Java Database Connectivity’ (‘JDBC’) to connect to
+databases (except SQLite).
 
 Maintainer: Martijn Schuemie <schuemie@ohdsi.org>. License: Apache
 License
@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.5.0 (2022-09-05) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.5.1 (2022-09-20) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -318,7 +318,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
 License: GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.3.7 (2021-09-04) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.4.0 (2022-09-27) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
@@ -327,8 +327,8 @@ source distributed SQL query engine for running interactive analytic
 queries against data sources of all sizes ranging from gigabytes to
 petabytes: <https://prestodb.io/>.
 
-Maintainer: Thomas J. Leeper <thomasleeper@fb.com>. License:
-BSD\_3\_clause + file LICENSE
+Maintainer: Jarod G.R. Meng <jarodm@fb.com>. License: BSD\_3\_clause +
+file LICENSE
 
 ## RRedshiftSQL 0.1.2 (2016-09-15)
 
