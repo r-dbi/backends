@@ -342,7 +342,7 @@
     "name": "SparkRDBI",
     "version": "0.0.1",
     "title": "Unofficial BDI back-end for the official SparkR R Interface to Apache Spark",
-    "description": "SparkR is the official R interface for Apache Spark big data distribution computing framework. This package provide a DBI interface for SparkR.",
+    "description": "SparkR is the official R interface for Apache Spark big data distribution computing framework. This package provides a DBI interface for SparkR.",
     "date": "2022-10-24",
     "maintainer": "Ali Bellamine <contact@alibellamine.me>",
     "license": "MIT | file LICENSE",
