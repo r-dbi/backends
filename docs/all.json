@@ -12,10 +12,10 @@
   },
   {
     "name": "bigrquery",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "title": "An Interface to Google's 'BigQuery' 'API'",
     "description": "Easily talk to Google's 'BigQuery' database from R.",
-    "date": "2021-08-05",
+    "date": "2022-10-27",
     "maintainer": "Hadley Wickham <hadley@rstudio.com>",
     "license": "GPL-3",
     "url": ["https://bigrquery.r-dbi.org", "https://github.com/r-dbi/bigrquery"],
