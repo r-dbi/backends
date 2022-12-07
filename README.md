@@ -263,7 +263,7 @@ and MySQL (<https://www.mysql.com/>) databases.
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: MIT + file
 LICENSE
 
-## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.24 (2022-10-18) [:bug:](https://github.com/r-dbi/rmysql/issues)
+## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.25 (2022-12-06) [:bug:](https://github.com/r-dbi/rmysql/issues)
 
 Database Interface and ‘MySQL’ Driver for R
 
