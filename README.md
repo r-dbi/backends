@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.5.1 (2022-09-20) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.6.0 (2022-11-25) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -263,7 +263,7 @@ and MySQL (<https://www.mysql.com/>) databases.
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: MIT + file
 LICENSE
 
-## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.24 (2022-10-18) [:bug:](https://github.com/r-dbi/rmysql/issues)
+## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.25 (2022-12-06) [:bug:](https://github.com/r-dbi/rmysql/issues)
 
 Database Interface and ‘MySQL’ Driver for R
 
