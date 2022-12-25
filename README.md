@@ -14,13 +14,13 @@ List of [DBI](https://dbi.r-dbi.org) backends.
 Do you maintain a backend and think that yours should be on this list?
 Please open an issue in this repository.
 
-## [AzureKusto](https://github.com/Azure/AzureKusto) 1.0.7 (2022-08-26) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
+## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.0 (2022-12-21) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
 
 An interface to ‘Azure Data Explorer’, also known as ‘Kusto’, a fast,
 highly scalable data exploration service from Microsoft:
-<https://azure.microsoft.com/en-us/services/data-explorer/>. Includes
+<https://azure.microsoft.com/en-us/products/data-explorer/>. Includes
 ‘DBI’ and ‘dplyr’ interfaces, with the latter modelled after the
 ‘dbplyr’ package, whereby queries are translated from R into the
 native ‘KQL’ query language and executed lazily. On the admin side, the
