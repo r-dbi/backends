@@ -14,7 +14,7 @@ List of [DBI](https://dbi.r-dbi.org) backends.
 Do you maintain a backend and think that yours should be on this list?
 Please open an issue in this repository.
 
-## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.0 (2022-12-21) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
+## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.1 (2023-01-25) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
 
