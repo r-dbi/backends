@@ -62,7 +62,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 5.1.0 (2022-09-23) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.0.0 (2023-01-30) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -71,8 +71,8 @@ database platforms (‘PostgreSQL’, ‘Oracle’, ‘Microsoft SQL Server’,
 ‘Amazon Redshift’, ‘Microsoft Parallel Database Warehouse’, ‘IBM
 Netezza’, ‘Apache Impala’, ‘Google BigQuery’, ‘Snowflake’, ‘Spark’, and
 ‘SQLite’). Also includes support for fetching data as ‘Andromeda’
-objects. Uses ‘Java Database Connectivity’ (‘JDBC’) to connect to
-databases (except SQLite).
+objects. Uses either ‘Java Database Connectivity’ (‘JDBC’) or other DB I
+drivers to connect to databases.
 
 Maintainer: Martijn Schuemie <schuemie@ohdsi.org>. License: Apache
 License
@@ -293,14 +293,14 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.4.4 (2022-05-02) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.4.5 (2023-01-20) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 Rcpp Interface to PostgreSQL
 
 Fully DBI-compliant Rcpp-backed interface to PostgreSQL
 <https://www.postgresql.org/>, an open-source relational database.
 
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
+Maintainer: Kirill Müller <kirill@cynkra.com>. License: GPL-3
 
 ## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-5 (2023-02-10) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 

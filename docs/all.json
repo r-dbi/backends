@@ -45,10 +45,10 @@
   },
   {
     "name": "DatabaseConnector",
-    "version": "5.1.0",
+    "version": "6.0.0",
     "title": "Connecting to Various Database Platforms",
-    "description": "An R 'DataBase Interface' ('DBI') compatible interface to various database platforms ('PostgreSQL', 'Oracle', 'Microsoft SQL Server', 'Amazon Redshift', 'Microsoft Parallel Database Warehouse', 'IBM Netezza', 'Apache Impala', 'Google BigQuery', 'Snowflake', 'Spark', and 'SQLite'). Also includes support for fetching data as 'Andromeda' objects. Uses 'Java Database Connectivity' ('JDBC') to connect to databases (except SQLite).",
-    "date": "2022-09-23",
+    "description": "An R 'DataBase Interface' ('DBI') compatible interface to various database platforms ('PostgreSQL', 'Oracle', 'Microsoft SQL Server', 'Amazon Redshift', 'Microsoft Parallel Database Warehouse', 'IBM Netezza', 'Apache Impala', 'Google BigQuery', 'Snowflake', 'Spark', and 'SQLite'). Also includes support for fetching data as 'Andromeda' objects. Uses either 'Java Database Connectivity' ('JDBC') or other DB I drivers to connect to databases.",
+    "date": "2023-01-30",
     "maintainer": "Martijn Schuemie <schuemie@ohdsi.org>",
     "license": "Apache License",
     "url": ["https://ohdsi.github.io/DatabaseConnector/", "https://github.com/OHDSI/DatabaseConnector"],
@@ -255,11 +255,11 @@
   },
   {
     "name": "RPostgres",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "title": "Rcpp Interface to PostgreSQL",
     "description": "Fully DBI-compliant Rcpp-backed interface to PostgreSQL <https://www.postgresql.org/>, an open-source relational database.",
-    "date": "2022-05-02",
-    "maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+    "date": "2023-01-20",
+    "maintainer": "Kirill Müller <kirill@cynkra.com>",
     "license": "GPL-3",
     "url": ["https://rpostgres.r-dbi.org", "https://github.com/r-dbi/RPostgres"],
     "bugs": "https://github.com/r-dbi/RPostgres/issues"
