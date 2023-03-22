@@ -14,7 +14,7 @@ List of [DBI](https://dbi.r-dbi.org) backends.
 Do you maintain a backend and think that yours should be on this list?
 Please open an issue in this repository.
 
-## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.1 (2023-01-25) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
+## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.2 (2023-03-17) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
 
@@ -39,7 +39,7 @@ Easily talk to Google’s ‘BigQuery’ database from R.
 
 Maintainer: Hadley Wickham <hadley@rstudio.com>. License: GPL-3
 
-## [ckanr](https://docs.ropensci.org/ckanr/) 0.6.0 (2021-02-03) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
+## [ckanr](https://docs.ropensci.org/ckanr/) 0.7.0 (2023-03-17) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
 
 Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API
 
@@ -48,8 +48,8 @@ Client for ‘CKAN’ API (<https://ckan.org/>). Includes interface to
 and resources. In addition, provides an interface to the ‘datastore’
 API.
 
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>. License: MIT +
-file LICENSE
+Maintainer: Francisco Alves <fjunior.alves.oliveira@gmail.com>. License:
+MIT + file LICENSE
 
 ## [connections](https://github.com/edgararuiz/connections) 0.1.1 (2020-02-07) [:bug:](https://github.com/edgararuiz/connections/issues)
 
