@@ -14,7 +14,7 @@ List of [DBI](https://dbi.r-dbi.org) backends.
 Do you maintain a backend and think that yours should be on this list?
 Please open an issue in this repository.
 
-## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.1 (2023-01-25) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
+## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.2 (2023-03-17) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
 
@@ -39,7 +39,7 @@ Easily talk to Google’s ‘BigQuery’ database from R.
 
 Maintainer: Hadley Wickham <hadley@rstudio.com>. License: GPL-3
 
-## [ckanr](https://docs.ropensci.org/ckanr/) 0.6.0 (2021-02-03) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
+## [ckanr](https://docs.ropensci.org/ckanr/) 0.7.0 (2023-03-17) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
 
 Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API
 
@@ -48,8 +48,8 @@ Client for ‘CKAN’ API (<https://ckan.org/>). Includes interface to
 and resources. In addition, provides an interface to the ‘datastore’
 API.
 
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>. License: MIT +
-file LICENSE
+Maintainer: Francisco Alves <fjunior.alves.oliveira@gmail.com>. License:
+MIT + file LICENSE
 
 ## [connections](https://github.com/edgararuiz/connections) 0.1.1 (2020-02-07) [:bug:](https://github.com/edgararuiz/connections/issues)
 
@@ -62,7 +62,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.0.0 (2023-01-30) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.1.0 (2023-03-15) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -318,7 +318,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
 License: GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.4.2 (2023-01-13) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.4.4 (2023-03-09) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
@@ -413,7 +413,7 @@ first <- httr::GET(first_url)
 httr::stop_for_status(first)
 httr::content(first)
 #> $version
-#> [1] "1.1.1"
+#> [1] "1.1.2"
 #> 
 #> $title
 #> [1] "Interface to 'Kusto'/'Azure Data Explorer'"
@@ -422,7 +422,7 @@ httr::content(first)
 #> [1] "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/products/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages."
 #> 
 #> $date
-#> [1] "2023-01-25"
+#> [1] "2023-03-17"
 #> 
 #> $maintainer
 #> [1] "Alex Kyllo <jekyllo@microsoft.com>"
