@@ -62,7 +62,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.0.0 (2023-01-30) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.1.0 (2023-03-15) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -318,7 +318,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
 License: GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.4.2 (2023-01-13) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.4.4 (2023-03-09) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
@@ -376,7 +376,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.8.0 (2023-03-07) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.8.1 (2023-03-22) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
@@ -413,7 +413,7 @@ first <- httr::GET(first_url)
 httr::stop_for_status(first)
 httr::content(first)
 #> $version
-#> [1] "1.1.1"
+#> [1] "1.1.2"
 #> 
 #> $title
 #> [1] "Interface to 'Kusto'/'Azure Data Explorer'"
@@ -422,7 +422,7 @@ httr::content(first)
 #> [1] "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/products/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages."
 #> 
 #> $date
-#> [1] "2023-01-25"
+#> [1] "2023-03-17"
 #> 
 #> $maintainer
 #> [1] "Alex Kyllo <jekyllo@microsoft.com>"
