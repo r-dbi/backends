@@ -14,13 +14,13 @@ List of [DBI](https://dbi.r-dbi.org) backends.
 Do you maintain a backend and think that yours should be on this list?
 Please open an issue in this repository.
 
-## [AzureKusto](https://github.com/Azure/AzureKusto) 1.0.6 (2020-04-27) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
+## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.2 (2023-03-17) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
 
 An interface to ‘Azure Data Explorer’, also known as ‘Kusto’, a fast,
 highly scalable data exploration service from Microsoft:
-<https://azure.microsoft.com/en-us/services/data-explorer/>. Includes
+<https://azure.microsoft.com/en-us/products/data-explorer/>. Includes
 ‘DBI’ and ‘dplyr’ interfaces, with the latter modelled after the
 ‘dbplyr’ package, whereby queries are translated from R into the
 native ‘KQL’ query language and executed lazily. On the admin side, the
@@ -31,7 +31,7 @@ principals. Part of the ‘AzureR’ family of packages.
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
 
-## [bigrquery](https://bigrquery.r-dbi.org) 1.4.0 (2021-08-05) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
+## [bigrquery](https://bigrquery.r-dbi.org) 1.4.1 (2022-10-27) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
 
 An Interface to Google’s ‘BigQuery’ ‘API’
 
@@ -39,7 +39,7 @@ Easily talk to Google’s ‘BigQuery’ database from R.
 
 Maintainer: Hadley Wickham <hadley@rstudio.com>. License: GPL-3
 
-## [ckanr](https://docs.ropensci.org/ckanr/) 0.6.0 (2021-02-03) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
+## [ckanr](https://docs.ropensci.org/ckanr/) 0.7.0 (2023-03-17) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
 
 Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API
 
@@ -48,8 +48,8 @@ Client for ‘CKAN’ API (<https://ckan.org/>). Includes interface to
 and resources. In addition, provides an interface to the ‘datastore’
 API.
 
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>. License: MIT +
-file LICENSE
+Maintainer: Francisco Alves <fjunior.alves.oliveira@gmail.com>. License:
+MIT + file LICENSE
 
 ## [connections](https://github.com/edgararuiz/connections) 0.1.1 (2020-02-07) [:bug:](https://github.com/edgararuiz/connections/issues)
 
@@ -62,17 +62,17 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 5.0.0 (2021-11-18) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.1.0 (2023-03-15) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
 An R ‘DataBase Interface’ (‘DBI’) compatible interface to various
 database platforms (‘PostgreSQL’, ‘Oracle’, ‘Microsoft SQL Server’,
 ‘Amazon Redshift’, ‘Microsoft Parallel Database Warehouse’, ‘IBM
-Netezza’, ‘Apache Impala’, ‘Google BigQuery’, ‘Spark’, and ‘SQLite’).
-Also includes support for fetching data as ‘Andromeda’ objects. Uses
-‘Java Database Connectivity’ (‘JDBC’) to connect to databases (except
-SQLite).
+Netezza’, ‘Apache Impala’, ‘Google BigQuery’, ‘Snowflake’, ‘Spark’, and
+‘SQLite’). Also includes support for fetching data as ‘Andromeda’
+objects. Uses either ‘Java Database Connectivity’ (‘JDBC’) or other DB I
+drivers to connect to databases.
 
 Maintainer: Martijn Schuemie <schuemie@ohdsi.org>. License: Apache
 License
@@ -99,7 +99,7 @@ A simple DBI front-end to the RPgSQL package. This package uses version
 Maintainer: David A. James <dj@bell-labs.com>. License: GPL (version 2
 or later)
 
-## [dittodb](https://dittodb.jonkeane.com/) 0.1.3 (2020-10-10) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
+## [dittodb](https://dittodb.jonkeane.com/) 0.1.5 (2023-04-13) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
 
 A Test Environment for Database Requests
 
@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.3.1-1 (2021-11-22) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.6.0 (2022-11-25) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -125,7 +125,8 @@ The DuckDB project is an embedded analytical data management system with
 support for the Structured Query Language (SQL). This package includes
 all of DuckDB and a R Database Interface (DBI) connector.
 
-Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL
+Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MIT + file
+LICENSE
 
 ## [implyr](https://github.com/ianmcook/implyr) 0.4.0 (2021-03-29) [:bug:](https://github.com/ianmcook/implyr/issues)
 
@@ -173,7 +174,7 @@ the ‘R’ shell.
 
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MPL (== 2.0)
 
-## [noctua](https://github.com/DyfanJones/noctua) 2.4.0 (2021-11-26) [:bug:](https://github.com/DyfanJones/noctua/issues)
+## [noctua](https://github.com/DyfanJones/noctua) 2.6.1 (2022-12-20) [:bug:](https://github.com/DyfanJones/noctua/issues)
 
 Connect to ‘AWS Athena’ using R ‘AWS SDK’ ‘paws’ (‘DBI’ Interface)
 
@@ -205,7 +206,7 @@ objects are ‘DBI’ connections.
 
 Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.4.0 (2021-11-26) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.6.0 (2022-05-20) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -219,12 +220,11 @@ used as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.5.2 (2020-03-06) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
+## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.4 (2022-06-12) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
 
-A ‘DBI’ Interface to the ‘Yandex Clickhouse’ Database Providing Basic
-‘dplyr’ Support
+‘Yandex Clickhouse’ Interface for R with Basic ‘dplyr’ Support
 
-‘Yandex Clickhouse’ (<https://clickhouse.yandex/>) is a high-performance
+‘Yandex Clickhouse’ (<https://clickhouse.com/>) is a high-performance
 relational column-store database to enable big data exploration and
 ‘analytics’ scaling to petabytes of data. Methods are provided that
 enable working with ‘Yandex Clickhouse’ databases via ‘DBI’ methods and
@@ -242,7 +242,7 @@ DBI/RJDBC interface to h2 database. h2 version 1.3.175 is included.
 Maintainer: “David M. Kaplan” <dmkaplan2000@gmail.com>. License: Mozilla
 Public License 1.1
 
-## [RJDBC](http://www.rforge.net/RJDBC/) 0.2-8 (2020-03-10)
+## [RJDBC](http://www.rforge.net/RJDBC/) 0.2-10 (2022-03-24)
 
 Provides Access to Databases Through the JDBC Interface
 
@@ -253,18 +253,17 @@ driver.
 Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>. License: MIT +
 file LICENSE
 
-## [RMariaDB](https://rmariadb.r-dbi.org) 1.1.2 (2021-09-06) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
+## [RMariaDB](https://rmariadb.r-dbi.org) 1.2.2 (2022-06-19) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
 
-Database Interface and ‘MariaDB’ Driver
+Database Interface and MariaDB Driver
 
-Implements a ‘DBI’-compliant interface to ‘MariaDB’
-(<https://mariadb.org/>) and ‘MySQL’ (<https://www.mysql.com/>)
-databases.
+Implements a DBI-compliant interface to MariaDB (<https://mariadb.org/>)
+and MySQL (<https://www.mysql.com/>) databases.
 
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: MIT + file
 LICENSE
 
-## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.22 (2021-06-22) [:bug:](https://github.com/r-dbi/rmysql/issues)
+## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.25 (2022-12-06) [:bug:](https://github.com/r-dbi/rmysql/issues)
 
 Database Interface and ‘MySQL’ Driver for R
 
@@ -294,16 +293,16 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.4.2 (2021-12-05) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.4.5 (2023-01-20) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
 Rcpp Interface to PostgreSQL
 
 Fully DBI-compliant Rcpp-backed interface to PostgreSQL
 <https://www.postgresql.org/>, an open-source relational database.
 
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: GPL-3
+Maintainer: Kirill Müller <kirill@cynkra.com>. License: GPL-3
 
-## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-3 (2021-10-22) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
+## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-5 (2023-02-10) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 
 R Interface to the ‘PostgreSQL’ Database System
 
@@ -319,7 +318,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
 License: GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.3.7 (2021-09-04) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.4.4 (2023-03-09) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
@@ -328,8 +327,8 @@ source distributed SQL query engine for running interactive analytic
 queries against data sources of all sizes ranging from gigabytes to
 petabytes: <https://prestodb.io/>.
 
-Maintainer: Thomas J. Leeper <thomasleeper@fb.com>. License:
-BSD\_3\_clause + file LICENSE
+Maintainer: Jarod G.R. Meng <jarodm@fb.com>. License: BSD\_3\_clause +
+file LICENSE
 
 ## RRedshiftSQL 0.1.2 (2016-09-15)
 
@@ -341,16 +340,18 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.9 (2021-12-06) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.2.20 (2022-12-22) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 SQLite Interface for R
 
 Embeds the SQLite database engine in R and provides an interface
-compliant with the DBI package. The source for the SQLite engine is
-included.
+compliant with the DBI package. The source for the SQLite engine and for
+various extensions in a recent version is included. System libraries
+will never be consulted because this package relies on static linking
+for the plugins it includes; this also ensures a consistent experience
+across all installations.
 
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: LGPL (\>=
-2.1)
+Maintainer: Kirill Müller <kirill@cynkra.com>. License: LGPL (\>= 2.1)
 
 ## [RSQLServer](https://github.com/imanuelcostigan/RSQLServer) 0.3.0 (2017-06-17) [:bug:](https://github.com/imanuelcostigan/RSQLServer/issues)
 
@@ -375,18 +376,18 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.7.3 (2021-11-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.rstudio.com/) 1.8.1 (2023-03-22) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
 R interface to Apache Spark, a fast and general engine for big data
-processing, see <http://spark.apache.org>. This package supports
+processing, see <https://spark.apache.org/>. This package supports
 connecting to local and remote Apache Spark clusters, provides a ‘dplyr’
 compatible back-end, and provides an interface to Spark’s built-in
 machine learning algorithms.
 
-Maintainer: Yitao Li <yitao@rstudio.com>. License: Apache License 2.0 |
-file LICENSE
+Maintainer: Edgar Ruiz <edgar@rstudio.com>. License: Apache License 2.0
+| file LICENSE
 
 # Implementation
 
@@ -412,16 +413,16 @@ first <- httr::GET(first_url)
 httr::stop_for_status(first)
 httr::content(first)
 #> $version
-#> [1] "1.0.6"
+#> [1] "1.1.2"
 #> 
 #> $title
 #> [1] "Interface to 'Kusto'/'Azure Data Explorer'"
 #> 
 #> $description
-#> [1] "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/services/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages."
+#> [1] "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/products/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages."
 #> 
 #> $date
-#> [1] "2020-04-27"
+#> [1] "2023-03-17"
 #> 
 #> $maintainer
 #> [1] "Alex Kyllo <jekyllo@microsoft.com>"
