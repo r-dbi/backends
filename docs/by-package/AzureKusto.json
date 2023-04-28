@@ -1,8 +1,8 @@
 {
-  "version": "1.0.6",
+  "version": "1.1.2",
   "title": "Interface to 'Kusto'/'Azure Data Explorer'",
-  "description": "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/services/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages.",
-  "date": "2020-04-27",
+  "description": "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, highly scalable data exploration service from Microsoft: <https://azure.microsoft.com/en-us/products/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages.",
+  "date": "2023-03-17",
   "maintainer": "Alex Kyllo <jekyllo@microsoft.com>",
   "license": "MIT + file LICENSE",
   "url": ["https://github.com/Azure/AzureKusto", "https://github.com/Azure/AzureR"],
