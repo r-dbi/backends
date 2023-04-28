@@ -99,7 +99,7 @@ A simple DBI front-end to the RPgSQL package. This package uses version
 Maintainer: David A. James <dj@bell-labs.com>. License: GPL (version 2
 or later)
 
-## [dittodb](https://dittodb.jonkeane.com/) 0.1.4 (2022-06-17) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
+## [dittodb](https://dittodb.jonkeane.com/) 0.1.5 (2023-04-13) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
 
 A Test Environment for Database Requests
 
