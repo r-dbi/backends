@@ -31,13 +31,13 @@ principals. Part of the ‘AzureR’ family of packages.
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
 
-## [bigrquery](https://bigrquery.r-dbi.org) 1.4.1 (2022-10-27) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
+## [bigrquery](https://bigrquery.r-dbi.org) 1.4.2 (2023-04-20) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
 
 An Interface to Google’s ‘BigQuery’ ‘API’
 
 Easily talk to Google’s ‘BigQuery’ database from R.
 
-Maintainer: Hadley Wickham <hadley@rstudio.com>. License: GPL-3
+Maintainer: Hadley Wickham <hadley@posit.co>. License: GPL-3
 
 ## [ckanr](https://docs.ropensci.org/ckanr/) 0.7.0 (2023-03-17) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
 
@@ -62,7 +62,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.1.0 (2023-03-15) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.2.0 (2023-04-13) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -99,7 +99,7 @@ A simple DBI front-end to the RPgSQL package. This package uses version
 Maintainer: David A. James <dj@bell-labs.com>. License: GPL (version 2
 or later)
 
-## [dittodb](https://dittodb.jonkeane.com/) 0.1.5 (2023-04-13) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
+## [dittodb](https://dittodb.jonkeane.com/) 0.1.6 (2023-04-17) [:link:](https://github.com/ropensci/dittodb) [:bug:](https://github.com/ropensci/dittodb/issues)
 
 A Test Environment for Database Requests
 
@@ -117,7 +117,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.6.0 (2022-11-25) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.7.1-1 (2023-03-01) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -187,7 +187,7 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://github.com/r-dbi/odbc) 1.3.3 (2021-11-30) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://r-dbi.github.io/odbc/) 1.3.4 (2023-01-17) [:link:](https://github.com/r-dbi/odbc) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
@@ -196,7 +196,7 @@ A DBI-compatible interface to ODBC databases.
 Maintainer: Hadley Wickham <hadley@rstudio.com>. License: MIT + file
 LICENSE
 
-## [pool](https://github.com/rstudio/pool) 0.1.6 (2021-01-14) [:bug:](https://github.com/rstudio/pool/issues)
+## [pool](https://github.com/rstudio/pool) 1.0.1 (2023-02-21) [:link:](http://rstudio.github.io/pool/) [:bug:](https://github.com/rstudio/pool/issues)
 
 Object Pooling
 
@@ -204,9 +204,10 @@ Enables the creation of object pools, which make it less computationally
 expensive to fetch a new object. Currently the only supported pooled
 objects are ‘DBI’ connections.
 
-Maintainer: Joe Cheng <joe@rstudio.com>. License: GPL-3
+Maintainer: Hadley Wickham <hadley@posit.co>. License: MIT + file
+LICENSE
 
-## [RAthena](https://github.com/DyfanJones/RAthena) 2.6.0 (2022-05-20) [:bug:](https://github.com/DyfanJones/RAthena/issues)
+## [RAthena](https://github.com/DyfanJones/RAthena) 2.6.1 (2022-12-20) [:bug:](https://github.com/DyfanJones/RAthena/issues)
 
 Connect to ‘AWS Athena’ using ‘Boto3’ (‘DBI’ Interface)
 
@@ -220,7 +221,7 @@ used as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.4 (2022-06-12) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
+## [RClickhouse](https://github.com/IMSMWU/RClickhouse) 0.6.7 (2023-04-02) [:bug:](https://github.com/IMSMWU/RClickhouse/issues)
 
 ‘Yandex Clickhouse’ Interface for R with Basic ‘dplyr’ Support
 
@@ -340,7 +341,7 @@ functionality on ‘Redshift’.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.2.20 (2022-12-22) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 2.3.1 (2023-04-03) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 SQLite Interface for R
 
