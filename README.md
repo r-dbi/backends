@@ -51,6 +51,18 @@ API.
 Maintainer: Francisco Alves <fjunior.alves.oliveira@gmail.com>. License:
 MIT + file LICENSE
 
+## [ClickHouseHTTP](https://github.com/patzaw/ClickHouseHTTP) 0.3.0 (2023-02-16) [:bug:](https://github.com/patzaw/ClickHouseHTTP/issues)
+
+A Simple HTTP Database Interface to ‘ClickHouse’
+
+‘ClickHouse’ (<https://clickhouse.com/>) is an open-source, high
+performance columnar OLAP (online analytical processing of queries)
+database management system for real-time analytics using SQL. This ‘DBI’
+backend relies on the ‘ClickHouse’ HTTP interface and support HTTPS
+protocol.
+
+Maintainer: Patrice Godard <patrice.godard@gmail.com>. License: GPL-3
+
 ## [connections](https://github.com/edgararuiz/connections) 0.1.1 (2020-02-07) [:bug:](https://github.com/edgararuiz/connections/issues)
 
 Integrates with the ‘RStudio’ Connections Pane and ‘pins’
@@ -62,7 +74,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.2.0 (2023-04-13) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.2.1 (2023-05-10) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -71,8 +83,8 @@ database platforms (‘PostgreSQL’, ‘Oracle’, ‘Microsoft SQL Server’,
 ‘Amazon Redshift’, ‘Microsoft Parallel Database Warehouse’, ‘IBM
 Netezza’, ‘Apache Impala’, ‘Google BigQuery’, ‘Snowflake’, ‘Spark’, and
 ‘SQLite’). Also includes support for fetching data as ‘Andromeda’
-objects. Uses either ‘Java Database Connectivity’ (‘JDBC’) or other DB I
-drivers to connect to databases.
+objects. Uses either ‘Java Database Connectivity’ (‘JDBC’) or other
+‘DBI’ drivers to connect to databases.
 
 Maintainer: Martijn Schuemie <schuemie@ohdsi.org>. License: Apache
 License
