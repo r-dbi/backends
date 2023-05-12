@@ -42,6 +42,17 @@
     "bugs": "https://github.com/ropensci/ckanr/issues"
   },
   {
+    "name": "ClickHouseHTTP",
+    "version": "0.3.0",
+    "title": "A Simple HTTP Database Interface to 'ClickHouse'",
+    "description": "'ClickHouse' (<https://clickhouse.com/>) is an open-source, high performance columnar OLAP (online analytical processing of queries) database management system for real-time analytics using SQL. This 'DBI' backend relies on the 'ClickHouse' HTTP interface and support HTTPS protocol.",
+    "date": "2023-02-16",
+    "maintainer": "Patrice Godard <patrice.godard@gmail.com>",
+    "license": "GPL-3",
+    "url": ["https://github.com/patzaw/ClickHouseHTTP"],
+    "bugs": "https://github.com/patzaw/ClickHouseHTTP/issues"
+  },
+  {
     "name": "connections",
     "version": "0.1.1",
     "title": "Integrates with the 'RStudio' Connections Pane and 'pins'",
@@ -54,10 +65,10 @@
   },
   {
     "name": "DatabaseConnector",
-    "version": "6.2.0",
+    "version": "6.2.1",
     "title": "Connecting to Various Database Platforms",
-    "description": "An R 'DataBase Interface' ('DBI') compatible interface to various database platforms ('PostgreSQL', 'Oracle', 'Microsoft SQL Server', 'Amazon Redshift', 'Microsoft Parallel Database Warehouse', 'IBM Netezza', 'Apache Impala', 'Google BigQuery', 'Snowflake', 'Spark', and 'SQLite'). Also includes support for fetching data as 'Andromeda' objects. Uses either 'Java Database Connectivity' ('JDBC') or other DB I drivers to connect to databases.",
-    "date": "2023-04-13",
+    "description": "An R 'DataBase Interface' ('DBI') compatible interface to various database platforms ('PostgreSQL', 'Oracle', 'Microsoft SQL Server', 'Amazon Redshift', 'Microsoft Parallel Database Warehouse', 'IBM Netezza', 'Apache Impala', 'Google BigQuery', 'Snowflake', 'Spark', and 'SQLite'). Also includes support for fetching data as 'Andromeda' objects. Uses either 'Java Database Connectivity' ('JDBC') or other 'DBI' drivers to connect to databases.",
+    "date": "2023-05-10",
     "maintainer": "Martijn Schuemie <schuemie@ohdsi.org>",
     "license": "Apache License",
     "url": ["https://ohdsi.github.io/DatabaseConnector/", "https://github.com/OHDSI/DatabaseConnector"],
