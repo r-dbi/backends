@@ -74,7 +74,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.2.2 (2023-06-23) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.2.3 (2023-06-29) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -199,7 +199,7 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://r-dbi.github.io/odbc/) 1.3.4 (2023-01-17) [:link:](https://github.com/r-dbi/odbc) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://r-dbi.github.io/odbc/) 1.3.5 (2023-06-29) [:link:](https://github.com/r-dbi/odbc) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
