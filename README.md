@@ -51,7 +51,7 @@ API.
 Maintainer: Francisco Alves <fjunior.alves.oliveira@gmail.com>. License:
 MIT + file LICENSE
 
-## [ClickHouseHTTP](https://github.com/patzaw/ClickHouseHTTP) 0.3.0 (2023-02-16) [:bug:](https://github.com/patzaw/ClickHouseHTTP/issues)
+## [ClickHouseHTTP](https://github.com/patzaw/ClickHouseHTTP) 0.3.2 (2023-07-04) [:bug:](https://github.com/patzaw/ClickHouseHTTP/issues)
 
 A Simple HTTP Database Interface to ‘ClickHouse’
 
