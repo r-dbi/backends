@@ -85,10 +85,10 @@
   },
   {
     "name": "dittodb",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "title": "A Test Environment for Database Requests",
     "description": "Testing and documenting code that communicates with remote databases can be painful. Although the interaction with R is usually relatively simple (e.g. data(frames) passed to and from a database), because they rely on a separate service and the data there, testing them can be difficult to set up, unsustainable in a continuous integration environment, or impossible without replicating an entire production cluster. This package addresses that by allowing you to make recordings from your database interactions and then play them back while testing (or in other contexts) all without needing to spin up or have access to the database your code would typically connect to.",
-    "date": "2023-04-17",
+    "date": "2023-08-13",
     "maintainer": "Jonathan Keane <jkeane@gmail.com>",
     "license": "Apache License (>= 2.0)",
     "url": ["https://dittodb.jonkeane.com/", "https://github.com/ropensci/dittodb"],
