@@ -194,10 +194,10 @@
   },
   {
     "name": "RClickhouse",
-    "version": "0.6.7",
+    "version": "0.6.8",
     "title": "'Yandex Clickhouse' Interface for R with Basic 'dplyr' Support",
     "description": "'Yandex Clickhouse' (<https://clickhouse.com/>) is a high-performance relational column-store database to enable big data exploration and 'analytics' scaling to petabytes of data. Methods are provided that enable working with 'Yandex Clickhouse' databases via 'DBI' methods and using 'dplyr'/'dbplyr' idioms.",
-    "date": "2023-04-02",
+    "date": "2023-08-21",
     "maintainer": "Christian Hotz-Behofsits <christian.hotz-behofsits@wu.ac.at>",
     "license": "GPL-2",
     "url": ["https://github.com/IMSMWU/RClickhouse"],
