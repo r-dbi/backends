@@ -266,14 +266,14 @@ driver.
 Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>. License: MIT +
 file LICENSE
 
-## [RMariaDB](https://rmariadb.r-dbi.org) 1.2.2 (2022-06-19) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
+## [RMariaDB](https://rmariadb.r-dbi.org) 1.3.0 (2023-10-09) [:link:](https://github.com/r-dbi/RMariaDB) [:link:](https://downloads.mariadb.org/connector-c/) [:bug:](https://github.com/r-dbi/RMariaDB/issues)
 
 Database Interface and MariaDB Driver
 
 Implements a DBI-compliant interface to MariaDB (<https://mariadb.org/>)
 and MySQL (<https://www.mysql.com/>) databases.
 
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>. License: MIT + file
+Maintainer: Kirill Müller <kirill@cynkra.com>. License: MIT + file
 LICENSE
 
 ## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.26 (2023-09-26) [:bug:](https://github.com/r-dbi/rmysql/issues)
