@@ -14,12 +14,12 @@ List of [DBI](https://dbi.r-dbi.org) backends.
 Do you maintain a backend and think that yours should be on this list?
 Please open an issue in this repository.
 
-## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.2 (2023-03-17) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
+## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.3 (2023-10-12) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
 
 An interface to ‘Azure Data Explorer’, also known as ‘Kusto’, a fast,
-highly scalable data exploration service from Microsoft:
+distributed data exploration service from Microsoft:
 <https://azure.microsoft.com/en-us/products/data-explorer/>. Includes
 ‘DBI’ and ‘dplyr’ interfaces, with the latter modelled after the
 ‘dbplyr’ package, whereby queries are translated from R into the
@@ -129,7 +129,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.8.1-3 (2023-09-01) [:link:](https://github.com/duckdb/duckdb) [:bug:](https://github.com/duckdb/duckdb/issues)
+## [duckdb](https://duckdb.org/) 0.9.1 (2023-10-13) [:link:](https://github.com/duckdb/duckdb-r) [:bug:](https://github.com/duckdb/duckdb-r/issues)
 
 DBI Package for the DuckDB Database Management System
 
