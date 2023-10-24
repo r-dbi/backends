@@ -306,14 +306,15 @@ Oracle driver based on the OCI.
 Maintainer: Rajendra S. Pingte <rajendra.pingte@oracle.com>. License:
 LGPL
 
-## [RPostgres](https://rpostgres.r-dbi.org) 1.4.5 (2023-01-20) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
+## [RPostgres](https://rpostgres.r-dbi.org) 1.4.6 (2023-10-22) [:link:](https://github.com/r-dbi/RPostgres) [:bug:](https://github.com/r-dbi/RPostgres/issues)
 
-Rcpp Interface to PostgreSQL
+C++ Interface to PostgreSQL
 
 Fully DBI-compliant Rcpp-backed interface to PostgreSQL
 <https://www.postgresql.org/>, an open-source relational database.
 
-Maintainer: Kirill Müller <kirill@cynkra.com>. License: GPL-3
+Maintainer: Kirill Müller <kirill@cynkra.com>. License: MIT + file
+LICENSE
 
 ## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-5 (2023-02-10) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 
