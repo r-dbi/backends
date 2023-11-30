@@ -74,7 +74,7 @@ records.
 
 Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.3.0 (2023-11-08) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.3.1 (2023-11-28) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
@@ -129,7 +129,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://duckdb.org/) 0.9.2 (2023-11-17) [:link:](https://github.com/duckdb/duckdb-r) [:bug:](https://github.com/duckdb/duckdb-r/issues)
+## [duckdb](https://duckdb.org/) 0.9.2-1 (2023-11-28) [:link:](https://github.com/duckdb/duckdb-r) [:bug:](https://github.com/duckdb/duckdb-r/issues)
 
 DBI Package for the DuckDB Database Management System
 
