@@ -276,12 +276,12 @@ and MySQL (<https://www.mysql.com/>) databases.
 Maintainer: Kirill Müller <kirill@cynkra.com>. License: MIT + file
 LICENSE
 
-## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.26 (2023-09-26) [:bug:](https://github.com/r-dbi/rmysql/issues)
+## [RMySQL](https://downloads.mariadb.org/connector-c/) 0.10.27 (2023-12-04) [:bug:](https://github.com/r-dbi/rmysql/issues)
 
 Database Interface and ‘MySQL’ Driver for R
 
 Legacy ‘DBI’ interface to ‘MySQL’ / ‘MariaDB’ based on old code ported
-from S-PLUS. A modern ‘MySQL’ client based on ‘Rcpp’ is available from
+from S-PLUS. A modern ‘MySQL’ client written in ‘C++’ is available from
 the ‘RMariaDB’ package.
 
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>. License: GPL-2
