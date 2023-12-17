@@ -199,13 +199,13 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://r-dbi.github.io/odbc/) 1.3.5 (2023-06-29) [:link:](https://github.com/r-dbi/odbc) [:link:](https://db.rstudio.com) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://r-dbi.github.io/odbc/) 1.4.0 (2023-12-15) [:link:](https://github.com/r-dbi/odbc) [:link:](https://solutions.posit.co/connections/db/) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
 A DBI-compatible interface to ODBC databases.
 
-Maintainer: Hadley Wickham <hadley@rstudio.com>. License: MIT + file
+Maintainer: Hadley Wickham <hadley@posit.co>. License: MIT + file
 LICENSE
 
 ## [pool](https://github.com/rstudio/pool) 1.0.1 (2023-02-21) [:link:](http://rstudio.github.io/pool/) [:bug:](https://github.com/rstudio/pool/issues)
