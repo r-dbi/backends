@@ -63,7 +63,7 @@ protocol.
 
 Maintainer: Patrice Godard <patrice.godard@gmail.com>. License: GPL-3
 
-## [connections](https://github.com/edgararuiz/connections) 0.1.1 (2020-02-07) [:bug:](https://github.com/edgararuiz/connections/issues)
+## [connections](https://github.com/rstudio/connections) 0.2.0 (2023-12-18) [:link:](https://rstudio.github.io/connections/) [:bug:](https://github.com/rstudio/connections/issues)
 
 Integrates with the ‘RStudio’ Connections Pane and ‘pins’
 
@@ -72,7 +72,7 @@ connections pane, and the ‘pins’ package. It automates the display of
 schemata, tables, views, as well as the preview of the table’s top 1000
 records.
 
-Maintainer: Javier Luraschi <javier@rstudio.com>. License: GPL-3
+Maintainer: Edgar Ruiz <edgar@posit.co>. License: MIT + file LICENSE
 
 ## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.3.2 (2023-12-11) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
