@@ -161,13 +161,13 @@
   },
   {
     "name": "odbc",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "title": "Connect to ODBC Compatible Databases (using the DBI Interface)",
     "description": "A DBI-compatible interface to ODBC databases.",
-    "date": "2023-12-15",
+    "date": "2023-12-21",
     "maintainer": "Hadley Wickham <hadley@posit.co>",
     "license": "MIT + file LICENSE",
-    "url": ["https://r-dbi.github.io/odbc/", "https://github.com/r-dbi/odbc", "https://solutions.posit.co/connections/db/"],
+    "url": ["https://odbc.r-dbi.org", "https://github.com/r-dbi/odbc", "https://solutions.posit.co/connections/db/"],
     "bugs": "https://github.com/r-dbi/odbc/issues"
   },
   {
