@@ -199,7 +199,7 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://r-dbi.github.io/odbc/) 1.4.0 (2023-12-15) [:link:](https://github.com/r-dbi/odbc) [:link:](https://solutions.posit.co/connections/db/) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://odbc.r-dbi.org) 1.4.1 (2023-12-21) [:link:](https://github.com/r-dbi/odbc) [:link:](https://solutions.posit.co/connections/db/) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
