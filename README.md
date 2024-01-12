@@ -316,7 +316,7 @@ Fully DBI-compliant Rcpp-backed interface to PostgreSQL
 Maintainer: Kirill Müller <kirill@cynkra.com>. License: MIT + file
 LICENSE
 
-## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-5 (2023-02-10) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
+## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-6 (2024-01-11) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 
 R Interface to the ‘PostgreSQL’ Database System
 
