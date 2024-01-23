@@ -31,13 +31,14 @@ principals. Part of the ‘AzureR’ family of packages.
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
 
-## [bigrquery](https://bigrquery.r-dbi.org) 1.4.2 (2023-04-20) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
+## [bigrquery](https://bigrquery.r-dbi.org) 1.5.0 (2024-01-22) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
 
 An Interface to Google’s ‘BigQuery’ ‘API’
 
 Easily talk to Google’s ‘BigQuery’ database from R.
 
-Maintainer: Hadley Wickham <hadley@posit.co>. License: GPL-3
+Maintainer: Hadley Wickham <hadley@posit.co>. License: MIT + file
+LICENSE
 
 ## [ckanr](https://docs.ropensci.org/ckanr/) 0.7.0 (2023-03-17) [:link:](https://github.com/ropensci/ckanr) [:bug:](https://github.com/ropensci/ckanr/issues)
 
@@ -199,7 +200,7 @@ as a driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://odbc.r-dbi.org) 1.4.1 (2023-12-21) [:link:](https://github.com/r-dbi/odbc) [:link:](https://solutions.posit.co/connections/db/) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://odbc.r-dbi.org) 1.4.2 (2024-01-22) [:link:](https://github.com/r-dbi/odbc) [:link:](https://solutions.posit.co/connections/db/) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
