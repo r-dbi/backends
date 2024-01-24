@@ -12,12 +12,12 @@
   },
   {
     "name": "bigrquery",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "title": "An Interface to Google's 'BigQuery' 'API'",
     "description": "Easily talk to Google's 'BigQuery' database from R.",
-    "date": "2023-04-20",
+    "date": "2024-01-22",
     "maintainer": "Hadley Wickham <hadley@posit.co>",
-    "license": "GPL-3",
+    "license": "MIT + file LICENSE",
     "url": ["https://bigrquery.r-dbi.org", "https://github.com/r-dbi/bigrquery"],
     "bugs": "https://github.com/r-dbi/bigrquery/issues"
   },
@@ -171,10 +171,10 @@
   },
   {
     "name": "odbc",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "title": "Connect to ODBC Compatible Databases (using the DBI Interface)",
     "description": "A DBI-compatible interface to ODBC databases.",
-    "date": "2023-12-21",
+    "date": "2024-01-22",
     "maintainer": "Hadley Wickham <hadley@posit.co>",
     "license": "MIT + file LICENSE",
     "url": ["https://odbc.r-dbi.org", "https://github.com/r-dbi/odbc", "https://solutions.posit.co/connections/db/"],
