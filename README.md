@@ -141,7 +141,7 @@ all of DuckDB and a R Database Interface (DBI) connector.
 Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MIT + file
 LICENSE
 
-## [implyr](https://github.com/ianmcook/implyr) 0.4.0 (2021-03-29) [:bug:](https://github.com/ianmcook/implyr/issues)
+## [implyr](https://github.com/ianmcook/implyr) 0.5.0 (2024-02-06) [:bug:](https://github.com/ianmcook/implyr/issues)
 
 R Interface for Apache Impala
 
