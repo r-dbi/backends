@@ -31,7 +31,7 @@ principals. Part of the ‘AzureR’ family of packages.
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
 
-## [bigrquery](https://bigrquery.r-dbi.org) 1.5.0 (2024-01-22) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
+## [bigrquery](https://bigrquery.r-dbi.org) 1.5.1 (2024-03-14) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
 
 An Interface to Google’s ‘BigQuery’ ‘API’
 
