@@ -391,7 +391,7 @@ included to facilitate using official Drill Docker images/containers.
 
 Maintainer: Bob Rudis <bob@rud.is>. License: MIT + file LICENSE
 
-## [sparklyr](https://spark.rstudio.com/) 1.8.4 (2023-10-30) [:bug:](https://github.com/sparklyr/sparklyr/issues)
+## [sparklyr](https://spark.posit.co/) 1.8.5 (2024-03-25) [:bug:](https://github.com/sparklyr/sparklyr/issues)
 
 R Interface to Apache Spark
 
