@@ -1,12 +1,14 @@
 [
   {
-    "name": "anchoredDistr",
-    "version": "1.0.3",
-    "title": "Post-Processing for the Method of Anchored Distributions",
-    "description": "Supplements the 'MAD#' software (see <http://mad.codeplex.com/>, or Osorio-Murillo, et al. (2015) <doi:10.1016/j.envsoft.2015.01.002>) that implements the Method of Anchored Distributions for inferring geostatistical parameters (see Rubin, et al. (2010) <doi:10.1029/2009WR008799>). Reads 'MAD#' result databases, performs dimension reduction on inversion data, calculates likelihoods and posteriors, and tests for convergence. Also generates plots to summarize results.",
-    "date": "2017-06-20",
-    "maintainer": "Heather Savoy <frystacka@berkeley.edu>",
-    "license": "GPL"
+    "name": "adbi",
+    "version": "0.1.1",
+    "title": "'DBI' Compliant Database Access Using 'ADBC'",
+    "description": "In order to make Arrow Database Connectivity ('ADBC' <https://arrow.apache.org/adbc/>) accessible from R, an interface compliant with the 'DBI' package is provided, using driver back-ends that are implemented in the 'adbcdrivermanager' framework. This enables interacting with database systems using the Arrow data format, thereby offering an efficient alternative to 'ODBC' for analytical applications.",
+    "date": "2024-01-25",
+    "maintainer": "Nicolas Bennett <nicolas@cynkra.com>",
+    "license": "LGPL (>= 2.1)",
+    "url": ["https://adbi.r-dbi.org", "https://github.com/r-dbi/adbi", "https://arrow.apache.org/adbc/"],
+    "bugs": "https://github.com/r-dbi/adbi/issues"
   },
   {
     "name": "AzureKusto",
