@@ -144,7 +144,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://r.duckdb.org/) 0.10.0 (2024-03-13) [:link:](https://github.com/duckdb/duckdb-r) [:bug:](https://github.com/duckdb/duckdb-r/issues)
+## [duckdb](https://r.duckdb.org/) 0.10.1 (2024-04-02) [:link:](https://github.com/duckdb/duckdb-r) [:bug:](https://github.com/duckdb/duckdb-r/issues)
 
 DBI Package for the DuckDB Database Management System
 
@@ -152,7 +152,7 @@ The DuckDB project is an embedded analytical data management system with
 support for the Structured Query Language (SQL). This package includes
 all of DuckDB and a R Database Interface (DBI) connector.
 
-Maintainer: Hannes Mühleisen <hannes@cwi.nl>. License: MIT + file
+Maintainer: Kirill Müller <kirill@cynkra.com>. License: MIT + file
 LICENSE
 
 ## [implyr](https://github.com/ianmcook/implyr) 0.5.0 (2024-02-06) [:bug:](https://github.com/ianmcook/implyr/issues)
