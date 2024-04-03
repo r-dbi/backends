@@ -14,6 +14,20 @@ List of [DBI](https://dbi.r-dbi.org) backends.
 Do you maintain a backend and think that yours should be on this list?
 Please open an issue in this repository.
 
+## [adbi](https://adbi.r-dbi.org) 0.1.1 (2024-01-25) [:link:](https://github.com/r-dbi/adbi) [:link:](https://arrow.apache.org/adbc/) [:bug:](https://github.com/r-dbi/adbi/issues)
+
+‘DBI’ Compliant Database Access Using ‘ADBC’
+
+In order to make Arrow Database Connectivity (‘ADBC’
+<https://arrow.apache.org/adbc/>) accessible from R, an interface
+compliant with the ‘DBI’ package is provided, using driver back-ends
+that are implemented in the ‘adbcdrivermanager’ framework. This enables
+interacting with database systems using the Arrow data format, thereby
+offering an efficient alternative to ‘ODBC’ for analytical applications.
+
+Maintainer: Nicolas Bennett <nicolas@cynkra.com>. License: LGPL (\>=
+2.1)
+
 ## [AzureKusto](https://github.com/Azure/AzureKusto) 1.1.3 (2023-10-12) [:link:](https://github.com/Azure/AzureR) [:bug:](https://github.com/Azure/AzureKusto/issues)
 
 Interface to ‘Kusto’/‘Azure Data Explorer’
@@ -428,33 +442,36 @@ first <- httr::GET(first_url)
 httr::stop_for_status(first)
 httr::content(first)
 #> $version
-#> [1] "1.1.3"
+#> [1] "0.1.1"
 #> 
 #> $title
-#> [1] "Interface to 'Kusto'/'Azure Data Explorer'"
+#> [1] "'DBI' Compliant Database Access Using 'ADBC'"
 #> 
 #> $description
-#> [1] "An interface to 'Azure Data Explorer', also known as 'Kusto', a fast, distributed data exploration service from Microsoft: <https://azure.microsoft.com/en-us/products/data-explorer/>. Includes 'DBI' and 'dplyr' interfaces, with the latter modelled after the 'dbplyr' package, whereby queries are translated from R into the native 'KQL' query language and executed lazily. On the admin side, the package extends the object framework provided by 'AzureRMR' to support creation and deletion of databases, and management of database principals. Part of the 'AzureR' family of packages."
+#> [1] "In order to make Arrow Database Connectivity ('ADBC' <https://arrow.apache.org/adbc/>) accessible from R, an interface compliant with the 'DBI' package is provided, using driver back-ends that are implemented in the 'adbcdrivermanager' framework. This enables interacting with database systems using the Arrow data format, thereby offering an efficient alternative to 'ODBC' for analytical applications."
 #> 
 #> $date
-#> [1] "2023-10-12"
+#> [1] "2024-01-25"
 #> 
 #> $maintainer
-#> [1] "Alex Kyllo <jekyllo@microsoft.com>"
+#> [1] "Nicolas Bennett <nicolas@cynkra.com>"
 #> 
 #> $license
-#> [1] "MIT + file LICENSE"
+#> [1] "LGPL (>= 2.1)"
 #> 
 #> $url
 #> $url[[1]]
-#> [1] "https://github.com/Azure/AzureKusto"
+#> [1] "https://adbi.r-dbi.org"
 #> 
 #> $url[[2]]
-#> [1] "https://github.com/Azure/AzureR"
+#> [1] "https://github.com/r-dbi/adbi"
+#> 
+#> $url[[3]]
+#> [1] "https://arrow.apache.org/adbc/"
 #> 
 #> 
 #> $bugs
-#> [1] "https://github.com/Azure/AzureKusto/issues"
+#> [1] "https://github.com/r-dbi/adbi/issues"
 ```
 
 ## Updating the database
