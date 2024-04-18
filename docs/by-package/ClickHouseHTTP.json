@@ -1,8 +1,8 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "title": "A Simple HTTP Database Interface to 'ClickHouse'",
   "description": "'ClickHouse' (<https://clickhouse.com/>) is an open-source, high performance columnar OLAP (online analytical processing of queries) database management system for real-time analytics using SQL. This 'DBI' backend relies on the 'ClickHouse' HTTP interface and support HTTPS protocol.",
-  "date": "2023-07-04",
+  "date": "2024-04-18",
   "maintainer": "Patrice Godard <patrice.godard@gmail.com>",
   "license": "GPL-3",
   "url": "https://github.com/patzaw/ClickHouseHTTP",
