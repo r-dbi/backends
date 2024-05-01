@@ -362,10 +362,10 @@
   },
   {
     "name": "sparklyr",
-    "version": "1.8.5",
+    "version": "1.8.6",
     "title": "R Interface to Apache Spark",
     "description": "R interface to Apache Spark, a fast and general engine for big data processing, see <https://spark.apache.org/>. This package supports connecting to local and remote Apache Spark clusters, provides a 'dplyr' compatible back-end, and provides an interface to Spark's built-in machine learning algorithms.",
-    "date": "2024-03-25",
+    "date": "2024-04-29",
     "maintainer": "Edgar Ruiz <edgar@rstudio.com>",
     "license": "Apache License 2.0 | file LICENSE",
     "url": ["https://spark.posit.co/"],
