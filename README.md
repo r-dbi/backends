@@ -144,7 +144,7 @@ your code would typically connect to.
 Maintainer: Jonathan Keane <jkeane@gmail.com>. License: Apache License
 (\>= 2.0)
 
-## [duckdb](https://r.duckdb.org/) 0.10.1 (2024-04-02) [:link:](https://github.com/duckdb/duckdb-r) [:bug:](https://github.com/duckdb/duckdb-r/issues)
+## [duckdb](https://r.duckdb.org/) 0.10.2 (2024-05-01) [:link:](https://github.com/duckdb/duckdb-r) [:bug:](https://github.com/duckdb/duckdb-r/issues)
 
 DBI Package for the DuckDB Database Management System
 
