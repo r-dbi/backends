@@ -1,8 +1,8 @@
 {
-  "version": "1.11.6",
+  "version": "1.12.0",
   "title": "Miscellaneous Functions for Passive Acoustic Analysis",
   "description": "A collection of miscellaneous functions for passive acoustics. Much of the content here is adapted to R from code written by other people. If you have any ideas of functions to add, please contact Taiki Sakai.",
-  "date": "2023-08-16",
+  "date": "2024-05-30",
   "maintainer": "Taiki Sakai <taiki.sakai@noaa.gov>",
   "license": "GNU General Public License",
   "url": null,
