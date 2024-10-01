@@ -331,7 +331,7 @@ Fully DBI-compliant C++-backed interface to PostgreSQL
 Maintainer: Kirill Müller <kirill@cynkra.com>. License: MIT + file
 LICENSE
 
-## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-6 (2024-01-11) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
+## [RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) 0.7-7 (2024-09-30) [:link:](https://cran.r-project.org/package=DBI) [:link:](https://www.postgresql.org)
 
 R Interface to the ‘PostgreSQL’ Database System
 
@@ -344,8 +344,8 @@ These files are provided as ‘postgresql-devel’ package under some Linux
 distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 ‘libpq’ library source will be used.
 
-Maintainer: Tomoaki Nishiyama <tomoakin@staff.kanazawa-u.ac.jp>.
-License: GPL-3 | file LICENSE
+Maintainer: Tomoaki Nishiyama <tomoaki@sci.u-toyama.ac.jp>. License:
+GPL-3 | file LICENSE
 
 ## [RPresto](https://github.com/prestodb/RPresto) 1.4.6 (2023-11-01) [:bug:](https://github.com/prestodb/RPresto/issues)
 
