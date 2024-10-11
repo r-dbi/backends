@@ -223,7 +223,7 @@ A DBI-compatible interface to ODBC databases.
 Maintainer: Hadley Wickham <hadley@posit.co>. License: MIT + file
 LICENSE
 
-## [pool](https://github.com/rstudio/pool) 1.0.3 (2024-02-14) [:link:](http://rstudio.github.io/pool/) [:bug:](https://github.com/rstudio/pool/issues)
+## [pool](https://github.com/rstudio/pool) 1.0.4 (2024-10-07) [:link:](https://rstudio.github.io/pool/) [:bug:](https://github.com/rstudio/pool/issues)
 
 Object Pooling
 
