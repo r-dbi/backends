@@ -1,8 +1,8 @@
 {
-  "version": "1.3.2",
+  "version": "1.3.3",
   "title": "Database Interface and MariaDB Driver",
   "description": "Implements a DBI-compliant interface to MariaDB (<https://mariadb.org/>) and MySQL (<https://www.mysql.com/>) databases.",
-  "date": "2024-05-27",
+  "date": "2024-11-18",
   "maintainer": "Kirill Müller <kirill@cynkra.com>",
   "license": "MIT + file LICENSE",
   "url": ["https://rmariadb.r-dbi.org", "https://github.com/r-dbi/RMariaDB", "https://downloads.mariadb.org/connector-c/"],
