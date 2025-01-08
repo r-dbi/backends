@@ -347,7 +347,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 Maintainer: Tomoaki Nishiyama <tomoaki@sci.u-toyama.ac.jp>. License:
 GPL-3 | file LICENSE
 
-## [RPresto](https://github.com/prestodb/RPresto) 1.4.6 (2023-11-01) [:bug:](https://github.com/prestodb/RPresto/issues)
+## [RPresto](https://github.com/prestodb/RPresto) 1.4.7 (2025-01-08) [:bug:](https://github.com/prestodb/RPresto/issues)
 
 DBI Connector to Presto
 
