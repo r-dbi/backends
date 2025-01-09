@@ -309,10 +309,10 @@
   },
   {
     "name": "RPresto",
-    "version": "1.4.6",
+    "version": "1.4.7",
     "title": "DBI Connector to Presto",
     "description": "Implements a 'DBI' compliant interface to Presto. Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes: <https://prestodb.io/>.",
-    "date": "2023-11-01",
+    "date": "2025-01-08",
     "maintainer": "Jarod G.R. Meng <jarodm@fb.com>",
     "license": "BSD_3_clause + file LICENSE",
     "url": ["https://github.com/prestodb/RPresto"],
