@@ -89,7 +89,7 @@ records.
 
 Maintainer: Edgar Ruiz <edgar@posit.co>. License: MIT + file LICENSE
 
-## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.3.2 (2023-12-11) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
+## [DatabaseConnector](https://ohdsi.github.io/DatabaseConnector/) 6.3.3 (2025-01-16) [:link:](https://github.com/OHDSI/DatabaseConnector) [:bug:](https://github.com/OHDSI/DatabaseConnector/issues)
 
 Connecting to Various Database Platforms
 
