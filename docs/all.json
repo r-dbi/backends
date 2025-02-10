@@ -256,10 +256,10 @@
   },
   {
     "name": "RMySQL",
-    "version": "0.10.29",
+    "version": "0.11.0",
     "title": "Database Interface and 'MySQL' Driver for R",
     "description": "Legacy 'DBI' interface to 'MySQL' / 'MariaDB' based on old code ported from S-PLUS. A modern 'MySQL' client written in 'C++' is available from the 'RMariaDB' package.",
-    "date": "2024-10-04",
+    "date": "2025-02-08",
     "maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
     "license": "GPL-2",
     "url": ["https://r-dbi.r-universe.dev/RMySQL", "https://downloads.mariadb.org/connector-c/"],
