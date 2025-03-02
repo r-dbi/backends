@@ -1,0 +1,10 @@
+{
+  "version": "0.9-3",
+  "title": "Bounded Memory Linear and Generalized Linear Models",
+  "description": "Regression for data too large to fit in memory.",
+  "date": "2024-06-12",
+  "maintainer": "Thomas Lumley <t.lumley@auckland.ac.nz>",
+  "license": "GPL",
+  "url": null,
+  "bugs": null
+}
