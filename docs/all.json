@@ -139,6 +139,15 @@
     "bugs": "https://github.com/mdsumner/lazysf/issues"
   },
   {
+    "name": "megaptera",
+    "version": "1.0-0",
+    "title": "MEGAPhylogeny Techniques in R",
+    "description": "Given a set of taxa and marker, the goal is build a complete and correct sequence alignment for phylogenetic analysis.",
+    "date": "2014-11-13",
+    "maintainer": "Christoph Heibl <christoph.heibl@gmx.net>",
+    "license": "GPL (>= 2)"
+  },
+  {
     "name": "MonetDB.R",
     "version": "2.0.0",
     "title": "Connect MonetDB to R",
