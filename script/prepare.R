@@ -1,14 +1,16 @@
 library(tidyverse)
 pkgload::load_all()
 
+gh::gh_token()
 
 # Unstable in CI, seems to work locally?
 CHECK_REMOVED <- FALSE
 
+# Only works the first time on GHA
+pkg_tbl <- fetch_pkg_tbl()
+
 # Check a second time, log GH results
 try(fetch_pkg_tbl())
-
-pkg_tbl <- fetch_pkg_tbl()
 
 dir.create("docs/by-package", showWarnings = FALSE, recursive = TRUE)
 

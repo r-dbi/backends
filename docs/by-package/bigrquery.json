@@ -1,7 +1,7 @@
 {
   "version": "1.6.1",
-  "title": "An Interface to Google's 'BigQuery' 'API'",
-  "description": "Easily talk to Google's 'BigQuery' database from R.",
+  "title": "An Interface to Google's BigQuery API",
+  "description": "Easily talk to Google's BigQuery database from R.",
   "date": "2025-09-10",
   "maintainer": "Hadley Wickham <hadley@posit.co>",
   "license": "MIT + file LICENSE",
