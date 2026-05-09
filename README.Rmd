@@ -11,6 +11,15 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
+write_to_docs <- function(x, options) {
+  writeLines(x, "docs/index.md")
+  x
+}
+
+local({
+  knitr::knit_hooks$set(document = write_to_docs)
+})
 ```
 
 # backends
