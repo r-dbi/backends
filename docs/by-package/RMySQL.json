@@ -1,7 +1,7 @@
 {
   "version": "0.11.3",
-  "title": "Database Interface and 'MySQL' Driver for R",
-  "description": "Legacy 'DBI' interface to 'MySQL' / 'MariaDB' based on old code ported from S-PLUS. A modern 'MySQL' client written in 'C++' is available from the 'RMariaDB' package.",
+  "title": "Database Interface and MySQL Driver for R",
+  "description": "Legacy DBI interface to MySQL / MariaDB based on old code ported from S-PLUS. A modern MySQL client written in C++ is available from the RMariaDB package.",
   "date": "2026-04-11",
   "maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
   "license": "GPL-2",
