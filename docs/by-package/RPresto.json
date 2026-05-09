@@ -1,7 +1,7 @@
 {
   "version": "1.4.8",
   "title": "DBI Connector to Presto",
-  "description": "Implements a 'DBI' compliant interface to Presto. Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes: <https://prestodb.io/>.",
+  "description": "Implements a DBI compliant interface to Presto. Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging from gigabytes to petabytes: <https://prestodb.io/>.",
   "date": "2025-12-02",
   "maintainer": "Jarod G.R. Meng <jarodm@fb.com>",
   "license": "BSD_3_clause + file LICENSE",
