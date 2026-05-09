@@ -1,6 +1,7 @@
 library(tidyverse)
 pkgload::load_all()
 
+gh::gh_token()
 
 # Unstable in CI, seems to work locally?
 CHECK_REMOVED <- FALSE
