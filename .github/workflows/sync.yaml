@@ -3,19 +3,25 @@ on:
     branches:
       - main
       - master
+    paths:
+      - '.github/workflows/sync.yaml'
   schedule:
     - cron:  '0 8 * * *'
+  workflow_dispatch:
 
 name: sync
 
 jobs:
   sync:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     name: sync
 
+    permissions:
+      contents: write
+
     env:
-      RSPM: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"
+      RSPM: "https://packagemanager.rstudio.com/cran/__linux__/noble/latest"
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
@@ -25,11 +31,11 @@ jobs:
           curl -s --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/rate_limit
         shell: bash
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-r@v2
 
       - name: Install remotes
         run: |
@@ -46,7 +52,7 @@ jobs:
 
       - name: Cache R packages
         if: runner.os != 'Windows'
-        uses: actions/cache@v2
+        uses: actions/cache@v5
         with:
           path: ${{ env.R_LIBS_USER }}
           key: backends-${{ hashFiles('.github/R-version') }}-2-${{ hashFiles('.github/depends.Rds') }}
@@ -58,7 +64,7 @@ jobs:
           while read -r cmd
           do
             eval sudo $cmd
-          done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
+          done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "24.04"))')
 
       - name: Install package and dependencies
         run: |
