@@ -3,8 +3,11 @@ on:
     branches:
       - main
       - master
+    paths:
+      - '.github/workflows/sync.yaml'
   schedule:
     - cron:  '0 8 * * *'
+  workflow_dispatch:
 
 name: sync
 
