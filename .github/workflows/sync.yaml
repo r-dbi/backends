@@ -90,6 +90,8 @@ jobs:
         shell: bash
 
       - name: Run preparation
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
           R -q -f script/prepare.R
 
