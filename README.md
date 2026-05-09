@@ -36,11 +36,11 @@ An interface to ‘Azure Data Explorer’, also known as ‘Kusto’, a fast,
 distributed data exploration service from Microsoft:
 <https://azure.microsoft.com/en-us/products/data-explorer/>. Includes
 ‘DBI’ and ‘dplyr’ interfaces, with the latter modelled after the
-‘dbplyr’ package, whereby queries are translated from R into the
-native ‘KQL’ query language and executed lazily. On the admin side, the
-package extends the object framework provided by ‘AzureRMR’ to support
-creation and deletion of databases, and management of database
-principals. Part of the ‘AzureR’ family of packages.
+‘dbplyr’ package, whereby queries are translated from R into the native
+‘KQL’ query language and executed lazily. On the admin side, the package
+extends the object framework provided by ‘AzureRMR’ to support creation
+and deletion of databases, and management of database principals. Part
+of the ‘AzureR’ family of packages.
 
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
@@ -59,9 +59,8 @@ LICENSE
 Client for the Comprehensive Knowledge Archive Network (‘CKAN’) API
 
 Client for ‘CKAN’ API (<https://ckan.org/>). Includes interface to
-‘CKAN’ ‘APIs’ for search, list, show for packages, organizations,
-and resources. In addition, provides an interface to the ‘datastore’
-API.
+‘CKAN’ ‘APIs’ for search, list, show for packages, organizations, and
+resources. In addition, provides an interface to the ‘datastore’ API.
 
 Maintainer: Francisco Alves <fjunior.alves.oliveira@gmail.com>. License:
 MIT + file LICENSE
@@ -167,8 +166,8 @@ processing query engine for Apache ‘Hadoop’. Impala enables low-latency
 ‘Isilon’. See <https://impala.apache.org> for more information about
 Impala.
 
-Maintainer: Ian Cook <ianmcook@gmail.com>. License: Apache License 2.0 |
-file LICENSE
+Maintainer: Ian Cook <ianmcook@gmail.com>. License: Apache License 2.0
+\| file LICENSE
 
 ## [lazysf](https://github.com/mdsumner/lazysf) 0.1.0 (2020-11-14) [:bug:](https://github.com/mdsumner/lazysf/issues)
 
@@ -345,7 +344,7 @@ distributions. On ‘macOS’ and ‘Microsoft Windows’ system the attached
 ‘libpq’ library source will be used.
 
 Maintainer: Tomoaki Nishiyama <tomoaki@sci.u-toyama.ac.jp>. License:
-GPL-3 | file LICENSE
+GPL-3 \| file LICENSE
 
 ## [RPresto](https://github.com/prestodb/RPresto) 1.4.7 (2025-01-08) [:bug:](https://github.com/prestodb/RPresto/issues)
 
@@ -356,7 +355,7 @@ source distributed SQL query engine for running interactive analytic
 queries against data sources of all sizes ranging from gigabytes to
 petabytes: <https://prestodb.io/>.
 
-Maintainer: Jarod G.R. Meng <jarodm@fb.com>. License: BSD\_3\_clause +
+Maintainer: Jarod G.R. Meng <jarodm@fb.com>. License: BSD_3_clause +
 file LICENSE
 
 ## RRedshiftSQL 0.1.2 (2016-09-15)
@@ -416,7 +415,7 @@ compatible back-end, and provides an interface to Spark’s built-in
 machine learning algorithms.
 
 Maintainer: Edgar Ruiz <edgar@rstudio.com>. License: Apache License 2.0
-| file LICENSE
+\| file LICENSE
 
 # Implementation
 
@@ -442,7 +441,7 @@ first <- httr::GET(first_url)
 httr::stop_for_status(first)
 httr::content(first)
 #> $version
-#> [1] "0.1.1"
+#> [1] "0.1.2"
 #> 
 #> $title
 #> [1] "'DBI' Compliant Database Access Using 'ADBC'"
@@ -451,7 +450,7 @@ httr::content(first)
 #> [1] "In order to make Arrow Database Connectivity ('ADBC' <https://arrow.apache.org/adbc/>) accessible from R, an interface compliant with the 'DBI' package is provided, using driver back-ends that are implemented in the 'adbcdrivermanager' framework. This enables interacting with database systems using the Arrow data format, thereby offering an efficient alternative to 'ODBC' for analytical applications."
 #> 
 #> $date
-#> [1] "2024-01-25"
+#> [1] "2025-09-03"
 #> 
 #> $maintainer
 #> [1] "Nicolas Bennett <nicolas@cynkra.com>"
@@ -480,7 +479,7 @@ The database is updated via `script/prepare.R` which is run daily by
 GitHub Actions. Existing packages are updated directly. For new or
 removed packages, pull requests are opened.
 
------
+------------------------------------------------------------------------
 
 Please note that the ‘backends’ project is released with a [Contributor
 Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
