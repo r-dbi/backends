@@ -16,41 +16,18 @@ sanitize_multi <- function(x) {
 # Software/technology names that CRAN policy asks authors to wrap in single
 # (or sometimes double) quotes inside Title and Description fields. The
 # wrapping is a CRAN artifact; the JSON we publish should carry the bare names.
-# Extend this list when new backends introduce additional names.
-known_quoted_words <- c(
-  "(ADLS)", "(HDFS)", "(S3)",
-  "ADBC", "API", "APIs",
-  "AWS", "AWS Athena", "AWS SDK",
-  "Amazon Redshift", "Andromeda", "Apache Impala",
-  "Azure Data Explorer", "AzureR", "AzureRMR",
-  "BigQuery", "Boto3",
-  "C++", "CKAN", "ClickHouse",
-  "DBI", "DataBase Interface", "Databricks",
-  "EMC",
-  "GDAL", "GDAL vector data source", "Google BigQuery",
-  "HBase", "Hadoop",
-  "IBM Netezza", "InterSystems IRIS", "Isilon",
-  "JDBC", "Java Database Connectivity",
-  "KQL", "Kudu", "Kusto",
-  "MariaDB", "Microsoft Parallel Database Warehouse",
-  "Microsoft SQL Server", "Microsoft Windows",
-  "MonetDB", "MySQL",
-  "ODBC", "Oracle",
-  "PostgreSQL", "Python",
-  "R", "RMariaDB", "RStudio", "Redshift",
-  "SDK", "SQL", "SQL Server", "SQLite", "Snowflake", "Spark",
-  "Yandex Clickhouse",
-  "adbcdrivermanager", "analytics",
-  "datastore", "dbplyr", "dplyr",
-  "jTDS",
-  "libpq",
-  "macOS",
-  "paws", "pins", "postgresql-devel",
-  "sf"
-)
+# Extend inst/known-words.txt when new backends introduce additional names.
+read_known_quoted_words <- function() {
+  path <- system.file("known-words.txt", package = "backends")
+  if (!nzchar(path)) path <- "inst/known-words.txt"
+  words <- readLines(path, warn = FALSE, encoding = "UTF-8")
+  words <- words[nzchar(words)]
+  words
+}
 
 unquote_known_words <- function(x) {
-  words <- known_quoted_words[order(-nchar(known_quoted_words))]
+  words <- read_known_quoted_words()
+  words <- words[order(-nchar(words))]
   for (w in words) {
     x <- gsub(paste0("'", w, "'"), w, x, fixed = TRUE)
     x <- gsub(paste0('"', w, '"'), w, x, fixed = TRUE)
