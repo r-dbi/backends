@@ -355,7 +355,7 @@ source distributed SQL query engine for running interactive analytic
 queries against data sources of all sizes ranging from gigabytes to
 petabytes: <https://prestodb.io/>.
 
-Maintainer: Jarod G.R. Meng <jarodm@fb.com>. License: BSD\_3\_clause +
+Maintainer: Jarod G.R. Meng <jarodm@fb.com>. License: BSD_3_clause +
 file LICENSE
 
 ## RRedshiftSQL 0.1.2 (2016-09-15)
