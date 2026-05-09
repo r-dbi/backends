@@ -1,0 +1,10 @@
+{
+  "version": "1.0.7",
+  "title": "Database Queries Using 'data.table' Syntax",
+  "description": "Query database tables over a 'DBI' connection using 'data.table' syntax. Attach database schemas to the search path. Automatically merge using foreign key constraints.",
+  "date": "2026-03-01",
+  "maintainer": "Kjell P. Konis <kjellk@gmail.com>",
+  "license": "MPL-2.0",
+  "url": "https://github.com/kjellpk/dbi.table",
+  "bugs": "https://github.com/kjellpk/dbi.table/issues"
+}
