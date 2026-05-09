@@ -441,7 +441,7 @@ first <- httr::GET(first_url)
 httr::stop_for_status(first)
 httr::content(first)
 #> $version
-#> [1] "0.1.1"
+#> [1] "0.1.2"
 #> 
 #> $title
 #> [1] "'DBI' Compliant Database Access Using 'ADBC'"
@@ -450,7 +450,7 @@ httr::content(first)
 #> [1] "In order to make Arrow Database Connectivity ('ADBC' <https://arrow.apache.org/adbc/>) accessible from R, an interface compliant with the 'DBI' package is provided, using driver back-ends that are implemented in the 'adbcdrivermanager' framework. This enables interacting with database systems using the Arrow data format, thereby offering an efficient alternative to 'ODBC' for analytical applications."
 #> 
 #> $date
-#> [1] "2024-01-25"
+#> [1] "2025-09-03"
 #> 
 #> $maintainer
 #> [1] "Nicolas Bennett <nicolas@cynkra.com>"
