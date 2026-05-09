@@ -1,0 +1,70 @@
+(ADLS)
+(HDFS)
+(S3)
+ADBC
+API
+APIs
+AWS
+AWS Athena
+AWS SDK
+Amazon Redshift
+Andromeda
+Apache Impala
+Azure Data Explorer
+AzureR
+AzureRMR
+BigQuery
+Boto3
+C++
+CKAN
+ClickHouse
+DBI
+DataBase Interface
+Databricks
+EMC
+GDAL
+GDAL vector data source
+Google BigQuery
+HBase
+Hadoop
+IBM Netezza
+InterSystems IRIS
+Isilon
+JDBC
+Java Database Connectivity
+KQL
+Kudu
+Kusto
+MariaDB
+Microsoft Parallel Database Warehouse
+Microsoft SQL Server
+Microsoft Windows
+MonetDB
+MySQL
+ODBC
+Oracle
+PostgreSQL
+Python
+R
+RMariaDB
+RStudio
+Redshift
+SDK
+SQL
+SQL Server
+SQLite
+Snowflake
+Spark
+Yandex Clickhouse
+adbcdrivermanager
+analytics
+datastore
+dbplyr
+dplyr
+jTDS
+libpq
+macOS
+paws
+pins
+postgresql-devel
+sf

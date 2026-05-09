@@ -1,7 +1,7 @@
 {
   "version": "1.0.4",
   "title": "Object Pooling",
-  "description": "Enables the creation of object pools, which make it less computationally expensive to fetch a new object. Currently the only supported pooled objects are 'DBI' connections.",
+  "description": "Enables the creation of object pools, which make it less computationally expensive to fetch a new object. Currently the only supported pooled objects are DBI connections.",
   "date": "2024-10-07",
   "maintainer": "Hadley Wickham <hadley@posit.co>",
   "license": "MIT + file LICENSE",
