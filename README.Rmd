@@ -41,26 +41,26 @@ format_pkg <- function(name, version, title, description, date, maintainer, lice
     name <- paste0("[", name, "](", url[[1]], ")")
     url <- url[-1]
   }
-  
+
   if (length(url) > 0 && !anyNA(url)) {
     url <- paste0(" [:link:](", url, ")", collapse = "")
   } else {
     url <- ""
   }
-  
+
   if (!is.na(bugs)) {
     bugs <- paste0(" [:bug:](", bugs, ")")
   } else {
     bugs <- ""
   }
-  
+
   paste0(
     "## ", name, " ", version, date, url, bugs, "\n\n",
-    
+
     title, "\n\n",
-    
+
     description, "\n\n",
-    
+
     "Maintainer: ", maintainer, ". License: ", license, "\n\n"
   )
 }
