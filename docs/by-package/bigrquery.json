@@ -1,8 +1,8 @@
 {
-  "version": "1.5.1",
+  "version": "1.6.1",
   "title": "An Interface to Google's 'BigQuery' 'API'",
   "description": "Easily talk to Google's 'BigQuery' database from R.",
-  "date": "2024-03-14",
+  "date": "2025-09-10",
   "maintainer": "Hadley Wickham <hadley@posit.co>",
   "license": "MIT + file LICENSE",
   "url": ["https://bigrquery.r-dbi.org", "https://github.com/r-dbi/bigrquery"],

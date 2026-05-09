@@ -20,12 +20,23 @@ fetch_pkg_tbl <- function() {
     per_page = 100
   )
 
-  stopifnot(length(x$items) < 100)
+  items <- x$items
+
+  while (length(items) == 100) {
+    message("Fetching next page...")
+    x <- gh::gh_next(x)
+
+    if (length(x$items) == 0) {
+      break
+    }
+
+    items <- c(items, x$items)
+  }
 
   print(x)
 
   pkg <-
-    tibble(items = x$items) %>%
+    tibble(items) %>%
     unnest_wider(items) %>%
     select(path, repository) %>%
     unnest_wider(repository) %>%
