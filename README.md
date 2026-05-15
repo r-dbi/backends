@@ -221,7 +221,7 @@ driver.
 Maintainer: Dyfan Jones <dyfan.r.jones@gmail.com>. License: MIT + file
 LICENSE
 
-## [odbc](https://odbc.r-dbi.org) 1.6.4.1 (2025-12-24) [:link:](https://github.com/r-dbi/odbc) [:link:](https://solutions.posit.co/connections/db/) [:bug:](https://github.com/r-dbi/odbc/issues)
+## [odbc](https://odbc.r-dbi.org) 1.7.0 (2026-05-09) [:link:](https://github.com/r-dbi/odbc) [:link:](https://solutions.posit.co/connections/db/) [:bug:](https://github.com/r-dbi/odbc/issues)
 
 Connect to ODBC Compatible Databases (using the DBI Interface)
 
@@ -376,16 +376,16 @@ functionality on Redshift.
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>.
 License: GPL-2
 
-## [RSQLite](https://rsqlite.r-dbi.org) 2.4.6 (2026-02-06) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
+## [RSQLite](https://rsqlite.r-dbi.org) 3.52.0 (2026-05-10) [:link:](https://github.com/r-dbi/RSQLite) [:bug:](https://github.com/r-dbi/RSQLite/issues)
 
 SQLite Interface for R
 
 Embeds the SQLite database engine in R and provides an interface
-compliant with the DBI package. The source for the SQLite engine
-(version 3.51.2) and for various extensions is included. System
-libraries will never be consulted because this package relies on static
-linking for the plugins it includes; this also ensures a consistent
-experience across all installations.
+compliant with the DBI package. The source for the SQLite engine and for
+various extensions is included. System libraries will never be consulted
+because this package relies on static linking for the plugins it
+includes; this also ensures a consistent experience across all
+installations.
 
 Maintainer: Kirill Müller <kirill@cynkra.com>. License: LGPL (\>= 2.1)
 
