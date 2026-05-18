@@ -45,7 +45,7 @@ family of packages.
 Maintainer: Alex Kyllo <jekyllo@microsoft.com>. License: MIT + file
 LICENSE
 
-## [bigrquery](https://bigrquery.r-dbi.org) 1.6.1 (2025-09-10) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
+## [bigrquery](https://bigrquery.r-dbi.org) 1.6.2 (2026-05-12) [:link:](https://github.com/r-dbi/bigrquery) [:bug:](https://github.com/r-dbi/bigrquery/issues)
 
 An Interface to Google’s BigQuery API
 
