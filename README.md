@@ -77,7 +77,7 @@ In addition, provides an interface to the datastore API.
 Maintainer: Francisco Alves <fjunior.alves.oliveira@gmail.com>. License:
 MIT + file LICENSE
 
-## [ClickHouseHTTP](https://github.com/patzaw/ClickHouseHTTP) 0.3.4 (2025-06-05) [:bug:](https://github.com/patzaw/ClickHouseHTTP/issues)
+## [ClickHouseHTTP](https://github.com/patzaw/ClickHouseHTTP) 1.0.0 (2026-05-18) [:bug:](https://github.com/patzaw/ClickHouseHTTP/issues)
 
 A Simple HTTP Database Interface to ClickHouse
 
@@ -230,7 +230,7 @@ A DBI-compatible interface to ODBC databases.
 Maintainer: Hadley Wickham <hadley@posit.co>. License: MIT + file
 LICENSE
 
-## [pool](https://github.com/rstudio/pool) 1.0.4 (2024-10-07) [:link:](https://rstudio.github.io/pool/) [:bug:](https://github.com/rstudio/pool/issues)
+## [pool](https://github.com/rstudio/pool) 1.0.5 (2026-05-19) [:link:](https://rstudio.github.io/pool/) [:bug:](https://github.com/rstudio/pool/issues)
 
 Object Pooling
 
