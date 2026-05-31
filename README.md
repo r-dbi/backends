@@ -54,7 +54,7 @@ Easily talk to Google’s BigQuery database from R.
 Maintainer: Hadley Wickham <hadley@posit.co>. License: MIT + file
 LICENSE
 
-## [brickster](https://github.com/databrickslabs/brickster) 0.2.12 (2026-02-04)
+## [brickster](https://github.com/databrickslabs/brickster) 0.2.13 (2026-05-20)
 
 R Toolkit for Databricks
 
