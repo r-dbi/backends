@@ -1,0 +1,10 @@
+{
+  "version": "0.3.1",
+  "title": "Work with Microsoft Access Files",
+  "description": "Work with Microsoft Access '.mdb' and '.accdb' files using the open source 'MDB Tools' library <https://github.com/mdbtools/mdbtools/>. The library is compiled and bundled with the package, so no external installation is required. Provides high-level helpers for reading tables, exporting to CSV or JSON, inspecting table definitions, and running SQL queries. Also exposes a full read-only DBI interface for use with standard database workflows.",
+  "date": "2026-05-28",
+  "maintainer": "Kiernan Nicholls <k5cents@gmail.com>",
+  "license": "GPL-3 | LGPL-2",
+  "url": ["https://k5cents.github.io/mdbr/", "https://github.com/k5cents/mdbr", "https://github.com/mdbtools/mdbtools/"],
+  "bugs": "https://github.com/k5cents/mdbr/issues"
+}
