@@ -55,7 +55,7 @@ jobs:
 
       - name: Cache R packages
         if: runner.os != 'Windows'
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ${{ env.R_LIBS_USER }}
           key: backends-${{ hashFiles('.github/R-version') }}-2-${{ hashFiles('.github/depends.Rds') }}
