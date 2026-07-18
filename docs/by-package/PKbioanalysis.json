@@ -1,0 +1,10 @@
+{
+  "version": "0.5.0",
+  "title": "Pharmacokinetic Bioanalysis Experiments Design and Exploration",
+  "description": "Automate pharmacokinetic/pharmacodynamic bioanalytical procedures based on best practices and regulatory recommendations. The package impose regulatory constrains and sanity checking for common bioanalytical procedures. Additionally, 'PKbioanalysis' provides a relational infrastructure for plate management and injection sequence.",
+  "date": "2026-02-17",
+  "maintainer": "Omar Elashkar <omar.i.elashkar@gmail.com>",
+  "license": "AGPL (>= 3)",
+  "url": "https://omarashkar.github.io/PKbioanalysis/",
+  "bugs": "https://github.com/OmarAshkar/PKbioanalysis/issues"
+}
